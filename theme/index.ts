@@ -13,7 +13,11 @@ const config = defineConfig({
           btnHover: {
               light: {value: "#006094ff"},
               dark: {value: "#91d5faff"}
-          }
+          },
+          box: {
+            dark: {value: "#252525" }
+          },
+          header: {value: "#1453F1"}
         },
 
         
