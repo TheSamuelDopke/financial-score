@@ -1,26 +1,26 @@
 import {Text} from '@chakra-ui/react'
 
-import {CenterFlexBox} from '../components/app/CenterFlexBox/CenterFlexBox'
+import {CenterLayout} from '../components/application/reusable/Box/CenterLayout'
 
-import {Link} from '../components/app/Link/Link'
+import {Link} from '../components/application/reusable/Link/Link'
 
-import {Button} from '../components/app/Button/Button'
+import {Button} from '../components/application/reusable/Button/Button'
 
-import { FinancialScore } from '@/components/app/FinancialScore'
+import { FinancialScore } from '@/components/application/reusable/Logo/FinancialScore'
 
 
 
 export default function NotFound(){
     return(
-        <CenterFlexBox
+        <CenterLayout
          mt={10}
          fontSize={{base: 'xs', md: 'md'}}> 
             <FinancialScore></FinancialScore>
             <Text mb={2}>Erro 404: Página não encontrada!</Text>
             <Button fontSize={{base: 'xs', md: 'md'}} size={{base: 'xs', md: 'md'}}>
-                <Link w="100%" h="100%" display="flex" href="/">Voltar para home</Link>
+                <Link w="100%" h="100%" display="flex" href="/" p={5}>Voltar para home</Link>
             </Button>
 
-        </CenterFlexBox>
+        </CenterLayout>
     )
 }
