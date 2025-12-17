@@ -27,11 +27,4 @@ class FinanceDB extends Dexie {
 
 export const db = new FinanceDB("FinanceDB")
 
-
-db.version(1).stores({
-    entities: '++id, cpfCnpj, [type+cpfCnpj]',
-    transactions: '++id, idEntity, dueDate, paid',
-    invoices: '++id, idTransaction, payDate'
-}) 
-
 db.open().then(() => console.log('Database Created'))
