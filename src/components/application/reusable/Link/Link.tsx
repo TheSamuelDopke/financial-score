@@ -21,7 +21,7 @@ export const Link = ({
     children, 
     ...props}: CombinedLinkProps) => {
   return (
-    <ChakraLink asChild {...props} color="brand.link">
+    <ChakraLink asChild {...props} color="system.link">
       <NextLink href={href} replace={replace} scroll={scroll} prefetch={prefetch}>{children}</NextLink>
     </ChakraLink>
   )

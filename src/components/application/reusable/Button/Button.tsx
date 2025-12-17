@@ -4,7 +4,7 @@ export const Button = ({ ...props }) => {
   return (
     <ButtonChakra 
       color="white"
-      bg="brand.primary"
+      bg="system.primary"
       _hover={{ bg: "", color: "black"}}
       {...props}
     >

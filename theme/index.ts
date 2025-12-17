@@ -6,7 +6,7 @@ const config = defineConfig({
   theme: {
     tokens: {
       colors: {
-        brand: {
+        system: {
           primary: { value: "#0077B6" },
           link: {value: "#00669cff"},
           btn: {value: "#84c5f0ff"},
@@ -14,9 +14,11 @@ const config = defineConfig({
               light: {value: "#006094ff"},
               dark: {value: "#91d5faff"}
           },
-          box: {
-            dark: {value: "#252525" }
+          light_dark: {
+            value: "#252525" 
           },
+          dark: { value: "#171717" },
+          light: {value: "#fffefa"},
           header: {value: "#1453F1"}
         },
 
