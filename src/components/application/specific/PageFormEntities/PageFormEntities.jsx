@@ -7,11 +7,11 @@ import { FormPeople } from "./FormPeople/FormPeople";
 import { Box } from "@/components/application/reusable/Box/Box";
 import { HStack, Icon } from "@chakra-ui/react";
 import { Text } from "@/components/application/reusable/Text/Text";
-
-import { LuUser, LuBuilding2 } from "react-icons/lu";
+import { FormCompany } from "./FormCompany/FormCompany";
 
 //Icons
 import { IoChevronBack } from "react-icons/io5";
+import { LuUser, LuBuilding2 } from "react-icons/lu";
 
 export const PageFormEntities = () => {
   const [typeActive, setTypeactive] = useState("person");
@@ -21,9 +21,9 @@ export const PageFormEntities = () => {
       <HStack>
         <Button
           h={{ base: "6", md: "8", lg: "8", xl: "8" }}
-          w={{ base: "2", md: "8", lg: "8", xl: "8" }}
+          w="auto"
           size={{ base: "xs", md: "sm", lg: "sm", xl: "sm" }}
-          padding={0}
+          padding="0px 5px"
         >
           <IoChevronBack></IoChevronBack>
         </Button>
@@ -41,7 +41,6 @@ export const PageFormEntities = () => {
               ? "0px 0px 4px 2px var(--chakra-colors-system-primary)"
               : "0px 0px 4px 2px var(--chakra-colors-system-dark)"
           }
-
           color={typeActive === "person" ? "system.primary" : "system.light"}
           onClick={() => setTypeactive("person")}
           _hover={{
@@ -67,13 +66,16 @@ export const PageFormEntities = () => {
           _hover={{
             color: typeActive === "company" ? "system.primary" : "system.light",
           }}
-
         >
           <LuBuilding2></LuBuilding2>
           Empresa
         </Button>
       </Box>
-      <FormPeople></FormPeople>
+      {typeActive === "person" ? (
+        <FormPeople></FormPeople>
+      ) : (
+        <FormCompany></FormCompany>
+      )}
     </Box>
   );
 };
