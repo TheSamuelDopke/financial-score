@@ -19,7 +19,7 @@ export const TransactionsSchema = z.object({
     description: z.string().min(5),
     value: valueSchema,
     dueDate: z.iso.datetime(),
-    paid: z.boolean(),
+    status: z.enum(['Pending', 'Overdue', 'Paid', 'Late Paid']),
     payDate: z.union([z.iso.datetime(), z.null()]).optional()
 })
 

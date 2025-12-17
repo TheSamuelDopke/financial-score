@@ -8,7 +8,7 @@ const config = defineConfig({
       colors: {
         system: {
           primary: { value: "#0077B6" },
-          link: {value: "#00669cff"},
+          link: {value: "#ffffffff"},
           btn: {value: "#84c5f0ff"},
           btnHover: {
               light: {value: "#006094ff"},
@@ -19,7 +19,7 @@ const config = defineConfig({
           },
           dark: { value: "#171717" },
           light: {value: "#fffefa"},
-          header: {value: "#1453F1"}
+          teste: {value: "#171717"}
         },
 
         
