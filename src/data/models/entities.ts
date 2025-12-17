@@ -2,12 +2,14 @@
 
 import {z} from 'zod'
 
-export type EntityType = 'Person' | 'Company'
+
+export type RiskType = 'Baixo' | 'Médio' | 'Alto' | 'Crítico'
 
 export const BaseEntity = z.object({
     id: z.number().optional(),
     name: z.string().min(3, "O nome deve conter pelo menos 3 caracteres."),
     type: z.enum(['Person', 'Company']),
+    riskLevel: z.enum(['Desconhecido', 'Baixo', 'Médio', 'Alto', 'Muito Alto']),
     created: z.string().optional()
 })
 

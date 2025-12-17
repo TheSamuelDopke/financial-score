@@ -12,14 +12,17 @@ import { FormCompany } from "./FormCompany/FormCompany";
 //Icons
 import { IoChevronBack } from "react-icons/io5";
 import { LuUser, LuBuilding2 } from "react-icons/lu";
+import { Link } from "../../reusable/Link/Link";
 
-export const PageFormEntities = () => {
+export const GeneralFormEntities = () => {
   const [typeActive, setTypeactive] = useState("person");
 
   return (
-    <Box>
+    <Box bg="system.light_dark">
       <HStack>
+        <Link href="/">
         <Button
+          
           h={{ base: "6", md: "8", lg: "8", xl: "8" }}
           w="auto"
           size={{ base: "xs", md: "sm", lg: "sm", xl: "sm" }}
@@ -27,6 +30,7 @@ export const PageFormEntities = () => {
         >
           <IoChevronBack></IoChevronBack>
         </Button>
+        </Link>
         <Text textAlign="left">
           Cadastro de {typeActive === "person" ? "Pessoa" : "Empresa"}:
         </Text>
