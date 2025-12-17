@@ -9,7 +9,7 @@ export function FinancialScore() {
           Financial
         </Text>
 
-        <Text color="brand.primary">
+        <Text color="system.primary">
           Score
         </Text>
         
