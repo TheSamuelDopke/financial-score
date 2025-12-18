@@ -18,7 +18,7 @@ export const GeneralFormEntities = () => {
   const [typeActive, setTypeactive] = useState("person");
 
   return (
-    <Box bg="system.light_dark">
+    <Box bg="system.light_dark" padding={4}>
       <HStack>
         <Link href="/">
         <Button
@@ -35,7 +35,7 @@ export const GeneralFormEntities = () => {
           Cadastro de {typeActive === "person" ? "Pessoa" : "Empresa"}:
         </Text>
       </HStack>
-      <Box display="flex" gap="4" justifyContent="space-around">
+      <Box display="flex" gap="4" justifyContent="space-around" padding={4}>
         <Button
           bg="system.light_dark"
           flex="1"
