@@ -8,6 +8,7 @@ const config = defineConfig({
       colors: {
         system: {
           primary: { value: "#0077B6" },
+          red: {value: "#EF4444"},
           link: {value: "#ffffffff"},
           btn: {value: "#84c5f0ff"},
           btnHover: {
