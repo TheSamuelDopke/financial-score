@@ -1,10 +1,9 @@
-import { Text } from "../../reusable/Text/Text"
+import { Text } from "../../../reusable/Text/Text"
 import { useLiveQuery } from "dexie-react-hooks"
-import { db } from "../../../../data/db/db"
+import { db } from "../../../../../data/db/db"
 
   
 export  const CalcTransactionsYear = ({ entityId }: { entityId: number }) => {
-    // O useLiveQuery busca apenas as transações onde idEntity é igual ao ID da pessoa
     const transactions = useLiveQuery(async () => {
       const aYearAgo = new Date()
       aYearAgo.setFullYear(aYearAgo.getFullYear() - 1)
