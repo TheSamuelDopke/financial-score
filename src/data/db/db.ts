@@ -1,13 +1,8 @@
 import Dexie from 'dexie'
 
-
 import { Entities } from '../models/entities'
 import { Transactions } from '../models/transactions'
 import { Invoices } from '../models/invoices'
-
-
-
-
 
 class FinanceDB extends Dexie {
     entities!: Dexie.Table<Entities, number>
@@ -17,7 +12,7 @@ class FinanceDB extends Dexie {
     constructor(name: string){
         super(name)
         this.version(1).stores({
-            entities: '++id, cpfCnpj, [type+cpfCnpj]',
+            entities: '++id, name, cpfCnpj, [type+cpfCnpj]',
             transactions: '++id, idEntity, dueDate, paid',
             invoices: '++id, idTransaction, payDate'
         })

@@ -1,22 +1,30 @@
 "use client";
 import { Box } from "../../reusable/Box/Box";
-import { useLiveQuery } from "dexie-react-hooks";
-import { db } from "../../../../data/db/db";
 import { Text } from "../../reusable/Text/Text";
 import { CenterLayout } from "../../reusable/Box/CenterLayout";
-import { HStack } from "@chakra-ui/react";
-
-import { CalcTransactionsYear } from "../ScriptsComponents/CalcTransactionsYear";
-import { Button } from "../../reusable/Button/Button";
 import { Strong } from "../../reusable/Strong/Strong";
 
-import { LuPlus } from "react-icons/lu";
-import { Icon } from "@chakra-ui/react";
-import { Link } from "../../reusable/Link/Link";
-import { Input } from "../../reusable/Input/Input";
+import { useForm, useWatch } from "react-hook-form";
+
+import { InputSearchBar } from "./ScriptsComponents/InputSearchBar";
+
+import { useEntitiesSearchFunc } from "./ScriptsComponents/EntitiesSearchFunc";
+
+import { EntityList } from "./ScriptsComponents/EntityList";
+
+export interface TypeSearch {
+  type: "name" | "cpf" | "cnpj";
+  query: string;
+}
 
 export const ShowEntities = () => {
-  const entities = useLiveQuery(() => db.entities.toArray());
+  const { register, control } = useForm<TypeSearch>({
+    defaultValues: { type: "name", query: "" },
+  });
+
+  const searchValues = useWatch({ control });
+
+  const entities = useEntitiesSearchFunc(searchValues)
 
   if (!entities) {
     return <Text textAlign="center">Carregando Entidades...</Text>;
@@ -36,111 +44,27 @@ export const ShowEntities = () => {
           <Text
             textAlign="left"
             fontSize={{
-              base: "md",
-              sm: "2xl",
-              md: "2xl",
-              lg: "2xl",
-              xl: "2xl",
+              base: "sm",
+              sm: "xl",
+              md: "xl",
+              lg: "xl",
+              xl: "xl",
             }}
             color="system.light"
           >
-            Quer fechar novos <Strong color="system.red">negócios</Strong> mas não sabe se o parceiro é <Strong>confiável?</Strong> <br />
+            Quer fechar novos <Strong color="system.red">negócios</Strong> mas
+            não sabe se o parceiro é <Strong>confiável?</Strong> <br />
             Faça uma <Strong>busca!</Strong>
           </Text>
-
         </Box>
 
-        <Box marginTop={4}>
-          <Input label="Buscar Empresa/Pessoa" fontWeight="normal"></Input>
+        <Box marginTop={4} p={0} boxShadow="none">
+          <InputSearchBar register={register}></InputSearchBar>
         </Box>
 
-        <Box
-          mt={3}
-          display="flex"
-          flexDirection="column"
-          gap="4"
-          overflowY="auto"
-          borderRadius="2xl"
-          padding={0}
-          position="relative"
-        >
-          {entities.map((entity) => {
-            return (
-              <Box
-                cursor="pointer"
-                key={entity.id}
-                bg="system.teste"
-                boxShadow="md"
-                _hover={{
-                  boxShadow:
-                    "0px 0px 4px 2px var(--chakra-colors-system-primary)",
-                  color: "system.primary",
-                }}
-                padding={4}
-                flex="1"
-              >
-                <HStack display="flex" justifyContent="space-between">
-                  <Text textAlign="left" color="system.primary">
-                    {entity.name}
-                  </Text>
-                  <Text textAlign="right" fontSize="xs">
-                    Risco {entity.riskLevel}
-                  </Text>
-                </HStack>
-                <Text textAlign="left">
-                  {entity.id && <CalcTransactionsYear entityId={entity.id} />}
-                </Text>
-              </Box>
-            );
-          })}
+        <EntityList entities={entities}></EntityList>
+        
 
-          {entities.length === 0 && <Text>Nenhum registro encontrado.</Text>}
-
-          <Box
-            m={0}
-            p={0}
-            display="flex"
-            position="sticky"
-            bottom="10"
-            zIndex="1"
-            justifyContent="flex-end"
-            borderRadius="xs"
-          >
-            <Link href="/register">
-              <Button
-                opacity="0.8"
-                padding={3}
-                _hover={{
-                  opacity: "1",
-                  "& p, svg": {
-                    color: "system.dark",
-                    stroke: "system.dark",
-                  },
-                }}
-                href="/"
-              >
-                <Icon size={{                    base: "sm",
-                    sm: "md",
-                    md: "md",
-                    lg: "md",
-                    xl: "md",}}>
-                  <LuPlus></LuPlus>
-                </Icon>
-                <Text
-                  fontSize={{
-                    base: "sm",
-                    sm: "md",
-                    md: "md",
-                    lg: "md",
-                    xl: "md",
-                  }}
-                >
-                  Cadastrar
-                </Text>
-              </Button>
-            </Link>
-          </Box>
-        </Box>
       </Box>
     </CenterLayout>
   );
