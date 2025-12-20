@@ -20,7 +20,8 @@ export const TransactionsSchema = z.object({
     value: valueSchema,
     dueDate: z.iso.datetime(),
     status: z.enum(['Pending', 'Overdue', 'Paid', 'Late Paid']),
-    payDate: z.union([z.iso.datetime(), z.null()]).optional()
+    payDate: z.union([z.iso.datetime(), z.null()]).optional(),
+    created: z.string().optional()
 })
 
 export type Transactions = z.infer<typeof TransactionsSchema>

@@ -12,6 +12,8 @@ import { Form } from "../../../reusable/Form/Form";
 import { Input } from "../../../reusable/Input/Input";
 import { Button } from "../../../reusable/Button/Button";
 
+import { toaster } from "@/components/ui/toaster";
+
 export const FormCompany = () => {
   const {
     register,
@@ -54,7 +56,10 @@ export const FormCompany = () => {
     try {
         await EntityService.create(data)
         reset()
-        alert("Empresa criada com sucesso")
+        toaster.create({
+          title: "Empresa adicionada com sucesso!",
+          type: "success"
+        })
     } catch (e){
         const error = e as Error
         setError("cpfCnpj", {
