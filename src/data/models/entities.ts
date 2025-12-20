@@ -1,8 +1,6 @@
 import {z} from 'zod'
 
 
-export type RiskType = 'Baixo' | 'Médio' | 'Alto' | 'Crítico'
-
 export const BaseEntity = z.object({
     id: z.number().optional(),
     name: z.string().min(3, "O nome deve conter pelo menos 3 caracteres."),

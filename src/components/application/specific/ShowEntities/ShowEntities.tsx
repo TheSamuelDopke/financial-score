@@ -8,17 +8,20 @@ import { useForm, useWatch } from "react-hook-form";
 
 import { InputSearchBar } from "./ScriptsComponents/InputSearchBar";
 
-import { useEntitiesSearchFunc } from "./ScriptsComponents/EntitiesSearchFunc";
+import { useEntitiesSearchFunc } from "./ScriptsComponents/CreateAndSearch";
 
 import { EntityList } from "./ScriptsComponents/EntityList";
 
+
+
 export interface TypeSearch {
+
   type: "name" | "cpf" | "cnpj";
   query: string;
 }
 
 export const ShowEntities = () => {
-  const { register, control } = useForm<TypeSearch>({
+  const { register, control, setValue } = useForm<TypeSearch>({
     defaultValues: { type: "name", query: "" },
   });
 
@@ -43,13 +46,7 @@ export const ShowEntities = () => {
         <Box m={0} p={0}>
           <Text
             textAlign="left"
-            fontSize={{
-              base: "sm",
-              sm: "xl",
-              md: "xl",
-              lg: "xl",
-              xl: "xl",
-            }}
+            fontSize="baseSmRestXl"
             color="system.light"
           >
             Quer fechar novos <Strong color="system.red">negócios</Strong> mas
@@ -59,7 +56,7 @@ export const ShowEntities = () => {
         </Box>
 
         <Box marginTop={4} p={0} boxShadow="none">
-          <InputSearchBar register={register}></InputSearchBar>
+          <InputSearchBar register={register} control={control} setValue={setValue}></InputSearchBar>
         </Box>
 
         <EntityList entities={entities}></EntityList>

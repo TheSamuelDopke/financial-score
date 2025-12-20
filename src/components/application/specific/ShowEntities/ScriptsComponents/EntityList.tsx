@@ -8,18 +8,51 @@ import { Button } from "@/components/application/reusable/Button/Button";
 import { Entities } from "@/data/models/entities";
 
 interface EntityListProps {
-    entities: Entities[]
+  entities: Entities[];
 }
 
-export const EntityList = ({entities}: EntityListProps) => {
-
-    if(entities.length === 0){
-        return(
-            <Text mt={4} textAlign="center">
-                Nenhum registro encontrado.
+export const EntityList = ({ entities }: EntityListProps) => {
+  if (entities.length === 0) {
+    return (
+      <Text mt={4} textAlign="center">
+        Nenhum registro encontrado.
+        <Box
+        m={0}
+        mt={5}
+        p={0}
+        display="flex"
+        position="sticky"
+        bottom="10"
+        zIndex="1"
+        justifyContent="center"
+        borderRadius="xs"
+      >
+        <Link href="/register">
+          <Button
+            padding={3}
+            _hover={{
+              opacity: "1",
+              "& p, svg": {
+                color: "system.dark",
+                stroke: "system.dark",
+              },
+            }}
+            href="/"
+          >
+            <Icon size={{ base: "sm", sm: "md"}}>
+              <LuPlus></LuPlus>
+            </Icon>
+            <Text
+              fontSize="baseSmRestMd"
+            >
+              Cadastrar Novo
             </Text>
-        )
-    }
+          </Button>
+        </Link>
+      </Box>
+      </Text>
+    );
+  }
 
   return (
     <Box
@@ -48,16 +81,26 @@ export const EntityList = ({entities}: EntityListProps) => {
             flex="1"
           >
             <HStack display="flex" justifyContent="space-between">
-              <Text textAlign="left" color="system.primary">
+              <Text textAlign="left" color="system.primary" fontSize="baseMdRestXl">
                 {entity.name}
               </Text>
-              <Text textAlign="right" fontSize="xs">
+              <Text textAlign="right" fontSize="baseXsRestSm">
                 Risco {entity.riskLevel}
               </Text>
             </HStack>
-            <Text textAlign="left" fontSize="md">
-              {entity.type === "Person" ? "CPF:" : "CNPJ:"}
-              {entity.cpfCnpj}
+            <Text textAlign="left" fontSize="baseXsRestSm">
+              {entity.type === "Person" ? "CPF: " : "CNPJ: "}
+              {entity.type === "Person"
+                ? entity.cpfCnpj
+                    .replace(/(\={0,3})(\d{1,3})/, "$1$2")
+                    .replace(/(\d{3})(\d)/, "$1.$2")
+                    .replace(/(\d{3})(\d)/, "$1.$2")
+                    .replace(/(\d{3})(\d{1,2})$/, "$1-$2")
+                : entity.cpfCnpj
+                    .replace(/^(\d{2})(\d)/, "$1.$2")
+                    .replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3")
+                    .replace(/\.(\d{3})(\d)/, ".$1/$2")
+                    .replace(/(\d{4})(\d)/, "$1-$2")}
             </Text>
             <Text textAlign="left">
               {entity.id && <CalcTransactionsYear entityId={entity.id} />}
@@ -91,17 +134,11 @@ export const EntityList = ({entities}: EntityListProps) => {
             }}
             href="/"
           >
-            <Icon size={{ base: "sm", sm: "md", md: "md", lg: "md", xl: "md" }}>
+            <Icon size={{ base: "sm", sm: "md"}}>
               <LuPlus></LuPlus>
             </Icon>
             <Text
-              fontSize={{
-                base: "sm",
-                sm: "md",
-                md: "md",
-                lg: "md",
-                xl: "md",
-              }}
+              fontSize="baseSmRestMd"
             >
               Cadastrar
             </Text>

@@ -1,36 +1,30 @@
 import { createSystem, defaultConfig, defineConfig } from "@chakra-ui/react";
 
-
 const config = defineConfig({
-
   theme: {
     tokens: {
       colors: {
         system: {
           primary: { value: "#0077B6" },
-          red: {value: "#EF4444"},
-          link: {value: "#ffffffff"},
-          btn: {value: "#84c5f0ff"},
+          red: { value: "#EF4444" },
+          link: { value: "#ffffffff" },
+          btn: { value: "#84c5f0ff" },
           btnHover: {
-              light: {value: "#006094ff"},
-              dark: {value: "#91d5faff"}
+            light: { value: "#006094ff" },
+            dark: { value: "#91d5faff" },
           },
           light_dark: {
-            value: "#252525" 
+            value: "#252525",
           },
           dark: { value: "#171717" },
-          light: {value: "#fffefa"},
-          teste: {value: "#171717"}
+          light: { value: "#fffefa" },
+          teste: { value: "#171717" },
         },
-
-        
 
         bg: {
           light: { value: "#fffefa" },
           dark: { value: "#171717" },
         },
-
-
 
         fg: {
           light: { value: "#171923" }, // Texto principal claro
@@ -38,16 +32,70 @@ const config = defineConfig({
         },
       },
     },
+
+    semanticTokens: {
+      fontSizes: {
+        baseXsRestSm: {
+          value: {
+            base: "{fontSizes.xs}",
+            sm: "{fontSizes.sm}",
+            md: "{fontSizes.sm}",
+            lg: "{fontSizes.sm}",
+            xl: "{fontSizes.sm}",
+          },
+        },
+
+        baseSmRestMd: {
+          value: {
+            base: "{fontSizes.sm}",
+            sm: "{fontSizes.md}",
+            md: "{fontSizes.md}",
+            lg: "{fontSizes.md}",
+            xl: "{fontSizes.md}",
+          },
+        },
+
+        baseSmRestXl: {
+          value: {
+            base: "{fontSizes.sm}",
+            sm: "{fontSizes.xl}",
+            md: "{fontSizes.xl}",
+            lg: "{fontSizes.xl}",
+            xl: "{fontSizes.xl}",
+          },
+        },
+
+        baseMdRestXl: {
+          value: {
+            base: "{fontSizes.md}",
+            sm: "{fontSizes.xl}",
+            md: "{fontSizes.xl}",
+            lg: "{fontSizes.xl}",
+            xl: "{fontSizes.xl}",
+          },
+        },
+
+        baseMdRestLg: {
+          value: {
+            base: "{fontSizes.md}",
+            sm: "{fontSizes.lg}",
+            md: "{fontSizes.lg}",
+            lg: "{fontSizes.lg}",
+            xl: "{fontSizes.lg}",
+          },
+        },
+      },
+    },
   },
-    globalCss: {
+  globalCss: {
     body: {
       bg: "bg.light",
-      color: "fg.light"
+      color: "fg.light",
     },
-    '.dark': {
-        bg: "bg.dark",
-        color: "bg.color"
-    }
+    ".dark": {
+      bg: "bg.dark",
+      color: "bg.color",
+    },
   },
 });
 
