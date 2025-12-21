@@ -1,9 +1,13 @@
+
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Provider } from "../components/providers/providers";
 import { Toaster } from "@/components/ui/toaster";
 import { Header } from "@/components/application/specific/Header/Header";
+import { PopulateFunc } from "@/components/application/specific/Populate/PopulateFunc";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,17 +43,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
-    <html lang="pt-br" suppressHydrationWarning>
+    <html lang="pt-br">
       <body
-        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
       >
         <Provider>
-          <Header></Header>          
-          <Toaster></Toaster>
-          {children}
-
+          <PopulateFunc>
+            <Header></Header>
+            <Toaster></Toaster>
+            {children}
+          </PopulateFunc>
         </Provider>
       </body>
     </html>

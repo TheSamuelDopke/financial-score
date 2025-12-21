@@ -1,3 +1,5 @@
+'use client'
+
 import { LuPlus } from "react-icons/lu";
 import { Text } from "@/components/application/reusable/Text/Text";
 import { Box } from "@/components/application/reusable/Box/Box";
@@ -9,13 +11,13 @@ import { Entities } from "@/data/models/entities";
 
 interface EntityListProps {
   entities: Entities[];
+  onLoadMore: () => void
 }
 
-export const EntityList = ({ entities }: EntityListProps) => {
+export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
   if (entities.length === 0) {
     return (
-      <Text mt={4} textAlign="center">
-        Nenhum registro encontrado.
+
         <Box
         m={0}
         mt={5}
@@ -50,7 +52,7 @@ export const EntityList = ({ entities }: EntityListProps) => {
           </Button>
         </Link>
       </Box>
-      </Text>
+
     );
   }
 
@@ -65,6 +67,13 @@ export const EntityList = ({ entities }: EntityListProps) => {
       padding={1}
       position="relative"
       boxShadow="none"
+      onScroll={(e: React.UIEvent<HTMLDivElement>) => {
+        const element = e.currentTarget
+
+        if(element.scrollTop + element.clientHeight >= element.scrollHeight - 20){
+          onLoadMore()
+        }
+      }}
     >
       {entities.map((entity) => {
         return (
@@ -89,18 +98,7 @@ export const EntityList = ({ entities }: EntityListProps) => {
               </Text>
             </HStack>
             <Text textAlign="left" fontSize="baseXsRestSm">
-              {entity.type === "Person" ? "CPF: " : "CNPJ: "}
-              {entity.type === "Person"
-                ? entity.cpfCnpj
-                    .replace(/(\={0,3})(\d{1,3})/, "$1$2")
-                    .replace(/(\d{3})(\d)/, "$1.$2")
-                    .replace(/(\d{3})(\d)/, "$1.$2")
-                    .replace(/(\d{3})(\d{1,2})$/, "$1-$2")
-                : entity.cpfCnpj
-                    .replace(/^(\d{2})(\d)/, "$1.$2")
-                    .replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3")
-                    .replace(/\.(\d{3})(\d)/, ".$1/$2")
-                    .replace(/(\d{4})(\d)/, "$1-$2")}
+              {entity.cpfCnpjFormatted}
             </Text>
             <Text textAlign="left">
               {entity.id && <CalcTransactionsYear entityId={entity.id} />}
@@ -108,8 +106,6 @@ export const EntityList = ({ entities }: EntityListProps) => {
           </Box>
         );
       })}
-
-      {entities.length === 0 && <Text>Nenhum registro encontrado.</Text>}
 
       <Box
         m={0}
@@ -132,7 +128,6 @@ export const EntityList = ({ entities }: EntityListProps) => {
                 stroke: "system.dark",
               },
             }}
-            href="/"
           >
             <Icon size={{ base: "sm", sm: "md"}}>
               <LuPlus></LuPlus>

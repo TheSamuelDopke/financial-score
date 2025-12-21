@@ -11,8 +11,9 @@ import { Form } from "../../../reusable/Form/Form";
 import { Input } from "../../../reusable/Input/Input";
 import { Button } from "../../../reusable/Button/Button";
 
-
 import { toaster } from "@/components/ui/toaster";
+
+import { formatCPF } from "@/components/application/reusable/scripts/validateCpfCnpj";
 
 export const FormPeople = () => {
   const {
@@ -30,7 +31,8 @@ export const FormPeople = () => {
       type: "Person",
       name: "",
       cpfCnpj: "",
-     riskLevel: 'Desconhecido'
+      cpfCnpjFormatted: "",
+      riskLevel: "Desconhecido",
     },
   });
 
@@ -41,12 +43,8 @@ export const FormPeople = () => {
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     //Utilizamos o replace para permitir só números e o slice para não permitir mais de 11 números digitados, previne ctrl c + ctrl v no input
-    const limitInput = e.target.value.replace(/\D/g, "").slice(0, 11);
 
-    const cpfFormated = limitInput
-      .replace(/(\d{3})(\d)/, "$1.$2") // Coloca ponto após o terceiro dígito
-      .replace(/(\d{3})(\d)/, "$1.$2") // Coloca ponto após o sexto dígito
-      .replace(/(\d{3})(\d{1,2})$/, "$1-$2"); // Coloca hífen após o nono dígito
+    const cpfFormated = formatCPF(e.target.value)
 
     setValue("cpfCnpj", cpfFormated, { shouldValidate: true });
   };
@@ -58,9 +56,8 @@ export const FormPeople = () => {
       reset();
       toaster.create({
         title: "Pessoa adicionada com sucesso!",
-        type: "success"
-      })
-
+        type: "success",
+      });
     } catch (e) {
       const error = e as Error;
       setError("cpfCnpj", {

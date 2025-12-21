@@ -6,6 +6,7 @@ export const BaseEntity = z.object({
     name: z.string().min(3, "O nome deve conter pelo menos 3 caracteres."),
     type: z.enum(['Person', 'Company']),
     riskLevel: z.enum(['Desconhecido', 'Baixo', 'Médio', 'Alto', 'Muito Alto']),
+    cpfCnpjFormatted: z.string(),
     created: z.string().optional()
 })
 
@@ -16,7 +17,7 @@ const PersonSchema = BaseEntity.extend({
 
 const CompanySchema = BaseEntity.extend({
     type: z.literal('Company'),
-    cpfCnpj: z.string().transform(val => val.replace(/\D/g, "")).refine(val => val.length === 14 && !/^(.)\1{10}$/.test(val), {message: "CNPJ Inválido!"})
+    cpfCnpj: z.string().transform(val => val.replace(/\D/g, "")).refine(val => val.length === 14 && !/^(.)\1{13}$/.test(val), {message: "CNPJ Inválido!"})
 })
 
 export const EntitySchema = z.discriminatedUnion("type", [PersonSchema, CompanySchema])

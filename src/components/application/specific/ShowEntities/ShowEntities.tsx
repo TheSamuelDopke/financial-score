@@ -1,4 +1,6 @@
 "use client";
+
+
 import { Box } from "../../reusable/Box/Box";
 import { Text } from "../../reusable/Text/Text";
 import { CenterLayout } from "../../reusable/Box/CenterLayout";
@@ -8,10 +10,13 @@ import { useForm, useWatch } from "react-hook-form";
 
 import { InputSearchBar } from "./ScriptsComponents/InputSearchBar";
 
-import { useEntitiesSearchFunc } from "./ScriptsComponents/CreateAndSearch";
+import { CreateAndSearch } from "./ScriptsComponents/useEntities";
 
 import { EntityList } from "./ScriptsComponents/EntityList";
 
+import { useDebounce } from "./ScriptsComponents/useDebounce";
+
+import { useState, useEffect } from "react";
 
 
 export interface TypeSearch {
@@ -21,17 +26,26 @@ export interface TypeSearch {
 }
 
 export const ShowEntities = () => {
+
   const { register, control, setValue } = useForm<TypeSearch>({
     defaultValues: { type: "name", query: "" },
   });
 
-  const searchValues = useWatch({ control });
+  const searchValues = useWatch({ control })
+  const debouncedSearchValues = useDebounce(searchValues, 300)
+  const [page, setPage] = useState(1)
 
-  const entities = useEntitiesSearchFunc(searchValues)
+  useEffect(() => {
+    setPage(1)
+  }, [debouncedSearchValues.query, debouncedSearchValues.type])
+
+  const entities = CreateAndSearch(debouncedSearchValues, page)
 
   if (!entities) {
     return <Text textAlign="center">Carregando Entidades...</Text>;
   }
+
+  
 
   return (
     <CenterLayout>
@@ -59,9 +73,8 @@ export const ShowEntities = () => {
           <InputSearchBar register={register} control={control} setValue={setValue}></InputSearchBar>
         </Box>
 
-        <EntityList entities={entities}></EntityList>
+        <EntityList entities={entities} onLoadMore={() => setPage((p) => p + 1)}></EntityList>
         
-
       </Box>
     </CenterLayout>
   );

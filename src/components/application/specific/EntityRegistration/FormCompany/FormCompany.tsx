@@ -13,6 +13,7 @@ import { Input } from "../../../reusable/Input/Input";
 import { Button } from "../../../reusable/Button/Button";
 
 import { toaster } from "@/components/ui/toaster";
+import { formatCNPJ } from "@/components/application/reusable/scripts/validateCpfCnpj";
 
 export const FormCompany = () => {
   const {
@@ -30,7 +31,8 @@ export const FormCompany = () => {
       type: "Company",
       name: "",
       cpfCnpj: "",
-      riskLevel: 'Desconhecido'
+      cpfCnpjFormatted: "",
+      riskLevel: "Desconhecido",
     },
   });
 
@@ -41,33 +43,28 @@ export const FormCompany = () => {
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     //Utilizamos o replace para permitir só números e o slice para não permitir mais de 14 números digitados, previne ctrl c + ctrl v no input
-    const limitInput = e.target.value.replace(/\D/g, "").slice(0, 14);
 
-    const cnpjFormated = limitInput
-      .replace(/(\d{2})(\d)/, "$1.$2")
-      .replace(/(\d{3})(\d)/, "$1.$2")
-      .replace(/\.(\d{3})(\d)/, ".$1/$2") // Coloca a barra: 00.000.000/0
-      .replace(/(\d{4})(\d)/, "$1-$2");
+    const cnpjFormated = formatCNPJ(e.target.value)
 
-      setValue("cpfCnpj", cnpjFormated, {shouldValidate:true})
-  }
+    setValue("cpfCnpj", cnpjFormated, { shouldValidate: true });
+  };
 
   const onSubmit = async (data: Entities) => {
     try {
-        await EntityService.create(data)
-        reset()
-        toaster.create({
-          title: "Empresa adicionada com sucesso!",
-          type: "success"
-        })
-    } catch (e){
-        const error = e as Error
-        setError("cpfCnpj", {
-            type: "manual",
-            message: error.message
-        })
+      await EntityService.create(data);
+      reset();
+      toaster.create({
+        title: "Empresa adicionada com sucesso!",
+        type: "success",
+      });
+    } catch (e) {
+      const error = e as Error;
+      setError("cpfCnpj", {
+        type: "manual",
+        message: error.message,
+      });
     }
-  }
+  };
 
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
@@ -90,7 +87,9 @@ export const FormCompany = () => {
         value={cnpjValue}
         onChange={handleInputChange}
       ></Input>
-      <Button type="submit" loading={isSubmitting} w="100%">Registrar Empresa</Button>
+      <Button type="submit" loading={isSubmitting} w="100%">
+        Registrar Empresa
+      </Button>
     </Form>
   );
 };
