@@ -1,23 +1,23 @@
 import { db} from "@/data/db/db"
-import { EntityService } from "../services/entitiesService";
 import dataFromJson from "./data.json"
+import { EntitySchema } from "../models/entities";
+
 
 export const seedDatabase = async () => {
   // 1. Pega todos os registros que já existem
-  const existingRecords = await db.entities.toArray();
-  const existingKeys = new Set(existingRecords.map(e => e.cpfCnpj));
+  try{
+  const count = await db.entities.count()
+  if (count > 0) return
 
-  // 2. Filtramos o JSON para processar apenas o que NÃO existe
-  const newItems = dataFromJson.filter(item => {
-    const cleanCpfCnpj = item.cpfCnpj.replace(/\D/g, "");
-    return !existingKeys.has(cleanCpfCnpj);
-  });
-
-  if (newItems.length === 0) return;
-
-  console.log(`Semeando ${newItems.length} novas entidades...`);
+  const validatedItems = dataFromJson.map(item => EntitySchema.parse(item))
 
 
-  // Promise.allSettled para permitir que mesmo que um registro falhe, os outros continuem
-  await Promise.allSettled(newItems.map(item => EntityService.create(item)));
+  await db.transaction('rw', db.entities, async () => {
+    await db.entities.bulkAdd(validatedItems)
+  })
+
+  console.log("Populado com sucesso!")
+}catch(error){
+  console.error("Erro na população: ", error)
+} 
 };

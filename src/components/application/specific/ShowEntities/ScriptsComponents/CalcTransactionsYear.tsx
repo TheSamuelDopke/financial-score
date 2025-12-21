@@ -1,3 +1,5 @@
+'use client'
+
 import { Text } from "../../../reusable/Text/Text"
 import { useLiveQuery } from "dexie-react-hooks"
 import { db } from "../../../../../data/db/db"

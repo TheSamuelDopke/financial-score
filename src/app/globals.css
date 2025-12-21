@@ -1,2 +1,13 @@
+body {
+  background-color: #ffffff;
+  color: #111111;
+}
 
+body.dark {
+  background-color: #111111;
+  color: #ffffff;
+}
 
+.dark a {
+  color: #4f9aff;
+}

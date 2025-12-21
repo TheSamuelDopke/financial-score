@@ -1,59 +1,59 @@
-import { Box, Group, NativeSelect } from "@chakra-ui/react";
-import { LuSearch } from "react-icons/lu";
-import { Input } from "../../../reusable/Input/Input";
-import { TypeSearch } from "../ShowEntities";
-import { LuChevronDown } from "react-icons/lu";
+'use client'
+
+import { Box, Group, NativeSelect } from "@chakra-ui/react"
+import { LuSearch } from "react-icons/lu"
+import { Input } from "../../../reusable/Input/Input"
+import { TypeSearch } from "../ShowEntities"
+import { LuChevronDown } from "react-icons/lu"
 import {
   useWatch,
   Control,
   UseFormRegister,
   UseFormSetValue,
-} from "react-hook-form";
+} from "react-hook-form"
+import { formatCNPJ, formatCPF } from "@/components/application/reusable/scripts/validateCpfCnpj"
 
 interface EntitySearchBarProps {
-  register: UseFormRegister<TypeSearch>;
-  control: Control<TypeSearch>;
-  setValue: UseFormSetValue<TypeSearch>;
+  register: UseFormRegister<TypeSearch>
+  control: Control<TypeSearch>
+  setValue: UseFormSetValue<TypeSearch>
+
 }
 
 export const InputSearchBar = ({
   register,
   control,
   setValue,
+
 }: EntitySearchBarProps) => {
+
+  //Adicionado fallback ?? 'name' pois inicialmente o selectedType é undefined no server, no entanto foi padronizado para 'name' no client (o que estava causando erro de hidratação)!
   const selectedType = useWatch({
     control,
     name: "type",
-  });
+  }) 
+
+
 
   const placeholderText = {
     name: "Pesquise por nome...",
     cpf: "Pesquise por CPF...",
     cnpj: "Pesquise por CNPJ...",
-  };
+  }  
 
   const formatCpfCnpj = (value: string, type: string) => {
-    const digits = value.replace(/\D/g, "");
 
     if (type === "cpf") {
-      const validateDigits = digits.slice(0, 11);
+      const validateDigits = formatCPF(value)
       return validateDigits
-        .replace(/(\={0,3})(\d{1,3})/, "$1$2")
-        .replace(/(\d{3})(\d)/, "$1.$2")
-        .replace(/(\d{3})(\d)/, "$1.$2")
-        .replace(/(\d{3})(\d{1,2})$/, "$1-$2");
     }
 
     if (type === "cnpj") {
-      const validateDigits = digits.slice(0, 14);
+      const validateDigits = formatCNPJ(value)
       return validateDigits
-        .replace(/^(\d{2})(\d)/, "$1.$2")
-        .replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3")
-        .replace(/\.(\d{3})(\d)/, ".$1/$2")
-        .replace(/(\d{4})(\d)/, "$1-$2");
     }
 
-    return value;
+    return value
   };
 
   return (
@@ -70,6 +70,7 @@ export const InputSearchBar = ({
         width="max-content"
         color="system.primary"
         alignItems="center"
+        justifyContent="center"
       >
         <NativeSelect.Field
           borderRadius="5px"
@@ -84,7 +85,6 @@ export const InputSearchBar = ({
           borderRightRadius="0"
           m={0}
           marginRight="1px"
-          textAlign="center"
           fontSize="baseXsRestSm"
           paddingRight={{
             base: "5px",
