@@ -11,7 +11,7 @@ import {
   UseFormRegister,
   UseFormSetValue,
 } from "react-hook-form"
-import { formatCNPJ, formatCPF } from "../../../reusable/Scripts/validateCpfCnpj"
+import { formatCNPJ, formatCPF } from "../../../reusable/SScripts/validateCpfCnpj"
 
 interface EntitySearchBarProps {
   register: UseFormRegister<TypeSearch>
