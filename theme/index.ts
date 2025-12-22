@@ -13,6 +13,13 @@ const config = defineConfig({
             light: { value: "#006094ff" },
             dark: { value: "#91d5faff" },
           },
+          status: {
+            unknown: {value: "#ffffffff" },
+            low: {value: "#2E7D32"},
+            medium: {value: "#EF6C00"},
+            high: {value: "#D32F2F"},
+            veryHigh: {value: "#B71C1C"}
+          },
           light_dark: {
             value: "#252525",
           },

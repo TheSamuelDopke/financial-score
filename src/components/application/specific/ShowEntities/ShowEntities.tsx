@@ -10,7 +10,7 @@ import { useForm, useWatch } from "react-hook-form";
 
 import { InputSearchBar } from "./ScriptsComponents/InputSearchBar";
 
-import { CreateAndSearch } from "./ScriptsComponents/useEntities";
+import { useEntities } from "./ScriptsComponents/useEntities";
 
 import { EntityList } from "./ScriptsComponents/EntityList";
 
@@ -20,7 +20,6 @@ import { useState, useEffect } from "react";
 
 
 export interface TypeSearch {
-
   type: "name" | "cpf" | "cnpj";
   query: string;
 }
@@ -36,10 +35,15 @@ export const ShowEntities = () => {
   const [page, setPage] = useState(1)
 
   useEffect(() => {
-    setPage(1)
+  //Para evitar renderizações desnecessárias 
+  queueMicrotask(() => {
+    setPage(prev => (prev !== 1 ? 1 : prev))
+  })
+
   }, [debouncedSearchValues.query, debouncedSearchValues.type])
 
-  const entities = CreateAndSearch(debouncedSearchValues, page)
+
+  const entities = useEntities(debouncedSearchValues, page)
 
   if (!entities) {
     return <Text textAlign="center">Carregando Entidades...</Text>;

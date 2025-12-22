@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { LuPlus } from "react-icons/lu";
 import { Text } from "@/components/application/reusable/Text/Text";
@@ -7,52 +7,61 @@ import { Link } from "@/components/application/reusable/Link/Link";
 import { HStack, Icon } from "@chakra-ui/react";
 import { CalcTransactionsYear } from "./CalcTransactionsYear";
 import { Button } from "@/components/application/reusable/Button/Button";
-import { Entities } from "@/data/models/entities";
+import { Entities, RiskLevel } from "@/data/models/entities";
+import type { IconType } from "react-icons";
+
+import { LuBadgeCheck, LuTriangle, LuCircle, LuBan } from "react-icons/lu";
 
 interface EntityListProps {
   entities: Entities[];
-  onLoadMore: () => void
+  onLoadMore: () => void;
 }
 
 export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
+  const RISK_META: Record<RiskLevel, { icon: IconType; color: string }> = {
+    Desconhecido: { icon: LuCircle, color: "system.status.unknown" },
+    Baixo: { icon: LuBadgeCheck, color: "system.status.low" },
+    Médio: { icon: LuTriangle, color: "system.status.medium" },
+    Alto: { icon: LuBan, color: "system.status.high" },
+    "Muito Alto": { icon: LuBan, color: "system.status.veryHigh" },
+  };
+
   if (entities.length === 0) {
     return (
-
-        <Box
+      <Box
         m={0}
         mt={5}
         p={0}
         display="flex"
+        flexDirection="column"
         position="sticky"
         bottom="10"
         zIndex="1"
         justifyContent="center"
         borderRadius="xs"
       >
-        <Link href="/register">
-          <Button
-            padding={3}
-            _hover={{
-              opacity: "1",
-              "& p, svg": {
-                color: "system.dark",
-                stroke: "system.dark",
-              },
-            }}
-            href="/"
-          >
-            <Icon size={{ base: "sm", sm: "md"}}>
-              <LuPlus></LuPlus>
-            </Icon>
-            <Text
-              fontSize="baseSmRestMd"
+        <Text>Nenhum resultado encontrado.</Text>
+        <Box mt={5}>
+          <Link href="/register">
+            <Button
+              padding={3}
+              _hover={{
+                opacity: "1",
+                "& p, svg": {
+                  color: "system.dark",
+                  stroke: "system.dark",
+                },
+              }}
+              href="/"
             >
-              Cadastrar Novo
-            </Text>
-          </Button>
-        </Link>
+              <Icon size={{ base: "sm", sm: "md" }}>
+                <LuPlus></LuPlus>
+              </Icon>
+              <Text fontSize="baseSmRestMd">Cadastrar Novo</Text>
+            </Button>
+          </Link>
+        </Box>
       </Box>
-
     );
   }
 
@@ -68,14 +77,18 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
       position="relative"
       boxShadow="none"
       onScroll={(e: React.UIEvent<HTMLDivElement>) => {
-        const element = e.currentTarget
+        const element = e.currentTarget;
 
-        if(element.scrollTop + element.clientHeight >= element.scrollHeight - 20){
-          onLoadMore()
+        if (
+          element.scrollTop + element.clientHeight >=
+          element.scrollHeight - 20
+        ) {
+          onLoadMore();
         }
       }}
     >
       {entities.map((entity) => {
+        const { icon: RiskIcon, color } = RISK_META[entity.riskLevel];
         return (
           <Box
             cursor="pointer"
@@ -90,12 +103,24 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
             flex="1"
           >
             <HStack display="flex" justifyContent="space-between">
-              <Text textAlign="left" color="system.primary" fontSize="baseMdRestXl">
+              <Text
+                textAlign="left"
+                color="system.primary"
+                fontSize="baseMdRestXl"
+              >
                 {entity.name}
               </Text>
-              <Text textAlign="right" fontSize="baseXsRestSm">
-                Risco {entity.riskLevel}
-              </Text>
+              <HStack>
+                <Icon
+                  size={"xs"}
+                  as={RiskIcon}
+                  color={color}
+                  stroke={color}
+                ></Icon>
+                <Text textAlign="right" fontSize="baseXsRestSm" color={color}>
+                  Risco {entity.riskLevel}
+                </Text>
+              </HStack>
             </HStack>
             <Text textAlign="left" fontSize="baseXsRestSm">
               {entity.cpfCnpjFormatted}
@@ -129,14 +154,10 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
               },
             }}
           >
-            <Icon size={{ base: "sm", sm: "md"}}>
+            <Icon size={{ base: "sm", sm: "md" }}>
               <LuPlus></LuPlus>
             </Icon>
-            <Text
-              fontSize="baseSmRestMd"
-            >
-              Cadastrar
-            </Text>
+            <Text fontSize="baseSmRestMd">Cadastrar</Text>
           </Button>
         </Link>
       </Box>
