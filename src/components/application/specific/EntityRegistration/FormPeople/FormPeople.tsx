@@ -13,7 +13,7 @@ import { Button } from "../../../reusable/Button/Button";
 
 import { toaster } from "@/components/ui/toaster";
 
-import { formatCPF } from "@/components/application/reusable/Scripts/validateCpfCnpj";
+import { formatCPF } from "../../../reusable/Scripts/validateCpfCnpj";
 
 export const FormPeople = () => {
   const {

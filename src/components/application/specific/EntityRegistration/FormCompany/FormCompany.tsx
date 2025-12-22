@@ -13,7 +13,7 @@ import { Input } from "../../../reusable/Input/Input";
 import { Button } from "../../../reusable/Button/Button";
 
 import { toaster } from "@/components/ui/toaster";
-import { formatCNPJ } from "@/components/application/reusable/Scripts/validateCpfCnpj";
+import { formatCNPJ } from "../../../reusable/Scripts/validateCpfCnpj";
 
 export const FormCompany = () => {
   const {
