@@ -5,7 +5,7 @@ import { db } from "../../../../../data/db/db";
 import { Entities } from "@/data/models/entities";
 import { TypeSearch } from "../ShowEntities";
 
-export const CreateAndSearch = (
+export const useEntities = (
   searchValues: Partial<TypeSearch>,
   page: number
 ) => {

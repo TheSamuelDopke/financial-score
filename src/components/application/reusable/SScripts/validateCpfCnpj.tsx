@@ -17,6 +17,3 @@ export const formatCNPJ = (value: string): string => {
     .replace(/(\d{4})(\d)/, "$1-$2");
 };
 
-export const formatCpfCnpj = (value: string, type: "cpf" | "cnpj"): string => {
-  return type === "cpf" ? formatCPF(value) : formatCNPJ(value);
-};
