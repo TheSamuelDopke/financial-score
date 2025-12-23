@@ -2,15 +2,13 @@
 
 import { LuPlus } from "react-icons/lu";
 import { Text } from "@/components/application/reusable/Text/Text";
-import { Box } from "@/components/application/reusable/Box/Box";
+import { Box } from "@/components/application/reusable/Box/BoxWhWidth";
 import { Link } from "@/components/application/reusable/Link/Link";
 import { HStack, Icon } from "@chakra-ui/react";
 import { CalcTransactionsYear } from "./CalcTransactionsYear";
 import { Button } from "@/components/application/reusable/Button/Button";
-import { Entities, RiskLevel } from "@/data/models/entities";
-import type { IconType } from "react-icons";
-
-import { LuBadgeCheck, LuTriangle, LuCircle, LuBan } from "react-icons/lu";
+import { Entities } from "@/data/models/entities";
+import { RISK_META } from "@/components/application/reusable/RiskLevelCustom/RiskLevelCustom";
 
 interface EntityListProps {
   entities: Entities[];
@@ -18,49 +16,16 @@ interface EntityListProps {
 }
 
 export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
-  const RISK_META: Record<RiskLevel, { icon: IconType; color: string }> = {
-    Desconhecido: { icon: LuCircle, color: "system.status.unknown" },
-    Baixo: { icon: LuBadgeCheck, color: "system.status.low" },
-    Médio: { icon: LuTriangle, color: "system.status.medium" },
-    Alto: { icon: LuBan, color: "system.status.high" },
-    "Muito Alto": { icon: LuBan, color: "system.status.veryHigh" },
-  };
+
 
   if (entities.length === 0) {
     return (
       <Box
-        m={0}
-        mt={5}
-        p={0}
-        display="flex"
-        flexDirection="column"
-        position="sticky"
-        bottom="10"
-        zIndex="1"
-        justifyContent="center"
-        borderRadius="xs"
+
+        mt={3}
+
       >
         <Text>Nenhum resultado encontrado.</Text>
-        <Box mt={5}>
-          <Link href="/register">
-            <Button
-              padding={3}
-              _hover={{
-                opacity: "1",
-                "& p, svg": {
-                  color: "system.dark",
-                  stroke: "system.dark",
-                },
-              }}
-              href="/"
-            >
-              <Icon size={{ base: "sm", sm: "md" }}>
-                <LuPlus></LuPlus>
-              </Icon>
-              <Text fontSize="baseSmRestMd">Cadastrar Novo</Text>
-            </Button>
-          </Link>
-        </Box>
       </Box>
     );
   }
@@ -76,9 +41,24 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
       padding={1}
       position="relative"
       boxShadow="none"
+      css={{
+        "&::-webkit-scrollbar": {
+          width: "6px",
+        },
+        "&::-webkit-scrollbar-track": {
+          background: "#111111", // fundo da track combinando com o background
+          borderRadius: "6px",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          background: "#444444", // tom suave sobre o div bg
+          borderRadius: "6px",
+        },
+        "&::-webkit-scrollbar-thumb:hover": {
+          background: "#666666", // hover levemente mais claro
+        },
+      }}
       onScroll={(e: React.UIEvent<HTMLDivElement>) => {
         const element = e.currentTarget;
-
         if (
           element.scrollTop + element.clientHeight >=
           element.scrollHeight - 20
@@ -91,6 +71,8 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
         const { icon: RiskIcon, color } = RISK_META[entity.riskLevel];
         return (
           <Box
+            as={Link}
+            display="block"
             cursor="pointer"
             key={entity.id}
             bg="system.teste"
@@ -101,12 +83,14 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
             }}
             padding={4}
             flex="1"
+            href={`/entities/${entity.id}`}
           >
             <HStack display="flex" justifyContent="space-between">
               <Text
                 textAlign="left"
                 color="system.primary"
                 fontSize="baseMdRestXl"
+                noOflines={1}
               >
                 {entity.name}
               </Text>
@@ -117,10 +101,16 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
                   color={color}
                   stroke={color}
                 ></Icon>
-                <Text textAlign="right" fontSize="baseXsRestSm" color={color}>
+                <Text
+                  textAlign="right"
+                  fontSize="baseXsRestSm"
+                  color={color}
+                  whiteSpace="nowrap"
+                >
                   Risco {entity.riskLevel}
                 </Text>
               </HStack>
+
             </HStack>
             <Text textAlign="left" fontSize="baseXsRestSm">
               {entity.cpfCnpjFormatted}
@@ -131,36 +121,6 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
           </Box>
         );
       })}
-
-      <Box
-        m={0}
-        p={0}
-        display="flex"
-        position="sticky"
-        bottom="10"
-        zIndex="1"
-        justifyContent="flex-end"
-        borderRadius="xs"
-      >
-        <Link href="/register">
-          <Button
-            opacity="0.8"
-            padding={3}
-            _hover={{
-              opacity: "1",
-              "& p, svg": {
-                color: "system.dark",
-                stroke: "system.dark",
-              },
-            }}
-          >
-            <Icon size={{ base: "sm", sm: "md" }}>
-              <LuPlus></LuPlus>
-            </Icon>
-            <Text fontSize="baseSmRestMd">Cadastrar</Text>
-          </Button>
-        </Link>
-      </Box>
     </Box>
   );
 };

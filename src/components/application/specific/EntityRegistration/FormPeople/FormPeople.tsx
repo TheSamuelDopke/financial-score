@@ -13,7 +13,7 @@ import { Button } from "../../../reusable/Button/Button";
 
 import { toaster } from "@/components/ui/toaster";
 
-import { formatCPF } from "../../../reusable/SScripts/validateCpfCnpj";
+import { formatCPF } from "../../../reusable/Scripts/validateCpfCnpj";
 
 export const FormPeople = () => {
   const {
@@ -42,7 +42,6 @@ export const FormPeople = () => {
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //Utilizamos o replace para permitir só números e o slice para não permitir mais de 11 números digitados, previne ctrl c + ctrl v no input
 
     const cpfFormated = formatCPF(e.target.value)
 

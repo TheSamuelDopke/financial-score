@@ -13,7 +13,7 @@ import { Input } from "../../../reusable/Input/Input";
 import { Button } from "../../../reusable/Button/Button";
 
 import { toaster } from "@/components/ui/toaster";
-import { formatCNPJ } from "../../../reusable/SScripts/validateCpfCnpj";
+import { formatCNPJ } from "../../../reusable/Scripts/validateCpfCnpj";
 
 export const FormCompany = () => {
   const {
@@ -42,7 +42,6 @@ export const FormCompany = () => {
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    //Utilizamos o replace para permitir só números e o slice para não permitir mais de 14 números digitados, previne ctrl c + ctrl v no input
 
     const cnpjFormated = formatCNPJ(e.target.value)
 

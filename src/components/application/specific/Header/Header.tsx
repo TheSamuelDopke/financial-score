@@ -1,5 +1,5 @@
 
-import { Box, Heading, Flex } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 import { FinancialScore } from "../../reusable/Logo/FinancialScore";
 
