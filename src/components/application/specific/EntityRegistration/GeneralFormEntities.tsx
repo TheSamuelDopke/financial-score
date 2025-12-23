@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Button } from "@/components/application/reusable/Button/Button";
 import { FormPeople } from "./FormPeople/FormPeople";
-import { Box } from "@/components/application/reusable/Box/Box";
+import { Box } from "@/components/application/reusable/Box/BoxWhWidth";
 import { HStack, Icon } from "@chakra-ui/react";
 import { Text } from "@/components/application/reusable/Text/Text";
 import { FormCompany } from "./FormCompany/FormCompany";

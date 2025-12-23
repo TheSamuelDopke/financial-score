@@ -1,25 +1,30 @@
-import Dexie from 'dexie'
+import Dexie from "dexie";
 
-import { Entities } from '../models/entities'
-import { Transactions } from '../models/transactions'
-import { Invoices } from '../models/invoices'
+import { Entities } from "../models/entities";
+import { Transactions } from "../models/transactions";
+import { Invoices } from "../models/invoices";
 
 class FinanceDB extends Dexie {
-    entities!: Dexie.Table<Entities, number>
-    transactions!: Dexie.Table<Transactions, number>
-    invoices!: Dexie.Table<Invoices, number>
+  entities!: Dexie.Table<Entities, number>;
+  transactions!: Dexie.Table<Transactions, number>;
+  invoices!: Dexie.Table<Invoices, number>;
 
-    constructor(name: string){
-        super(name)
-        this.version(1).stores({
-            entities: '++id, name, cpfCnpj, [type+cpfCnpj]',
-            transactions: '++id, idEntity, dueDate, status',
-            invoices: '++id, idTransaction, payDate'
-        })
-    }
+  constructor(name: string) {
+    super(name);
+    this.version(1).stores({
+      entities: "++id, name, cpfCnpj, [type+cpfCnpj]",
+      transactions: "++id, idEntity, dueDate, status",
+      invoices: "++id, idTransaction, payDate",
+    });
 
+    this.version(2).stores({
+      entities: "++id, name, cpfCnpj, [type+cpfCnpj]",
+      transactions: "++id, idEntity, dueDate, status, [idEntity+created]",
+      invoices: "++id, idTransaction, payDate",
+    });
+  }
 }
 
-export const db = new FinanceDB("FinanceDB")
+export const db = new FinanceDB("FinanceDB");
 
-db.open().then(() => console.log('Database Created'))
+db.open().then(() => console.log("Database Created"));

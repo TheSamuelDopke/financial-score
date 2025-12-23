@@ -11,7 +11,7 @@ import {
   UseFormRegister,
   UseFormSetValue,
 } from "react-hook-form"
-import { formatCNPJ, formatCPF } from "../../../reusable/SScripts/validateCpfCnpj"
+import { formatCNPJ, formatCPF } from "../../../reusable/Scripts/validateCpfCnpj"
 
 interface EntitySearchBarProps {
   register: UseFormRegister<TypeSearch>
@@ -57,6 +57,7 @@ export const InputSearchBar = ({
   };
 
   return (
+    <Box marginTop={4} p={0} boxShadow="none">
     <Group
       attached
       display="flex"
@@ -155,5 +156,6 @@ export const InputSearchBar = ({
         />
       </Box>
     </Group>
+    </Box>
   );
 };

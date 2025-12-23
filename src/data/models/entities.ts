@@ -16,7 +16,7 @@ export const BaseEntity = z.object({
   type: z.enum(["Person", "Company"]),
   riskLevel: RiskLevelEnum,
   cpfCnpjFormatted: z.string(),
-  created: z.string().optional(),
+  created: z.iso.datetime().optional(),
 });
 
 const PersonSchema = BaseEntity.extend({
