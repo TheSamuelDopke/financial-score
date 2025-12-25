@@ -7,9 +7,10 @@ import { LuPlus } from "react-icons/lu";
 
 export function BtnRegister() {
   return (
-    <Box p={0} mt={3} borderRadius="xs">
+    <Box p={0} mt={3} borderRadius="xs" >
       <Link href="/register" display="flex" minW="fit-content">
         <Button
+        height={{ base: "40px", md: "50px", lg: "50px", xl: "50px" }}
           padding={3}
           _hover={{
             opacity: "1",
@@ -23,7 +24,7 @@ export function BtnRegister() {
           <Icon size={{ base: "sm", sm: "md" }}>
             <LuPlus></LuPlus>
           </Icon>
-          <Text fontSize="baseXsRestSm">Cadastrar Novo Parceiro</Text>
+          <Text fontSize="baseSmRestMd">Cadastrar Novo Parceiro</Text>
         </Button>
       </Link>
     </Box>

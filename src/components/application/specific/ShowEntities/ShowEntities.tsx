@@ -4,17 +4,11 @@ import { Box } from "../../reusable/Box/BoxWhWidth";
 import { Text } from "../../reusable/Text/Text";
 import { CenterLayout } from "../../reusable/Box/CenterLayout";
 import { Strong } from "../../reusable/Strong/Strong";
-
 import { useForm, useWatch } from "react-hook-form";
-
 import { InputSearchBar } from "./Components/InputSearchBar";
-
-import { useEntities } from "./Components/useEntities";
-
+import { useEntities } from "./hooks/useEntities";
 import { EntityList } from "./Components/EntityList";
-
-import { useDebounce } from "./Components/useDebounce";
-
+import { useDebounce } from "./hooks/useDebounce";
 import { useState, useEffect } from "react";
 import { BtnRegister } from "./Components/BtnRegister";
 
@@ -33,6 +27,7 @@ export const ShowEntities = () => {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
+    if (!debouncedSearchValues.query?.trim()) return;
     //Para evitar renderizações desnecessárias
     queueMicrotask(() => {
       setPage((prev) => (prev !== 1 ? 1 : prev));
@@ -54,6 +49,7 @@ export const ShowEntities = () => {
         display="flex"
         flexDirection="column"
         padding={4}
+        width="95%"
       >
         <Box m={0} p={0}>
           <Text textAlign="left" fontSize="baseSmRestXl" color="system.light">

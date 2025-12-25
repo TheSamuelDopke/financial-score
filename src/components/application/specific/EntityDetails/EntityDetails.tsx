@@ -1,59 +1,48 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { db } from "@/data/db/db";
-import { Entities, EntitySchema } from "@/data/models/entities";
+import { EntitySchema } from "@/data/models/entities";
 import { Text } from "../../reusable/Text/Text";
 import { Box } from "../../reusable/Box/BoxNoWidth";
-import { Box as BoxW } from "../../reusable/Box/BoxWhWidth";
+
 import { CenterLayout } from "../../reusable/Box/CenterLayout";
 import { NotFound } from "../../reusable/Not-Found/NotFound";
 import { HStack, Icon } from "@chakra-ui/react";
-import { RISK_META } from "../../reusable/RiskLevelCustom/RiskLevelCustom";
+import { RISK_META } from "../../reusable/Metas/RiskLevelCustom";
 import { LuUser, LuBuilding2 } from "react-icons/lu";
-import { dateFormatter } from "@/components/application/reusable/DateFormatter/DateFormatter";
-import {
-  LuCircleCheck, // Para "Pagas" (Círculo com check)
-  LuClock, // Para "Pendentes" (Relógio)
-  LuCircleX, // Para "Vencidas" (Círculo com X)
-} from "react-icons/lu";
+import { dateFormatter } from "@/components/application/reusable/Scripts/getDateFormatter";
+import { useLiveQuery } from "dexie-react-hooks";
 
-interface EntityDetailsProps {
+import { useState } from "react";
+import { TransactionSummary } from "./Components/TransactionsSummary";
+import { Button } from "../../reusable/Button/Button";
+import { Link } from "../../reusable/Link/Link";
+
+export interface EntityDetailsProps {
   entityId: string;
 }
 
 export function EntityDetails({ entityId }: EntityDetailsProps) {
-  const [entity, setEntity] = useState<Entities | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    let isMounted = true;
-
-    const fetchEntity = async () => {
-      try {
-        const data = await db.entities.get(Number(entityId));
-        if (!data) throw new Error("Entidade não encontrada");
-
-        const validated = EntitySchema.parse(data);
-
-        if (isMounted) setEntity(validated);
-      } catch (error) {
-        console.error("Erro ao buscar entidade:", error);
-        if (isMounted) setEntity(null);
-      } finally {
-        if (isMounted) setLoading(false);
-      }
-    };
-
-    fetchEntity();
-
-    return () => {
-      isMounted = false; // evita atualizar state se o componente desmontar
-    };
+  const entity = useLiveQuery(async () => {
+    try {
+      const data = await db.entities.get(Number(entityId));
+      if (!data) throw new Error("Entidade não encontrada!");
+      return EntitySchema.parse(data);
+    } catch (error) {
+      console.error("Erro ao buscar entidade:", error);
+      setError("Erro ao carregar detalhes da entidade");
+      return null;
+    }
   }, [entityId]);
 
-  if (loading) return <Text textAlign="center">Carregando...</Text>;
-  if (!entity) return <NotFound></NotFound>;
+  if (error) return <NotFound></NotFound>;
+
+  if (entity === undefined)
+    return <Text textAlign="center">Carregando...</Text>;
+
+  if (!entity) return;
 
   const { icon: RiskIcon, color } = RISK_META[entity.riskLevel];
 
@@ -65,71 +54,76 @@ export function EntityDetails({ entityId }: EntityDetailsProps) {
         textAlign="left"
         borderRadius="10px 10px 0px 0px"
         overflow="hidden"
+        width={{ base: "100%", sm: "95%" }}
       >
-        <Box bg="system.primary" minW="100%" padding={5}>
-          <HStack>
-            <Text>
-              {entity.type === "Person" ? (
-                <LuUser></LuUser>
-              ) : (
-                <LuBuilding2></LuBuilding2>
-              )}{" "}
-            </Text>
-            <Text fontSize="baseMdRestXl">
-              {entity.type === "Person" ? "Pessoa Física" : "Empresa"}
-            </Text>
-          </HStack>
+        <Box bg="system.primary" padding={5}>
+          <Box
+            display="flex"
+            alignItems="center"
+            justifyContent="space-between"
+            gap={2}
+          >
+            <HStack>
+              <Text>
+                {entity.type === "Person" ? (
+                  <LuUser></LuUser>
+                ) : (
+                  <LuBuilding2></LuBuilding2>
+                )}{" "}
+              </Text>
+              <Text fontSize="baseMdRestXl">
+                {entity.type === "Person" ? "Pessoa Física" : "Empresa"}
+              </Text>
+            </HStack>
+            <HStack bg="system.light_dark" padding={1} borderRadius={5}>
+              <Icon
+                size={"sm"}
+                as={RiskIcon}
+                color={color}
+                stroke={color}
+              ></Icon>
+              <Text
+                textAlign="right"
+                fontSize="baseXsRestSm"
+                color={color}
+                whiteSpace="nowrap"
+              >
+                Risco {entity.riskLevel}
+              </Text>
+            </HStack>
+          </Box>
           <Text fontSize="baseMdRestXl">{entity.name}</Text>
           <Text fontSize="baseSmRestMd">
             {entity.type === "Person" ? "CPF: " : "CNPJ: "}
             {entity.cpfCnpjFormatted}
           </Text>
-          <HStack>
-            <Text fontSize="baseXsRestSm">Adicionado em:</Text>
-            {entity.created && (
-              <Text fontSize="baseXsRestSm">
-                {dateFormatter.format(new Date(entity.created))}
-              </Text>
-            )}
-          </HStack>
+          <Box display="flex" justifyContent="space-between" alignItems="center">
+            <Box>
+              {entity.created && (
+                <Text as="span" fontSize="baseXsRestSm">
+                  {dateFormatter.format(new Date(entity.created))}
+                </Text>
+              )}
+            </Box>
+            <Box>
+              <Link href={`/entities/${entity.id}/register-transactions`}>
+              <Button bg="system.light" color="system.primary" _hover={{bg: "system.primary_light",}} size="sm">
+                Nova Transação
+              </Button>
+              </Link>
+            </Box>
+          </Box>
         </Box>
-
-        <Box as={BoxW} padding={4}>
-          {/* <Text fontSize="baseXsRestSm">Status</Text> */}
-          <HStack justifyContent="center">
-            <Icon size={"sm"} as={RiskIcon} color={color} stroke={color}></Icon>
-            <Text
-              textAlign="right"
-              fontSize="baseSmRestMd"
-              color={color}
-              whiteSpace="nowrap"
-            >
-              Risco {entity.riskLevel}
-            </Text>
-          </HStack>
-          <Text mt={5} fontSize="baseSmRestMd">
-          Dados do último ano:
-          </Text>
-        </Box>
-
         <Box
-          display="grid"
-          gridTemplateColumns="repeat(3, 1fr)"
-          justifyItems="center"
-          alignItems="center"
-          textAlign="center"
+          maxW={{
+            base: "100%",
+            sm: "100%",
+            md: "100%",
+            lg: "100%",
+            xl: "100%",
+          }}
         >
-          <Box py={5}>
-            <LuCircleCheck size={20} />
-          </Box>
-
-          <Box py={5}>
-            <LuClock size={20} />
-          </Box>
-
-          <Box py={5}>
-            <LuCircleX size={20} />
-          </Box>
+          <TransactionSummary entityId={entityId}></TransactionSummary>
         </Box>
       </Box>
     </CenterLayout>

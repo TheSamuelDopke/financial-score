@@ -8,7 +8,7 @@ import { HStack, Icon } from "@chakra-ui/react";
 import { CalcTransactionsYear } from "./CalcTransactionsYear";
 import { Button } from "@/components/application/reusable/Button/Button";
 import { Entities } from "@/data/models/entities";
-import { RISK_META } from "@/components/application/reusable/RiskLevelCustom/RiskLevelCustom";
+import { RISK_META } from "@/components/application/reusable/Metas/RiskLevelCustom";
 
 interface EntityListProps {
   entities: Entities[];
@@ -16,15 +16,9 @@ interface EntityListProps {
 }
 
 export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
-
-
   if (entities.length === 0) {
     return (
-      <Box
-
-        mt={3}
-
-      >
+      <Box mt={3}>
         <Text>Nenhum resultado encontrado.</Text>
       </Box>
     );
@@ -110,7 +104,6 @@ export const EntityList = ({ entities, onLoadMore }: EntityListProps) => {
                   Risco {entity.riskLevel}
                 </Text>
               </HStack>
-
             </HStack>
             <Text textAlign="left" fontSize="baseXsRestSm">
               {entity.cpfCnpjFormatted}
