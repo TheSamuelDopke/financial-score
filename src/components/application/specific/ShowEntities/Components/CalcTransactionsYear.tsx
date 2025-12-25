@@ -8,7 +8,6 @@ export const CalcTransactionsYear = ({ entityId }: { entityId: number }) => {
 
   const transactions = useLiveQuery(async () => {
 
-
     const now = new Date();
     const aYearAgo = new Date();
     aYearAgo.setFullYear(aYearAgo.getFullYear() - 1);

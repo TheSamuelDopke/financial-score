@@ -13,7 +13,7 @@ import { Button } from "../../../reusable/Button/Button";
 
 import { toaster } from "@/components/ui/toaster";
 
-import { formatCPF } from "../../../reusable/Scripts/validateCpfCnpj";
+import { formatCPF } from "../../../reusable/Scripts/getValidateCpfCnpj";
 
 export const FormPeople = () => {
   const {
@@ -42,7 +42,6 @@ export const FormPeople = () => {
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-
     const cpfFormated = formatCPF(e.target.value)
 
     setValue("cpfCnpj", cpfFormated, { shouldValidate: true });

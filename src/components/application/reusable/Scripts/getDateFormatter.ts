@@ -1,5 +1,5 @@
 export const dateFormatter = new Intl.DateTimeFormat('pt-BR', {
-    dateStyle: 'long',
+    dateStyle: 'short',
     timeStyle: 'short',
     timeZone: 'America/Sao_Paulo'
 })

@@ -1,4 +1,4 @@
-'use client'
+
 
 export const formatCPF = (value: string): string => {
   const digits = value.replace(/\D/g, "").slice(0, 11);

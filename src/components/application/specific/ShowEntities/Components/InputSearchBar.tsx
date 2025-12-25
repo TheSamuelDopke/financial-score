@@ -11,7 +11,7 @@ import {
   UseFormRegister,
   UseFormSetValue,
 } from "react-hook-form"
-import { formatCNPJ, formatCPF } from "../../../reusable/Scripts/validateCpfCnpj"
+import { formatCNPJ, formatCPF } from "../../../reusable/Scripts/getValidateCpfCnpj"
 
 interface EntitySearchBarProps {
   register: UseFormRegister<TypeSearch>
@@ -74,6 +74,7 @@ export const InputSearchBar = ({
 
       >
         <NativeSelect.Field
+        height={{ base: "40px", md: "50px", lg: "50px", xl: "50px" }}
           borderRadius="5px"
           _focus={{
             borderColor: "system.primary",
@@ -137,6 +138,7 @@ export const InputSearchBar = ({
         css={{ "& label": { display: "none", padding: 0, margin: 0 } }}
       >
         <Input
+        height={{ base: "40px", md: "50px", lg: "50px", xl: "50px" }}
           _focus={{
             borderColor: "system.primary",
             outline: "none",

@@ -6,18 +6,14 @@ const config = defineConfig({
       colors: {
         system: {
           primary: { value: "#0077B6" },
+          primary_light: {value: "#d0efffff"},
           red: { value: "#EF4444" },
           link: { value: "#ffffffff" },
-          btn: { value: "#84c5f0ff" },
-          btnHover: {
-            light: { value: "#006094ff" },
-            dark: { value: "#91d5faff" },
-          },
           status: {
             unknown: {value: "#ffffffff" },
-            low: {value: "#2E7D32"},
-            medium: {value: "#EF6C00"},
-            high: {value: "#D32F2F"},
+            low: {value: "rgba(46, 125, 50)"},
+            medium: {value: "#f5872dff"},
+            high: {value: "#e05151ff"},
             veryHigh: {value: "#B71C1C"}
           },
           light_dark: {
@@ -25,7 +21,6 @@ const config = defineConfig({
           },
           dark: { value: "#171717" },
           light: { value: "#fffefa" },
-          teste: { value: "#171717" },
         },
 
         bg: {

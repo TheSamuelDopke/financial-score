@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Button } from "@/components/application/reusable/Button/Button";
 import { FormPeople } from "./FormPeople/FormPeople";
-import { Box } from "@/components/application/reusable/Box/BoxWhWidth";
+import { Box } from "@/components/application/reusable/Box/BoxNoWidth";
 import { HStack, Icon } from "@chakra-ui/react";
 import { Text } from "@/components/application/reusable/Text/Text";
 import { FormCompany } from "./FormCompany/FormCompany";
@@ -18,28 +18,29 @@ export const GeneralFormEntities = () => {
   const [typeActive, setTypeactive] = useState("person");
 
   return (
-    <Box bg="system.light_dark" padding={4}>
-      <HStack>
+    <Box bg="system.light_dark" padding={4} width="95%">
+      <Box display="flex" mb={4}>
         <Link href="/">
-        <Button
-          
-          h={{ base: "6", md: "8", lg: "8", xl: "8" }}
-          w="auto"
-          size={{ base: "xs", md: "sm", lg: "sm", xl: "sm" }}
-          padding="0px 5px"
-        >
-          <IoChevronBack></IoChevronBack>
-        </Button>
-        </Link>
-        <Text textAlign="left">
-          Cadastro de {typeActive === "person" ? "Pessoa" : "Empresa"}:
-        </Text>
-      </HStack>
+          <Button
+            h={{ base: "10", md: "15", lg: "15", xl: "15" }}
+            w="auto"
+            size={{ base: "xs", md: "sm", lg: "sm", xl: "sm" }}
+            padding="0px px"
+          >
+            <IoChevronBack></IoChevronBack>Voltar
+          </Button>
+        </Link>{" "}
+      </Box>
+      <Text textAlign="left">
+        Cadastro de {typeActive === "person" ? "Pessoa" : "Empresa"}:
+      </Text>
+
       <Box display="flex" gap="4" justifyContent="space-around" padding={4}>
         <Button
           bg="system.light_dark"
           flex="1"
-          h="120px"
+          h={{ base: "120px", md: "200px", lg: "200px", xl: "200px" }}
+          fontSize="baseSmRestMd"
           boxShadow={
             typeActive === "person"
               ? "0px 0px 4px 2px var(--chakra-colors-system-primary)"
@@ -58,7 +59,8 @@ export const GeneralFormEntities = () => {
         </Button>
         <Button
           flex="1"
-          h="120px"
+          h={{ base: "120px", md: "200px", lg: "200px", xl: "200px" }}
+          fontSize="baseSmRestMd"
           bg="system.light_dark"
           boxShadow={
             typeActive === "company"
