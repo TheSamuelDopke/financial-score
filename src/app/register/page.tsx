@@ -1,6 +1,6 @@
 
-import { CenterLayout } from "@/components/application/reusable/Box/CenterLayout";
-import {GeneralFormEntities} from "@/components/application/specific/EntityRegistration/GeneralFormEntities"
+import { CenterLayout } from "@/components/application/shared/Box/CenterLayout";
+import {GeneralFormEntities} from "@/components/application/features/EntityRegistration/GeneralFormEntities"
 
 
 export default function RegisterPage() {

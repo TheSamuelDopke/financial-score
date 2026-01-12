@@ -23,11 +23,6 @@ const config = defineConfig({
           light: { value: "#fffefa" },
         },
 
-        bg: {
-          light: { value: "#fffefa" },
-          dark: { value: "#171717" },
-        },
-
         fg: {
           light: { value: "#171923" }, // Texto principal claro
           dark: { value: "#E2E8F0" }, // Texto principal escuro

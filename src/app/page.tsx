@@ -1,4 +1,4 @@
-import {ShowEntities} from "@/components/application/specific/ShowEntities/ShowEntities"
+import {ShowEntities} from "@/components/application/features/ShowEntities/ShowEntities"
 
 
 

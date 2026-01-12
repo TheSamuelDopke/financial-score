@@ -1,6 +1,6 @@
 
-import { EntityDetails } from '@/components/application/specific/EntityDetails/EntityDetails';
-import { Text } from '@/components/application/reusable/Text/Text';
+import { EntityDetails } from '@/components/application/features/EntityDetails/EntityDetails';
+import { Text } from '@/components/application/shared/Text/Text';
 
 interface PropsParams {
   params: { id: string }; 
@@ -14,6 +14,8 @@ export default async function EntityDetailPage({ params }: PropsParams) {
   if (!id) {
     return <Text>ID inválido</Text>;
   }
+    // const idNumber = Number({id})
+  
 
   return <EntityDetails entityId={id} />;
 }
