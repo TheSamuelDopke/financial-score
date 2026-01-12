@@ -1,12 +1,5 @@
 import { z } from "zod";
 
-// export const StatusEnum = z.enum([
-//   "Pendente",
-//   "Pago",
-// ]);
-
-// export const valueSchema = z.number().positive();
-
 export const CreateTransactionsSchema = z
   .object({
     id: z.number().optional(),
@@ -22,9 +15,6 @@ export const CreateTransactionsSchema = z
         message: "Valor obrigatório!",
       }),
     dueDate: z.string().min(1, "Obrigatório informar data de vencimento!"),
-    // .refine((dateStr) => !isNaN(Date.parse(dateStr)), {
-    //   message: "Data inválida!"
-    // }).transform(d => new Date(d)),
 
     status: z.boolean(),
     payDate: z.string().optional(),

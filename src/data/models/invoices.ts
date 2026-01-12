@@ -1,6 +1,6 @@
 import {z} from 'zod'
 
-import { valueSchema } from './transactions'
+// import { valueSchema } from './transactions'
 
 // Não mais utilizado, estamos usando Zod!
 // export interface Invoices{
@@ -14,7 +14,7 @@ export const InvoicesSchema = z.object({
     id: z.number().optional(),
     idTransaction: z.number().min(1, "Deve haver vínculo com uma transação!"),
     payDate: z.iso.datetime(),
-    value: valueSchema
+    // value: valueSchema
 })
 
 export type Invoices = z.infer<typeof InvoicesSchema>

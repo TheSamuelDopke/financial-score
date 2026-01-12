@@ -15,6 +15,4 @@ export const useLastYearTransactionsList = (entityId: number) => {
 
   return transactions || []
 
-
-
 };

@@ -39,18 +39,21 @@ export const TransactionsList = ({ entityId }: { entityId: number }) => {
               ></NumericFormat>
             </Text>
 
-            {/* <Text>{transaction.status}</Text> */}
-            {transaction.dueDate && (
-              <Text as="span" fontSize="baseXsRestSm">
-                Vencimento: {dateFormatter.format(new Date(transaction.dueDate))}
-              </Text>
+            {transaction.status === true ? (
+              <Text>Pago!</Text>
+            ) : (
+              <Text>Pendente</Text>
             )}
+
+            <Text as="span" fontSize="baseXsRestSm">
+              Vencimento: {dateFormatter.format(new Date(transaction.dueDate))}
+            </Text>
+
             {transaction.created && (
               <Text as="span" fontSize="baseXsRestSm">
-              Criado em: {dateFormatter.format(new Date(transaction.created))}
+                Criado em: {dateFormatter.format(new Date(transaction.created))}
               </Text>
             )}
-            {/* <Text>{dateFormatter.format(new Date(transaction.created))}</Text> */}
           </Box>
         );
       })}
