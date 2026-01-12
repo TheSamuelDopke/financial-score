@@ -33,7 +33,7 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
       description: "",
       value: 0,
       dueDate: "",
-      status: "Pendente",
+      status: false,
     },
   });
 
@@ -41,8 +41,6 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
     control,
     name: "status",
   });
-
-  const paid = isPaid === "Pago" || isPaid === "Pago atrasado";
 
   const onSubmit = async (data: Transactions) => {
     try {
@@ -142,11 +140,11 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
                           variant="subtle"
                           colorPalette="green"
                           w="100%"
-                          checked={paid}
+                          checked={isPaid}
                           onCheckedChange={(details) => {
                             setValue(
                               "status",
-                              details.checked ? "Pago" : "Pendente",
+                              details.checked === true,
                               { shouldDirty: true, shouldTouch: true }
                             );
                           }}
@@ -157,7 +155,7 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
                         </Checkbox.Root>
                       </Field.Root>
 
-                      {paid && (
+                      {isPaid && (
                         <Input
                           {...register("payDate")}
                           error={errors.payDate?.message}

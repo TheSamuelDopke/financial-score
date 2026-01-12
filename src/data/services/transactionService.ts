@@ -11,20 +11,20 @@ export const TransactionService = {
     const today = new Date();
     today.setHours(23, 59, 59, 999);
 
-    const dueDate = new Date(validatedData.dueDate);
+    // const dueDate = new Date(validatedData.dueDate);
 
-    let status: Transactions["status"];
+    // let status: Transactions["status"];
 
-    if (validatedData.payDate) {
-      const payDate = new Date(validatedData.payDate);
-      status = payDate > dueDate ? "Pago atrasado" : "Pago"
-    } else {
-      status = today > dueDate ? "Em dívida" : "Pendente";
-    }
+    // if (validatedData.payDate) {
+    //   const payDate = new Date(validatedData.payDate);
+    //   status = payDate > dueDate ? "Pago atrasado" : "Pago"
+    // } else {
+    //   status = today > dueDate ? "Em dívida" : "Pendente";
+    // }
 
     const transactionToSave: Transactions = {
       ...validatedData,
-      status,
+      dueDate: new Date().toISOString(),
       created: new Date().toISOString(),
     };
 
