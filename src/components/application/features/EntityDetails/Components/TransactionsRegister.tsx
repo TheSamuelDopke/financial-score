@@ -166,7 +166,6 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
                           placeholder="Data de vencimento"
                         ></Input>
                       )}
-
                       <Button type="submit" loading={isSubmitting} width="100%">
                         Adicionar fatura
                       </Button>
