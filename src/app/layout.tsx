@@ -5,8 +5,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Provider } from "../components/providers/providers";
 import { Toaster } from "@/components/ui/toaster";
-import { Header } from "@/components/application/specific/Header/Header";
-import { PopulateFunc } from "@/components/application/specific/Populate/PopulateFunc";
+import { Header } from "@/components/application/features/Header/Header";
+import { PopulateFunc } from "@/components/application/features/Populate/PopulateFunc";
 
 
 const geistSans = Geist({

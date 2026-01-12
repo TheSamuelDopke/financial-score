@@ -3,7 +3,7 @@ import { Entities, validateEntity } from "../models/entities";
 import {
   formatCPF,
   formatCNPJ,
-} from "@/components/application/reusable/Scripts/getValidateCpfCnpj";
+} from "@/components/application/shared/Scripts/formatters";
 
 function formatCpfCnpj(entity: Entities) {
   if (entity.type === "Person") {

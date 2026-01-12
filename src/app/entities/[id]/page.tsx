@@ -1,6 +1,6 @@
 
-import { EntityDetails } from '@/components/application/specific/EntityDetails/EntityDetails';
-import { Text } from '@/components/application/reusable/Text/Text';
+import { EntityDetails } from '@/components/application/features/EntityDetails/EntityDetails';
+import { Text } from '@/components/application/shared/Text/Text';
 
 interface PropsParams {
   params: { id: string }; 

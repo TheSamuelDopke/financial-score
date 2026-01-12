@@ -4,12 +4,11 @@ import { system } from "../../../theme";
 
 import { ChakraProvider } from "@chakra-ui/react";
 
-export function Provider({children}: {children: React.ReactNode}) {
+
+export function Provider({ children }: { children: React.ReactNode }) {
   return (
 
-    <ChakraProvider value={system}>
-      {children}
-    </ChakraProvider>
+      <ChakraProvider value={system}>{children}</ChakraProvider>
 
   );
 }
