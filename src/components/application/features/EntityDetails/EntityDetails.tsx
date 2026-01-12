@@ -17,7 +17,7 @@ import { TransactionsList } from "./Components/TransactionsList";
 import { TransactionsRegister } from "./Components/TransactionsRegister";
 
 export interface EntityDetailsProps {
-  entityId: number;
+  entityId: string;
 }
 
 export function EntityDetails({ entityId }: EntityDetailsProps) {

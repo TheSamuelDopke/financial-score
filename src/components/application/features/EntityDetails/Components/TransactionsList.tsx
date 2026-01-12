@@ -39,7 +39,7 @@ export const TransactionsList = ({ entityId }: { entityId: number }) => {
               ></NumericFormat>
             </Text>
 
-            <Text>{transaction.status}</Text>
+            {/* <Text>{transaction.status}</Text> */}
             {transaction.dueDate && (
               <Text as="span" fontSize="baseXsRestSm">
                 Vencimento: {dateFormatter.format(new Date(transaction.dueDate))}
