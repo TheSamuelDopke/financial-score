@@ -1,4 +1,44 @@
+# 📊 Credit Risk Scoring App
 
+A modern web front-end application that generates **credit risk scores** for companies and individuals based on their financial behavior, such as late payments, defaults, and transaction history.
+
+The system classifies risk levels into:
+
+- **Unknown**
+- **Low**
+- **Medium**
+- **High**
+- **Very High**
+
+Built with performance and validation.
+
+---
+
+## 🚀 Tech Stack
+
+- **TypeScript**
+- **Next.js (App Router)**
+- **Chakra UI**
+- **Dexie.js** (IndexedDB)
+- **Zod** – Schema validation
+- **React Hook Form** – Form handling & validation
+
+---
+
+## ✨ Features
+
+- Risk scoring engine based on:
+  - Payment delays
+  - Default history
+  - Frequency of late payments
+- Automatic classification:
+  - Low / Medium / High / Very High risk
+- Local persistence using IndexedDB (Dexie)
+- Strong validation (Zod + RHF)
+- Responsive UI with Chakra UI
+- Fully typed with TypeScript
+
+---
 
 ## Getting Started
 
