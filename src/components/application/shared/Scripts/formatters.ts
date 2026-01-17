@@ -18,10 +18,16 @@ export const formatCNPJ = (value: string): string => {
 };
 
 export const dateFormatter = new Intl.DateTimeFormat('pt-BR', {
-    dateStyle: 'short',
-    timeStyle: 'short',
+    dateStyle: 'medium',
     timeZone: 'America/Sao_Paulo'
 })
+
+export function formatDateBR(date: string) {
+  const pureDate = date.split("T")[0] // remove hora se existir
+
+  const [y, m, d] = pureDate.split("-")
+  return `${d}/${m}/${y}`
+}
 
 export const toISODate = () =>{
   return new Date().toISOString().split("T")[0]

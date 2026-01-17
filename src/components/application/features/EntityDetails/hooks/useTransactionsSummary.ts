@@ -2,27 +2,21 @@
 import { Transactions } from "@/data/models/transactions";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "@/data/db/db";
+import { now } from "../../../shared/Scripts/nowDate";
+import { formatDateBR } from "@/components/application/shared/Scripts/formatters";
+
 
 export const useTransactionsSummary = (entityId: number) => {
-  const now = new Date();
-
+  const now = new Date()
   const aYearAgo = new Date();
   aYearAgo.setFullYear(now.getFullYear() - 1);
-
-  const normalizeDate = (date: Date) => {
-    const d = new Date(date)
-    d.setHours(0, 0, 0, 0)
-    return d
-  }
-
-  const nowNormalized = normalizeDate(now)
 
   const transactions = useLiveQuery(async () => {
     return await db.transactions
       .where("[idEntity+created]")
       .between(
         [entityId, aYearAgo.toISOString()],
-        [entityId, now.toISOString()]
+        [entityId, now.toISOString()],
       )
       .toArray();
   }, [entityId]);
@@ -30,10 +24,12 @@ export const useTransactionsSummary = (entityId: number) => {
   return transactions?.reduce(
     (acc, t: Transactions) => {
       //Data de vencimento
-      const dueDate = normalizeDate(new Date(t.dueDate))
+      const dueDate = formatDateBR(t.dueDate);
+
+      const nowNormalized = formatDateBR(now.toISOString())
 
       //Data de pagamento
-      const payDate = t.payDate ? normalizeDate(new Date(t.payDate)) : null
+      const payDate = t.payDate ? formatDateBR(t.payDate) : null;
 
       if (t.status && payDate) {
         if (payDate > dueDate) {
@@ -51,6 +47,6 @@ export const useTransactionsSummary = (entityId: number) => {
 
       return acc;
     },
-    { paid: 0, pending: 0, paidLate: 0, debt: 0 }
+    { paid: 0, pending: 0, paidLate: 0, debt: 0 },
   );
 };
