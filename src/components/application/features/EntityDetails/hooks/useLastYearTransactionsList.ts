@@ -2,9 +2,10 @@
 
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "@/data/db/db";
+import { now } from "@/components/application/shared/Scripts/nowDate";
+
 
 export const useLastYearTransactionsList = (entityId: number) => {
-  const now = new Date();
   const aYearAgo = new Date();
   aYearAgo.setFullYear(now.getFullYear() - 1);
 
@@ -13,6 +14,8 @@ export const useLastYearTransactionsList = (entityId: number) => {
     return await db.transactions.where('[idEntity+created]').between([entityId, aYearAgo.toISOString()], [entityId, now.toISOString()]).toArray();
   })
 
-  return transactions || []
+  return transactions;
+
+  
 
 };

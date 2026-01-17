@@ -1,4 +1,6 @@
 import { z } from "zod";
+import { now } from "@/components/application/shared/Scripts/nowDate";
+import { formatDateBR } from "@/components/application/shared/Scripts/formatters";
 
 export const CreateTransactionsSchema = z
   .object({
@@ -21,8 +23,10 @@ export const CreateTransactionsSchema = z
     created: z.iso.datetime().optional(),
   })
   .superRefine((data, ctx) => {
-    const today = new Date();
-    today.setHours(23, 59, 59, 999);
+    // const today = new Date();
+    // today.setHours(23, 59, 59, 999);
+
+    const nowNormalized = formatDateBR(now.toISOString())
 
     const isPaid = data.status
 
@@ -36,9 +40,9 @@ export const CreateTransactionsSchema = z
         return;
       }
 
-      const payDate = new Date(data.payDate);
+      const payDate = formatDateBR(data.payDate)
 
-      if (payDate > today) {
+      if (payDate > nowNormalized) {
         ctx.addIssue({
           path: ["payDate"],
           message: "Data de pagamento não pode ser futura!",

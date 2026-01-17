@@ -1,3 +1,4 @@
+
 import { db } from "../db/db";
 import {
   Transactions,
@@ -8,24 +9,16 @@ export const TransactionService = {
   async create(rawData: unknown) {
     const validatedData = validateCreateTransactions(rawData);
 
-    const today = new Date();
-    today.setHours(23, 59, 59, 999);
+    const dueDateISO = new Date(validatedData.dueDate).toISOString()
 
-    // const dueDate = new Date(validatedData.dueDate);
+    const payDateISO = validatedData.payDate ? new Date(validatedData.payDate).toISOString() : undefined
 
-    // let status: Transactions["status"];
-
-    // if (validatedData.payDate) {
-    //   const payDate = new Date(validatedData.payDate);
-    //   status = payDate > dueDate ? "Pago atrasado" : "Pago"
-    // } else {
-    //   status = today > dueDate ? "Em dívida" : "Pendente";
-    // }
 
     const transactionToSave: Transactions = {
       ...validatedData,
-      dueDate: new Date().toISOString(),
       created: new Date().toISOString(),
+      payDate: payDateISO,
+      dueDate: dueDateISO
     };
 
     return await db.transactions.add(transactionToSave);
