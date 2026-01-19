@@ -16,7 +16,7 @@ export const useTransactionsSummary = (entityId: number) => {
       .where("[idEntity+created]")
       .between(
         [entityId, aYearAgo.toISOString()],
-        [entityId, now.toISOString()],
+        [entityId, "9999-12-31"],
       )
       .toArray();
   }, [entityId]);

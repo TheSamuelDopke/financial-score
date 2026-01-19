@@ -15,6 +15,7 @@ import { Controller, useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { TransactionService } from "@/data/services/transactionService";
 import { toaster } from "@/components/ui/toaster";
+import { db } from "@/data/db/db";
 
 export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
   const {
@@ -62,7 +63,7 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
   };
 
   return (
-    <Dialog.Root  size="md" placement="center" motionPreset="slide-in-bottom">
+    <Dialog.Root size={{base: 'xs', sm: 'md'}} placement="center" motionPreset="slide-in-bottom" >
       <Dialog.Trigger asChild >
         <Button
           bg="system.light_dark"
@@ -76,12 +77,12 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
       <Portal >
         <Dialog.Backdrop>
           <Dialog.Positioner>
-            <Dialog.Content  padding={5}>
+            <Dialog.Content width={{base: 300, sm: 500}}>
               <Dialog.Header>
                 <Dialog.Title>Adicionar nova fatura</Dialog.Title>
               </Dialog.Header>
 
-              <Dialog.Body>
+              <Dialog.Body marginTop={-5}>
                 <Stack gap="4">
                   <Box>
                     <Form
@@ -133,7 +134,7 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
                         placeholder="Data de vencimento"
                       ></Input>
 
-                      <Field.Root>
+                      <Field.Root  borderRadius="md">
                         <Checkbox.Root
                           display="flex"
                           justifyContent="flex-start"
@@ -151,7 +152,7 @@ export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
                         >
                           <Checkbox.HiddenInput />
                           <Checkbox.Control />
-                          <Checkbox.Label>Está pago</Checkbox.Label>
+                          <Checkbox.Label padding={1} borderRadius={50}>Está pago?</Checkbox.Label>
                         </Checkbox.Root>
                       </Field.Root>
 
