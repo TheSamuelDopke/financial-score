@@ -11,8 +11,8 @@ export const useLastYearTransactionsList = (entityId: number) => {
 
 
   const transactions = useLiveQuery(async () => {
-    return await db.transactions.where('[idEntity+created]').between([entityId, aYearAgo.toISOString()], [entityId, now.toISOString()]).toArray();
-  })
+    return await db.transactions.where('[idEntity+created]').between([entityId, aYearAgo.toISOString()], [entityId, "9999-12-31"]).toArray();
+  }, [entityId])
 
   return transactions;
 

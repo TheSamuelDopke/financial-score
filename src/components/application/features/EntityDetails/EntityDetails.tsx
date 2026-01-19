@@ -21,9 +21,8 @@ export interface EntityDetailsProps {
 }
 
 export function EntityDetails({ entityId }: EntityDetailsProps) {
+  const normalizedEntityId = Number(entityId);
 
-  const normalizedEntityId = Number(entityId)
-  
   const [error, setError] = useState<string | null>(null);
   const entity = useLiveQuery(async () => {
     try {
@@ -44,8 +43,8 @@ export function EntityDetails({ entityId }: EntityDetailsProps) {
 
   if (!entity) return;
 
-  if(Number.isNaN(normalizedEntityId)){
-    return <NotFound />
+  if (Number.isNaN(normalizedEntityId)) {
+    return <NotFound />;
   }
   // const toggleRegisterForm = () => {
   //   setShowRegister((prev) => !prev);
@@ -108,16 +107,21 @@ export function EntityDetails({ entityId }: EntityDetailsProps) {
             display="flex"
             justifyContent="space-between"
             alignItems="center"
+            margin="-10px -0"
+            padding="0"
           >
             <Box>
               {entity.created && (
                 <Text as="span" fontSize="baseXsRestSm">
+                  Registrado em:{" "}
                   {dateFormatter.format(new Date(entity.created))}
                 </Text>
               )}
             </Box>
             <Box>
-              <TransactionsRegister entityId={normalizedEntityId}></TransactionsRegister>
+              <TransactionsRegister
+                entityId={normalizedEntityId}
+              ></TransactionsRegister>
             </Box>
           </Box>
         </Box>

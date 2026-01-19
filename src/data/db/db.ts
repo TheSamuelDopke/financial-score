@@ -13,15 +13,10 @@ class FinanceDB extends Dexie {
     super(name);
     this.version(1).stores({
       entities: "++id, name, cpfCnpj, [type+cpfCnpj]",
-      transactions: "++id, idEntity, dueDate, status",
-      invoices: "++id, idTransaction, payDate",
-    });
-
-    this.version(2).stores({
-      entities: "++id, name, cpfCnpj, [type+cpfCnpj]",
       transactions: "++id, idEntity, dueDate, status, [idEntity+created]",
       invoices: "++id, idTransaction, payDate",
     });
+
   }
 }
 
