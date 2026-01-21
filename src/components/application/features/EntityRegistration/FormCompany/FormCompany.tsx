@@ -86,7 +86,7 @@ export const FormCompany = () => {
         value={cnpjValue}
         onChange={handleInputChange}
       ></Input>
-      <Button type="submit" loading={isSubmitting} w="100%">
+      <Button type="submit" loading={isSubmitting} w="100%" bg="system.primary" color="white" _hover={{color: "system.light_dark"}} p={6}>
         Registrar Empresa
       </Button>
     </Form>

@@ -15,6 +15,9 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { TransactionSummary } from "./Components/TransactionsSummary";
 import { TransactionsList } from "./Components/TransactionsList";
 import { TransactionsRegister } from "./Components/TransactionsRegister";
+import { Link } from "../../shared/Link/Link";
+import { Button } from "../../shared/Button/Button";
+import { IoChevronBack } from "react-icons/io5";
 
 export interface EntityDetailsProps {
   entityId: string;
@@ -63,6 +66,37 @@ export function EntityDetails({ entityId }: EntityDetailsProps) {
         width={{ base: "100%", sm: "95%" }}
       >
         <Box bg="system.primary" padding={5}>
+          <Box display="flex" mb={3} justifyContent="space-between">
+            <Link href="/" _hover={{ color: "system.primary" }}>
+              <Button
+                // h={{ base: "9", md: "15", lg: "15", xl: "15" }}
+                w="auto"
+                bg="system.light_dark"
+                size={{ base: "xs", sm: "sm" }}
+                padding="0px 10px"
+                _hover={{ bg: "system.dark" }}
+                // size={{ base: "xs", sm: "lg" }}
+              >
+                <IoChevronBack></IoChevronBack>Voltar
+              </Button>
+            </Link>
+            <HStack bg="system.light_dark" padding="0px 10px" borderRadius={5}>
+              <Icon
+                size={"sm"}
+                as={RiskIcon}
+                color={color}
+                stroke={color}
+              ></Icon>
+              <Text
+                textAlign="right"
+                fontSize="baseXsRestSm"
+                color={color}
+                whiteSpace="nowrap"
+              >
+                Risco {entity.riskLevel}
+              </Text>
+            </HStack>
+          </Box>
           <Box
             display="flex"
             alignItems="center"
@@ -79,22 +113,6 @@ export function EntityDetails({ entityId }: EntityDetailsProps) {
               </Text>
               <Text fontSize="baseMdRestXl">
                 {entity.type === "Person" ? "Pessoa Física" : "Empresa"}
-              </Text>
-            </HStack>
-            <HStack bg="system.dark" padding={1} borderRadius={5}>
-              <Icon
-                size={"sm"}
-                as={RiskIcon}
-                color={color}
-                stroke={color}
-              ></Icon>
-              <Text
-                textAlign="right"
-                fontSize="baseXsRestSm"
-                color={color}
-                whiteSpace="nowrap"
-              >
-                Risco {entity.riskLevel}
               </Text>
             </HStack>
           </Box>

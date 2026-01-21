@@ -22,14 +22,16 @@ export const GeneralFormEntities = () => {
       <Box display="flex" mb={4}>
         <Link href="/">
           <Button
+            bg="system.primary"
+            color="white"
             h={{ base: "10", md: "15", lg: "15", xl: "15" }}
-            w="auto"
             size={{ base: "xs", md: "sm", lg: "sm", xl: "sm" }}
-            padding="0px px"
+            padding="0px 10px"                
+            _hover={{ color: "system.light_dark" }}
           >
             <IoChevronBack></IoChevronBack>Voltar
           </Button>
-        </Link>{" "}
+        </Link>
       </Box>
       <Text textAlign="left">
         Cadastro de {typeActive === "person" ? "Pessoa" : "Empresa"}:

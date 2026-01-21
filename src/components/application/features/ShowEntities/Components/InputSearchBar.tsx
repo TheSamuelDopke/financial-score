@@ -79,8 +79,9 @@ export const InputSearchBar = ({
             boxShadow: "lg",
           }}
           {...register("type", {
+            
             onChange: () => setValue("query", ""),
-          })}
+          })} 
           borderRightRadius="0"
           m={0}
           marginRight="1px"
@@ -96,7 +97,6 @@ export const InputSearchBar = ({
           cursor="pointer"
 
         >
-          {" "}
           <option
             style={{ textAlign: "left", backgroundColor: "#252525" }}
             value="name"

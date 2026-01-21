@@ -30,7 +30,7 @@ export const TransactionsList = ({ entityId }: { entityId: number }) => {
         return (
           <Box
             key={transaction.id}
-            p="20px 50px"
+            p="20px 20px"
             m="0px 0px 30px 0px"
             bg="system.dark"
             borderRadius="md"
@@ -40,8 +40,8 @@ export const TransactionsList = ({ entityId }: { entityId: number }) => {
             flexDirection="column"
           >
             <Box display='flex' justifyContent='space-between'>
-                <Text color={meta.color}>{transaction.description}</Text>            
-                <HStack color={meta.color}><Icon size={18}></Icon>{status}</HStack>
+                <Text color={meta.color} >{transaction.description}</Text>            
+                <HStack color={meta.color} fontSize='baseSmRestMd'><Icon></Icon>{status}</HStack>
             </Box>
 
             <Text fontSize="baseXsRestSm">

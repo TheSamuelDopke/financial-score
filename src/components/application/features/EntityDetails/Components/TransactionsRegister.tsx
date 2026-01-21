@@ -15,7 +15,7 @@ import { Controller, useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { TransactionService } from "@/data/services/transactionService";
 import { toaster } from "@/components/ui/toaster";
-import { db } from "@/data/db/db";
+
 
 export const TransactionsRegister = ({ entityId }: { entityId: number }) => {
   const {
