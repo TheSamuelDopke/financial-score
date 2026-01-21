@@ -10,7 +10,7 @@ export const useEntities = (
   page: number
 ) => {
   const PAGE_SIZE = 10;
-  // const MAX_ENTITIES = 30;
+
 
   return useLiveQuery(async (): Promise<Entities[]> => {
     //Padronizamos a consulta para resolver a reclamação do TS com relação a tipos indefinidos e valores nulos, fazendo com que query e type sempre existam, e que o sistema não trave caso o usuário consiga mandar letras nas queries de cpf/cnpj

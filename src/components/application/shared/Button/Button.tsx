@@ -13,6 +13,7 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, ref) => {
     loading,
     disabled,
     children,
+    bg,
     ...rest
   } = props
 
@@ -22,9 +23,9 @@ const Button = forwardRef<HTMLButtonElement, Props>((props, ref) => {
     ref={ref}
     type={type}
     disabled={disabled || loading}
-      color="white"
-      bg="system.primary"
-      _hover={{ bg: "", color: "black"}}
+      color="system.primary"
+      bg={bg}
+      _hover={{ color: "system.primary"}}
       {...rest}
     >
       {children}
