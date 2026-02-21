@@ -8,8 +8,9 @@ import { TransactionService } from "../services/transactionService";
 
 export const seedDatabase = async () => {
   try{
-  const count = await db.entities.count()
-  if (count > 0) return
+  const transactionsCount = await db.transactions.count()
+  // const count = await db.entities.count()
+  if (transactionsCount > 10) return
 
   const validatedEntities = entitiesFromJson.map(item => EntitySchema.parse(item))
 
