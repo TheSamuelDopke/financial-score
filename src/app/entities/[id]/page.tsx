@@ -14,8 +14,6 @@ export default async function EntityDetailPage({ params }: PropsParams) {
   if (!id) {
     return <Text>ID inválido</Text>;
   }
-    // const idNumber = Number({id})
-  
 
   return <EntityDetails entityId={id} />;
 }

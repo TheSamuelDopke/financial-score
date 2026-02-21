@@ -59,11 +59,14 @@ export const TransactionsList = ({ entityId }: { entityId: number }) => {
 
             <Text as="span" fontSize="baseXsRestSm">
               Vencimento: {formatDateBR(transaction.dueDate)}
+              {transaction.payDate && (
+                <Text as="span" fontSize="baseXsRestSm"> | Data do pagamento: {formatDateBR(transaction.payDate)}</Text>
+              )}
             </Text>
 
-            {transaction.payDate && (
+            {/* {transaction.payDate && (
               <Text fontSize="baseXsRestSm">Data do pagamento: {formatDateBR(transaction.payDate)}</Text>
-            )}
+            )} */}
 
             {transaction.created && (
               <Text as="span" fontSize="baseXsRestSm">

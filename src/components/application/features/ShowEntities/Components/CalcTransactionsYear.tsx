@@ -8,15 +8,15 @@ export const CalcTransactionsYear = ({ entityId }: { entityId: number }) => {
 
   const transactions = useLiveQuery(async () => {
 
-    const now = new Date();
+    const now = new Date().toISOString();
     const aYearAgo = new Date();
     aYearAgo.setFullYear(aYearAgo.getFullYear() - 1);
 
     return await db.transactions
-      .where("idEntity")
+      .where("[idEntity+created]")
       .between(
         [entityId, aYearAgo.toISOString()],
-        [entityId, now.toISOString()],
+        [entityId, now],
         true,
         true
       )

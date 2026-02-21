@@ -1,4 +1,4 @@
-
+import { calculateRisk } from "./calculateRisk";
 import { db } from "../db/db";
 import {
   Transactions,
@@ -14,6 +14,7 @@ export const TransactionService = {
     const payDateISO = validatedData.payDate ? new Date(validatedData.payDate).toISOString() : undefined
 
 
+
     const transactionToSave: Transactions = {
       ...validatedData,
       created: new Date().toISOString(),
@@ -21,6 +22,11 @@ export const TransactionService = {
       dueDate: dueDateISO
     };
 
-    return await db.transactions.add(transactionToSave);
+    await db.transaction('rw', db.transactions, db.entities, async () => {
+      await db.transactions.add(transactionToSave)
+      await calculateRisk(validatedData.idEntity)
+    })
+
+
   },
 };

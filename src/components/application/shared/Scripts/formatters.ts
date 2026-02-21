@@ -29,6 +29,10 @@ export function formatDateBR(date: string) {
   return `${d}/${m}/${y}`
 }
 
+export function dateToNumber(date: Date){
+  return date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate()
+}
+
 export const toISODate = () =>{
   return new Date().toISOString().split("T")[0]
 }
