@@ -1,17 +1,29 @@
+"use client"
 import { db} from "@/data/db/db"
-import dataFromJson from "./data.json"
+import entitiesFromJson from "./entitiesData.json"
+import transactionsFromJson from "./transactionsData.json"
 import { EntitySchema } from "../models/entities";
+import { calculateRisk } from "../services/calculateRisk";
+import { TransactionService } from "../services/transactionService";
 
 export const seedDatabase = async () => {
-  // 1. Pega todos os registros que já existem
   try{
   const count = await db.entities.count()
   if (count > 0) return
 
-  const validatedItems = dataFromJson.map(item => EntitySchema.parse(item))
+  const validatedEntities = entitiesFromJson.map(item => EntitySchema.parse(item))
 
-  await db.transaction('rw', db.entities, async () => {
-    await db.entities.bulkAdd(validatedItems)
+  await transactionsFromJson.map(item => TransactionService.create(item))
+
+  await db.transaction('rw', db.transactions, db.entities, async () => {
+    const ids = await db.entities.bulkAdd(validatedEntities, {allKeys: true})
+
+    for(const id of ids){
+      await calculateRisk(id as number)
+    }
+
+
+
   })
 
   console.log("Populado com sucesso!")

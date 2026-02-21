@@ -39,19 +39,7 @@ export function EntityDetails({ entityId }: EntityDetailsProps) {
     }
   }, [normalizedEntityId]);
 
-  if (error) return <NotFound></NotFound>;
-
-  if (entity === undefined)
-    return <Text textAlign="center">Carregando...</Text>;
-
-  if (!entity) return;
-
-  if (Number.isNaN(normalizedEntityId)) {
-    return <NotFound />;
-  }
-  // const toggleRegisterForm = () => {
-  //   setShowRegister((prev) => !prev);
-  // };
+  if (error || !entity || Number.isNaN(normalizedEntityId) || entity == undefined) return <NotFound></NotFound>;
 
   const { icon: RiskIcon, color } = RISK_META[entity.riskLevel];
 

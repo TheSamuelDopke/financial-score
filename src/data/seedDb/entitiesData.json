@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "name": "Star Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "24553075880885",
+    "cpfCnpjFormatted": "24.553.075/8808-85",
+    "created": "2021-07-06T19:19:27Z"
+  },
+  {
+    "id": 2,
+    "name": "Carlos Ferreira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "81983236195",
+    "cpfCnpjFormatted": "819.832.361-95",
+    "created": "2021-03-11T01:17:07Z"
+  },
+  {
+    "id": 3,
+    "name": "Epsilon Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "59988656227829",
+    "cpfCnpjFormatted": "59.988.656/2278-29",
+    "created": "2024-12-21T09:39:19Z"
+  },
+  {
+    "id": 4,
+    "name": "Premium Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "98038569207160",
+    "cpfCnpjFormatted": "98.038.569/2071-60",
+    "created": "2024-06-28T07:46:52Z"
+  },
+  {
+    "id": 5,
+    "name": "Beatriz Almeida",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "82629241009",
+    "cpfCnpjFormatted": "826.292.410-09",
+    "created": "2022-06-02T22:32:23Z"
+  },
+  {
+    "id": 6,
+    "name": "Carlos Rodrigues",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "97343384635",
+    "cpfCnpjFormatted": "973.433.846-35",
+    "created": "2021-09-01T22:12:47Z"
+  },
+  {
+    "id": 7,
+    "name": "Express Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "82514030302780",
+    "cpfCnpjFormatted": "82.514.030/3027-80",
+    "created": "2024-11-06T05:35:13Z"
+  },
+  {
+    "id": 8,
+    "name": "Felipe Rodrigues",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "27909688962",
+    "cpfCnpjFormatted": "279.096.889-62",
+    "created": "2023-05-29T10:30:36Z"
+  },
+  {
+    "id": 9,
+    "name": "Top Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "73535845685905",
+    "cpfCnpjFormatted": "73.535.845/6859-05",
+    "created": "2020-05-01T14:18:31Z"
+  },
+  {
+    "id": 10,
+    "name": "Omega Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "59658881640834",
+    "cpfCnpjFormatted": "59.658.881/6408-34",
+    "created": "2022-05-10T08:00:25Z"
+  },
+  {
+    "id": 11,
+    "name": "Olivia Costa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "20620898135",
+    "cpfCnpjFormatted": "206.208.981-35",
+    "created": "2022-09-22T03:12:42Z"
+  },
+  {
+    "id": 12,
+    "name": "Master Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "84704387920418",
+    "cpfCnpjFormatted": "84.704.387/9204-18",
+    "created": "2024-03-18T08:44:36Z"
+  },
+  {
+    "id": 13,
+    "name": "Isabela Rocha",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "57538636986",
+    "cpfCnpjFormatted": "575.386.369-86",
+    "created": "2022-11-05T16:14:53Z"
+  },
+  {
+    "id": 14,
+    "name": "Pro Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "22603817614926",
+    "cpfCnpjFormatted": "22.603.817/6149-26",
+    "created": "2024-02-05T13:51:08Z"
+  },
+  {
+    "id": 15,
+    "name": "Isabela Castro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "95433262901",
+    "cpfCnpjFormatted": "954.332.629-01",
+    "created": "2020-01-04T10:36:16Z"
+  },
+  {
+    "id": 16,
+    "name": "Gabriel Moreira",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "81590910605",
+    "cpfCnpjFormatted": "815.909.106-05",
+    "created": "2020-06-08T06:42:42Z"
+  },
+  {
+    "id": 17,
+    "name": "Beta Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "43609369010503",
+    "cpfCnpjFormatted": "43.609.369/0105-03",
+    "created": "2024-12-02T14:26:31Z"
+  },
+  {
+    "id": 18,
+    "name": "Ana Oliveira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "96141101208",
+    "cpfCnpjFormatted": "961.411.012-08",
+    "created": "2020-09-01T04:27:31Z"
+  },
+  {
+    "id": 19,
+    "name": "Nacional Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "17201359041152",
+    "cpfCnpjFormatted": "17.201.359/0411-52",
+    "created": "2023-11-15T10:06:16Z"
+  },
+  {
+    "id": 20,
+    "name": "Rafaela Moreira",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "00837256798",
+    "cpfCnpjFormatted": "008.372.567-98",
+    "created": "2024-05-04T06:55:02Z"
+  },
+  {
+    "id": 21,
+    "name": "Sofia Santos",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "31696977495",
+    "cpfCnpjFormatted": "316.969.774-95",
+    "created": "2021-12-17T21:17:45Z"
+  },
+  {
+    "id": 22,
+    "name": "Felipe Carvalho",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "50541530550",
+    "cpfCnpjFormatted": "505.415.305-50",
+    "created": "2021-04-08T01:20:51Z"
+  },
+  {
+    "id": 23,
+    "name": "Gamma Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "22791494435346",
+    "cpfCnpjFormatted": "22.791.494/4353-46",
+    "created": "2023-04-20T21:32:16Z"
+  },
+  {
+    "id": 24,
+    "name": "Valentina Santos",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "80562165614",
+    "cpfCnpjFormatted": "805.621.656-14",
+    "created": "2024-02-12T02:35:16Z"
+  },
+  {
+    "id": 25,
+    "name": "Max Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "68410294170832",
+    "cpfCnpjFormatted": "68.410.294/1708-32",
+    "created": "2020-09-30T01:33:26Z"
+  },
+  {
+    "id": 26,
+    "name": "Alpha Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "16587190692256",
+    "cpfCnpjFormatted": "16.587.190/6922-56",
+    "created": "2021-08-03T13:41:34Z"
+  },
+  {
+    "id": 27,
+    "name": "Master Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "12086441142195",
+    "cpfCnpjFormatted": "12.086.441/1421-95",
+    "created": "2023-08-14T09:05:04Z"
+  },
+  {
+    "id": 28,
+    "name": "Larissa Pinto",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "41516675479",
+    "cpfCnpjFormatted": "415.166.754-79",
+    "created": "2022-01-24T07:57:10Z"
+  },
+  {
+    "id": 29,
+    "name": "Epsilon Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "50366100873965",
+    "cpfCnpjFormatted": "50.366.100/8739-65",
+    "created": "2023-07-05T05:23:01Z"
+  },
+  {
+    "id": 30,
+    "name": "Mega Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "58109503571179",
+    "cpfCnpjFormatted": "58.109.503/5711-79",
+    "created": "2024-12-06T11:49:20Z"
+  },
+  {
+    "id": 31,
+    "name": "Bruno Rocha",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "32561030571",
+    "cpfCnpjFormatted": "325.610.305-71",
+    "created": "2023-11-08T13:01:00Z"
+  },
+  {
+    "id": 32,
+    "name": "Bruno Santos",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "62280747413",
+    "cpfCnpjFormatted": "622.807.474-13",
+    "created": "2020-12-20T09:55:15Z"
+  },
+  {
+    "id": 33,
+    "name": "Thiago Barbosa",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "54336908737",
+    "cpfCnpjFormatted": "543.369.087-37",
+    "created": "2020-07-01T18:54:23Z"
+  },
+  {
+    "id": 34,
+    "name": "Gabriel Nascimento",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "63934853455",
+    "cpfCnpjFormatted": "639.348.534-55",
+    "created": "2021-07-29T15:12:40Z"
+  },
+  {
+    "id": 35,
+    "name": "Nacional Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "18373785758863",
+    "cpfCnpjFormatted": "18.373.785/7588-63",
+    "created": "2021-08-04T02:37:51Z"
+  },
+  {
+    "id": 36,
+    "name": "Julia Costa",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "92691655822",
+    "cpfCnpjFormatted": "926.916.558-22",
+    "created": "2022-02-21T20:47:40Z"
+  },
+  {
+    "id": 37,
+    "name": "Nova Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "21664078614910",
+    "cpfCnpjFormatted": "21.664.078/6149-10",
+    "created": "2023-07-03T03:32:00Z"
+  },
+  {
+    "id": 38,
+    "name": "Fernanda Mendes",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "57743397424",
+    "cpfCnpjFormatted": "577.433.974-24",
+    "created": "2022-12-04T11:33:25Z"
+  },
+  {
+    "id": 39,
+    "name": "Eduardo Rocha",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "02649971908",
+    "cpfCnpjFormatted": "026.499.719-08",
+    "created": "2022-09-13T18:28:26Z"
+  },
+  {
+    "id": 40,
+    "name": "Star Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "04028357088982",
+    "cpfCnpjFormatted": "04.028.357/0889-82",
+    "created": "2021-04-01T13:28:24Z"
+  },
+  {
+    "id": 41,
+    "name": "Rápido Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "99654078506104",
+    "cpfCnpjFormatted": "99.654.078/5061-04",
+    "created": "2022-08-03T00:26:50Z"
+  },
+  {
+    "id": 42,
+    "name": "William Barros",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "96167391319",
+    "cpfCnpjFormatted": "961.673.913-19",
+    "created": "2023-06-04T09:53:43Z"
+  },
+  {
+    "id": 43,
+    "name": "Roberto Campos",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "78624577578",
+    "cpfCnpjFormatted": "786.245.775-78",
+    "created": "2021-05-16T14:40:06Z"
+  },
+  {
+    "id": 44,
+    "name": "Bruno Lima",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "29001946879",
+    "cpfCnpjFormatted": "290.019.468-79",
+    "created": "2020-12-03T15:27:30Z"
+  },
+  {
+    "id": 45,
+    "name": "Nacional Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "42308474902777",
+    "cpfCnpjFormatted": "42.308.474/9027-77",
+    "created": "2020-07-17T11:24:00Z"
+  },
+  {
+    "id": 46,
+    "name": "Pedro Alves",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "07934926022",
+    "cpfCnpjFormatted": "079.349.260-22",
+    "created": "2020-11-18T05:49:15Z"
+  },
+  {
+    "id": 47,
+    "name": "Premium Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "24369758207422",
+    "cpfCnpjFormatted": "24.369.758/2074-22",
+    "created": "2021-11-30T10:27:36Z"
+  },
+  {
+    "id": 48,
+    "name": "Camila Freitas",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "47620012958",
+    "cpfCnpjFormatted": "476.200.129-58",
+    "created": "2022-08-26T20:32:13Z"
+  },
+  {
+    "id": 49,
+    "name": "Isabela Almeida",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "27781028414",
+    "cpfCnpjFormatted": "277.810.284-14",
+    "created": "2023-06-28T18:34:20Z"
+  },
+  {
+    "id": 50,
+    "name": "Roberto Araujo",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "53380558648",
+    "cpfCnpjFormatted": "533.805.586-48",
+    "created": "2024-10-12T05:01:01Z"
+  },
+  {
+    "id": 51,
+    "name": "Elite Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "81389556624168",
+    "cpfCnpjFormatted": "81.389.556/6241-68",
+    "created": "2023-08-31T01:51:11Z"
+  },
+  {
+    "id": 52,
+    "name": "Camila Monteiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "02546002473",
+    "cpfCnpjFormatted": "025.460.024-73",
+    "created": "2020-06-21T01:48:30Z"
+  },
+  {
+    "id": 53,
+    "name": "Brasil Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "83054170979760",
+    "cpfCnpjFormatted": "83.054.170/9797-60",
+    "created": "2024-06-18T13:29:55Z"
+  },
+  {
+    "id": 54,
+    "name": "Alpha Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "49075761689000",
+    "cpfCnpjFormatted": "49.075.761/6890-00",
+    "created": "2023-12-05T00:41:46Z"
+  },
+  {
+    "id": 55,
+    "name": "Prime Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "15154525510602",
+    "cpfCnpjFormatted": "15.154.525/5106-02",
+    "created": "2020-07-15T04:24:36Z"
+  },
+  {
+    "id": 56,
+    "name": "Gabriel Barbosa",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "25051860141",
+    "cpfCnpjFormatted": "250.518.601-41",
+    "created": "2022-05-01T17:29:58Z"
+  },
+  {
+    "id": 57,
+    "name": "Valentina Carvalho",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "38895468384",
+    "cpfCnpjFormatted": "388.954.683-84",
+    "created": "2023-05-29T19:01:10Z"
+  },
+  {
+    "id": 58,
+    "name": "Pro Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "20986858237940",
+    "cpfCnpjFormatted": "20.986.858/2379-40",
+    "created": "2020-10-30T17:49:58Z"
+  },
+  {
+    "id": 59,
+    "name": "Epsilon Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "04515622619588",
+    "cpfCnpjFormatted": "04.515.622/6195-88",
+    "created": "2023-04-02T19:13:31Z"
+  },
+  {
+    "id": 60,
+    "name": "William Mendes",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "21834827027",
+    "cpfCnpjFormatted": "218.348.270-27",
+    "created": "2020-12-12T09:58:24Z"
+  },
+  {
+    "id": 61,
+    "name": "Camila Freitas",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "58367317645",
+    "cpfCnpjFormatted": "583.673.176-45",
+    "created": "2020-02-22T15:34:12Z"
+  },
+  {
+    "id": 62,
+    "name": "Omega Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "52465224989808",
+    "cpfCnpjFormatted": "52.465.224/9898-08",
+    "created": "2022-09-30T07:56:55Z"
+  },
+  {
+    "id": 63,
+    "name": "Max Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "37926707611795",
+    "cpfCnpjFormatted": "37.926.707/6117-95",
+    "created": "2020-06-26T23:08:16Z"
+  },
+  {
+    "id": 64,
+    "name": "Rápido Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "79196503817815",
+    "cpfCnpjFormatted": "79.196.503/8178-15",
+    "created": "2024-05-31T10:10:40Z"
+  },
+  {
+    "id": 65,
+    "name": "Eduardo Almeida",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "44105199137",
+    "cpfCnpjFormatted": "441.051.991-37",
+    "created": "2024-07-22T06:58:52Z"
+  },
+  {
+    "id": 66,
+    "name": "Plus Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "81164486356544",
+    "cpfCnpjFormatted": "81.164.486/3565-44",
+    "created": "2023-02-21T12:54:28Z"
+  },
+  {
+    "id": 67,
+    "name": "Ultra Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "73324688992140",
+    "cpfCnpjFormatted": "73.324.688/9921-40",
+    "created": "2021-02-01T21:15:21Z"
+  },
+  {
+    "id": 68,
+    "name": "Thiago Almeida",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "31985266121",
+    "cpfCnpjFormatted": "319.852.661-21",
+    "created": "2021-01-20T22:45:54Z"
+  },
+  {
+    "id": 69,
+    "name": "Gamma Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "94801097997317",
+    "cpfCnpjFormatted": "94.801.097/9973-17",
+    "created": "2024-09-21T11:58:18Z"
+  },
+  {
+    "id": 70,
+    "name": "Olivia Almeida",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "66502127096",
+    "cpfCnpjFormatted": "665.021.270-96",
+    "created": "2022-10-20T17:46:59Z"
+  },
+  {
+    "id": 71,
+    "name": "Top Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "81583786805389",
+    "cpfCnpjFormatted": "81.583.786/8053-89",
+    "created": "2022-01-16T01:17:10Z"
+  },
+  {
+    "id": 72,
+    "name": "Gabriel Cavalcanti",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "43122488426",
+    "cpfCnpjFormatted": "431.224.884-26",
+    "created": "2022-05-07T16:51:52Z"
+  },
+  {
+    "id": 73,
+    "name": "Gabriel Silva",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "11432169114",
+    "cpfCnpjFormatted": "114.321.691-14",
+    "created": "2021-09-27T23:14:02Z"
+  },
+  {
+    "id": 74,
+    "name": "Isabela Moreira",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "30285920103",
+    "cpfCnpjFormatted": "302.859.201-03",
+    "created": "2020-04-29T01:31:02Z"
+  },
+  {
+    "id": 75,
+    "name": "Nacional Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "58832940480153",
+    "cpfCnpjFormatted": "58.832.940/4801-53",
+    "created": "2024-07-19T07:41:05Z"
+  },
+  {
+    "id": 76,
+    "name": "Camila Rodrigues",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "69879190629",
+    "cpfCnpjFormatted": "698.791.906-29",
+    "created": "2020-07-08T00:28:42Z"
+  },
+  {
+    "id": 77,
+    "name": "Diana Mendes",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "33642765106",
+    "cpfCnpjFormatted": "336.427.651-06",
+    "created": "2021-05-22T05:36:31Z"
+  },
+  {
+    "id": 78,
+    "name": "Epsilon Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "21046688392361",
+    "cpfCnpjFormatted": "21.046.688/3923-61",
+    "created": "2023-06-11T00:02:27Z"
+  },
+  {
+    "id": 79,
+    "name": "Rodrigo Dias",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "56455025660",
+    "cpfCnpjFormatted": "564.550.256-60",
+    "created": "2021-05-31T00:22:04Z"
+  },
+  {
+    "id": 80,
+    "name": "Global Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "12369101574047",
+    "cpfCnpjFormatted": "12.369.101/5740-47",
+    "created": "2024-02-15T23:20:20Z"
+  },
+  {
+    "id": 81,
+    "name": "Top Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "62651158215460",
+    "cpfCnpjFormatted": "62.651.158/2154-60",
+    "created": "2024-05-21T00:56:44Z"
+  },
+  {
+    "id": 82,
+    "name": "Lucas Pinto",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "16333833185",
+    "cpfCnpjFormatted": "163.338.331-85",
+    "created": "2021-06-22T12:21:54Z"
+  },
+  {
+    "id": 83,
+    "name": "Valentina Martins",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "16443814436",
+    "cpfCnpjFormatted": "164.438.144-36",
+    "created": "2021-07-06T10:13:17Z"
+  },
+  {
+    "id": 84,
+    "name": "Gamma Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "26134341079653",
+    "cpfCnpjFormatted": "26.134.341/0796-53",
+    "created": "2021-06-29T00:50:31Z"
+  },
+  {
+    "id": 85,
+    "name": "Gustavo Ferreira",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "15205407018",
+    "cpfCnpjFormatted": "152.054.070-18",
+    "created": "2023-11-29T13:07:36Z"
+  },
+  {
+    "id": 86,
+    "name": "Max Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "30744802702287",
+    "cpfCnpjFormatted": "30.744.802/7022-87",
+    "created": "2023-04-01T20:45:49Z"
+  },
+  {
+    "id": 87,
+    "name": "Max Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "04319280073978",
+    "cpfCnpjFormatted": "04.319.280/0739-78",
+    "created": "2022-06-16T06:42:14Z"
+  },
+  {
+    "id": 88,
+    "name": "Igor Ribeiro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "78991605532",
+    "cpfCnpjFormatted": "789.916.055-32",
+    "created": "2022-08-05T04:38:53Z"
+  },
+  {
+    "id": 89,
+    "name": "Elite Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "17746743341959",
+    "cpfCnpjFormatted": "17.746.743/3419-59",
+    "created": "2024-11-14T20:28:37Z"
+  },
+  {
+    "id": 90,
+    "name": "Camila Rocha",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "37857253960",
+    "cpfCnpjFormatted": "378.572.539-60",
+    "created": "2024-10-05T12:42:53Z"
+  },
+  {
+    "id": 91,
+    "name": "Gabriel Pinto",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "34260856073",
+    "cpfCnpjFormatted": "342.608.560-73",
+    "created": "2024-10-12T21:16:20Z"
+  },
+  {
+    "id": 92,
+    "name": "Felipe Moreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "22433316162",
+    "cpfCnpjFormatted": "224.333.161-62",
+    "created": "2020-05-27T13:28:11Z"
+  },
+  {
+    "id": 93,
+    "name": "Epsilon Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "31744414379891",
+    "cpfCnpjFormatted": "31.744.414/3798-91",
+    "created": "2021-02-18T15:18:31Z"
+  },
+  {
+    "id": 94,
+    "name": "Prime Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "40814058809260",
+    "cpfCnpjFormatted": "40.814.058/8092-60",
+    "created": "2023-06-16T22:09:49Z"
+  },
+  {
+    "id": 95,
+    "name": "Gustavo Martins",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "56364694110",
+    "cpfCnpjFormatted": "563.646.941-10",
+    "created": "2021-01-10T14:38:12Z"
+  },
+  {
+    "id": 96,
+    "name": "Fernanda Rocha",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "07948572481",
+    "cpfCnpjFormatted": "079.485.724-81",
+    "created": "2022-01-03T19:03:56Z"
+  },
+  {
+    "id": 97,
+    "name": "Olivia Martins",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "15300130206",
+    "cpfCnpjFormatted": "153.001.302-06",
+    "created": "2024-03-13T04:45:32Z"
+  },
+  {
+    "id": 98,
+    "name": "Elite Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "31637664582547",
+    "cpfCnpjFormatted": "31.637.664/5825-47",
+    "created": "2022-12-27T11:21:10Z"
+  },
+  {
+    "id": 99,
+    "name": "Helena Freitas",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "67111366166",
+    "cpfCnpjFormatted": "671.113.661-66",
+    "created": "2023-02-23T22:52:14Z"
+  },
+  {
+    "id": 100,
+    "name": "Alpha Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "12024267872715",
+    "cpfCnpjFormatted": "12.024.267/8727-15",
+    "created": "2020-06-21T11:29:16Z"
+  },
+  {
+    "id": 101,
+    "name": "Global Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "55712372310085",
+    "cpfCnpjFormatted": "55.712.372/3100-85",
+    "created": "2023-01-04T01:26:53Z"
+  },
+  {
+    "id": 102,
+    "name": "Julia Ribeiro",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "77758376240",
+    "cpfCnpjFormatted": "777.583.762-40",
+    "created": "2024-01-22T12:14:23Z"
+  },
+  {
+    "id": 103,
+    "name": "Elite Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "07512544849470",
+    "cpfCnpjFormatted": "07.512.544/8494-70",
+    "created": "2021-04-14T08:05:43Z"
+  },
+  {
+    "id": 104,
+    "name": "Elite Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "75245923736206",
+    "cpfCnpjFormatted": "75.245.923/7362-06",
+    "created": "2024-11-12T11:31:03Z"
+  },
+  {
+    "id": 105,
+    "name": "Nacional Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "39412343290008",
+    "cpfCnpjFormatted": "39.412.343/2900-08",
+    "created": "2021-07-29T05:22:25Z"
+  },
+  {
+    "id": 106,
+    "name": "Elite Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "05401783414880",
+    "cpfCnpjFormatted": "05.401.783/4148-80",
+    "created": "2024-07-16T10:50:23Z"
+  },
+  {
+    "id": 107,
+    "name": "Top Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "04578079928196",
+    "cpfCnpjFormatted": "04.578.079/9281-96",
+    "created": "2024-07-21T12:49:05Z"
+  },
+  {
+    "id": 108,
+    "name": "Ana Rocha",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "11864114576",
+    "cpfCnpjFormatted": "118.641.145-76",
+    "created": "2020-02-07T21:51:13Z"
+  },
+  {
+    "id": 109,
+    "name": "Plus Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "73237145328740",
+    "cpfCnpjFormatted": "73.237.145/3287-40",
+    "created": "2020-09-24T10:53:06Z"
+  },
+  {
+    "id": 110,
+    "name": "Omega Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "58647591752035",
+    "cpfCnpjFormatted": "58.647.591/7520-35",
+    "created": "2020-08-23T18:36:33Z"
+  },
+  {
+    "id": 111,
+    "name": "Brasil Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "58080330495920",
+    "cpfCnpjFormatted": "58.080.330/4959-20",
+    "created": "2022-04-02T05:33:24Z"
+  },
+  {
+    "id": 112,
+    "name": "Omega Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "50440303218824",
+    "cpfCnpjFormatted": "50.440.303/2188-24",
+    "created": "2021-10-08T23:22:10Z"
+  },
+  {
+    "id": 113,
+    "name": "Master Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "10410077880568",
+    "cpfCnpjFormatted": "10.410.077/8805-68",
+    "created": "2021-08-10T13:47:33Z"
+  },
+  {
+    "id": 114,
+    "name": "Larissa Moreira",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "17726542640",
+    "cpfCnpjFormatted": "177.265.426-40",
+    "created": "2023-01-12T20:29:30Z"
+  },
+  {
+    "id": 115,
+    "name": "Gamma Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "10025950609293",
+    "cpfCnpjFormatted": "10.025.950/6092-93",
+    "created": "2021-08-20T05:08:52Z"
+  },
+  {
+    "id": 116,
+    "name": "Thiago Rocha",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "83472527935",
+    "cpfCnpjFormatted": "834.725.279-35",
+    "created": "2023-05-29T21:30:31Z"
+  },
+  {
+    "id": 117,
+    "name": "Bruno Pinto",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "90727320491",
+    "cpfCnpjFormatted": "907.273.204-91",
+    "created": "2021-06-09T15:48:09Z"
+  },
+  {
+    "id": 118,
+    "name": "William Souza",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "71853674842",
+    "cpfCnpjFormatted": "718.536.748-42",
+    "created": "2024-02-15T01:13:28Z"
+  },
+  {
+    "id": 119,
+    "name": "Ultra Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "83578757931732",
+    "cpfCnpjFormatted": "83.578.757/9317-32",
+    "created": "2024-06-25T12:01:59Z"
+  },
+  {
+    "id": 120,
+    "name": "Roberto Costa",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "14632405973",
+    "cpfCnpjFormatted": "146.324.059-73",
+    "created": "2022-04-08T03:33:55Z"
+  },
+  {
+    "id": 121,
+    "name": "Nova Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "89153009899297",
+    "cpfCnpjFormatted": "89.153.009/8992-97",
+    "created": "2021-07-26T07:51:57Z"
+  },
+  {
+    "id": 122,
+    "name": "Super Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "54072253658634",
+    "cpfCnpjFormatted": "54.072.253/6586-34",
+    "created": "2021-10-22T04:45:01Z"
+  },
+  {
+    "id": 123,
+    "name": "Maria Barros",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "60153836660",
+    "cpfCnpjFormatted": "601.538.366-60",
+    "created": "2023-08-08T11:50:19Z"
+  },
+  {
+    "id": 124,
+    "name": "Rodrigo Pinto",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "71282966383",
+    "cpfCnpjFormatted": "712.829.663-83",
+    "created": "2023-03-26T13:36:41Z"
+  },
+  {
+    "id": 125,
+    "name": "Star Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "01382100938158",
+    "cpfCnpjFormatted": "01.382.100/9381-58",
+    "created": "2022-04-11T17:45:15Z"
+  },
+  {
+    "id": 126,
+    "name": "Ultra Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "96653168103306",
+    "cpfCnpjFormatted": "96.653.168/1033-06",
+    "created": "2021-07-12T16:42:03Z"
+  },
+  {
+    "id": 127,
+    "name": "Plus Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "80127147679960",
+    "cpfCnpjFormatted": "80.127.147/6799-60",
+    "created": "2021-10-15T06:32:10Z"
+  },
+  {
+    "id": 128,
+    "name": "Express Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "53410808688040",
+    "cpfCnpjFormatted": "53.410.808/6880-40",
+    "created": "2021-08-06T17:46:14Z"
+  },
+  {
+    "id": 129,
+    "name": "Alpha Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "68264721284582",
+    "cpfCnpjFormatted": "68.264.721/2845-82",
+    "created": "2021-11-19T13:47:00Z"
+  },
+  {
+    "id": 130,
+    "name": "Global Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "61497034935844",
+    "cpfCnpjFormatted": "61.497.034/9358-44",
+    "created": "2021-12-20T14:33:24Z"
+  },
+  {
+    "id": 131,
+    "name": "Camila Cavalcanti",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "61336963700",
+    "cpfCnpjFormatted": "613.369.637-00",
+    "created": "2023-05-04T01:50:19Z"
+  },
+  {
+    "id": 132,
+    "name": "Super Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "02081406181109",
+    "cpfCnpjFormatted": "02.081.406/1811-09",
+    "created": "2023-03-10T06:43:26Z"
+  },
+  {
+    "id": 133,
+    "name": "Gamma Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "16039288659735",
+    "cpfCnpjFormatted": "16.039.288/6597-35",
+    "created": "2021-08-07T06:42:00Z"
+  },
+  {
+    "id": 134,
+    "name": "Gamma Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "40473827663403",
+    "cpfCnpjFormatted": "40.473.827/6634-03",
+    "created": "2024-04-15T22:36:36Z"
+  },
+  {
+    "id": 135,
+    "name": "Diego Castro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "64233762209",
+    "cpfCnpjFormatted": "642.337.622-09",
+    "created": "2020-06-01T22:37:33Z"
+  },
+  {
+    "id": 136,
+    "name": "Prime Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "92824160113377",
+    "cpfCnpjFormatted": "92.824.160/1133-77",
+    "created": "2020-01-26T09:30:20Z"
+  },
+  {
+    "id": 137,
+    "name": "Valentina Dias",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "37446092270",
+    "cpfCnpjFormatted": "374.460.922-70",
+    "created": "2023-06-09T23:59:47Z"
+  },
+  {
+    "id": 138,
+    "name": "Nova Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "83601016797492",
+    "cpfCnpjFormatted": "83.601.016/7974-92",
+    "created": "2023-10-21T23:19:10Z"
+  },
+  {
+    "id": 139,
+    "name": "Eduardo Carvalho",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "11077601271",
+    "cpfCnpjFormatted": "110.776.012-71",
+    "created": "2020-08-08T13:57:39Z"
+  },
+  {
+    "id": 140,
+    "name": "Max Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "41855793122211",
+    "cpfCnpjFormatted": "41.855.793/1222-11",
+    "created": "2021-08-12T03:23:51Z"
+  },
+  {
+    "id": 141,
+    "name": "Rodrigo Santos",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "41171221690",
+    "cpfCnpjFormatted": "411.712.216-90",
+    "created": "2020-08-22T17:11:43Z"
+  },
+  {
+    "id": 142,
+    "name": "Gabriel Souza",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "58645499169",
+    "cpfCnpjFormatted": "586.454.991-69",
+    "created": "2024-09-30T22:23:16Z"
+  },
+  {
+    "id": 143,
+    "name": "Gustavo Rocha",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "26534908891",
+    "cpfCnpjFormatted": "265.349.088-91",
+    "created": "2020-12-20T04:33:28Z"
+  },
+  {
+    "id": 144,
+    "name": "Mega Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "98710813755480",
+    "cpfCnpjFormatted": "98.710.813/7554-80",
+    "created": "2022-12-10T00:01:40Z"
+  },
+  {
+    "id": 145,
+    "name": "Olivia Silva",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "61073178641",
+    "cpfCnpjFormatted": "610.731.786-41",
+    "created": "2021-11-23T02:51:35Z"
+  },
+  {
+    "id": 146,
+    "name": "Eduardo Freitas",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "12771489457",
+    "cpfCnpjFormatted": "127.714.894-57",
+    "created": "2022-10-15T01:22:26Z"
+  },
+  {
+    "id": 147,
+    "name": "Rodrigo Campos",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "75101220663",
+    "cpfCnpjFormatted": "751.012.206-63",
+    "created": "2023-08-16T00:16:25Z"
+  },
+  {
+    "id": 148,
+    "name": "Omega Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "68928968909084",
+    "cpfCnpjFormatted": "68.928.968/9090-84",
+    "created": "2023-12-16T01:39:51Z"
+  },
+  {
+    "id": 149,
+    "name": "Thiago Barros",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "60462769429",
+    "cpfCnpjFormatted": "604.627.694-29",
+    "created": "2022-01-25T04:14:07Z"
+  },
+  {
+    "id": 150,
+    "name": "Super Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "76516726095187",
+    "cpfCnpjFormatted": "76.516.726/0951-87",
+    "created": "2024-03-26T06:11:34Z"
+  },
+  {
+    "id": 151,
+    "name": "Ana Campos",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "52662754800",
+    "cpfCnpjFormatted": "526.627.548-00",
+    "created": "2022-04-27T13:01:40Z"
+  },
+  {
+    "id": 152,
+    "name": "Plus Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "70038021152950",
+    "cpfCnpjFormatted": "70.038.021/1529-50",
+    "created": "2022-11-12T16:55:31Z"
+  },
+  {
+    "id": 153,
+    "name": "Pro Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "44354206924524",
+    "cpfCnpjFormatted": "44.354.206/9245-24",
+    "created": "2022-06-05T12:41:19Z"
+  },
+  {
+    "id": 154,
+    "name": "Top Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "29117208360033",
+    "cpfCnpjFormatted": "29.117.208/3600-33",
+    "created": "2022-12-11T00:51:01Z"
+  },
+  {
+    "id": 155,
+    "name": "Felipe Alves",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "95101987905",
+    "cpfCnpjFormatted": "951.019.879-05",
+    "created": "2023-07-20T18:37:52Z"
+  },
+  {
+    "id": 156,
+    "name": "Camila Carvalho",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "46783320812",
+    "cpfCnpjFormatted": "467.833.208-12",
+    "created": "2022-03-16T23:08:11Z"
+  },
+  {
+    "id": 157,
+    "name": "Igor Nascimento",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "76478201848",
+    "cpfCnpjFormatted": "764.782.018-48",
+    "created": "2020-05-13T17:28:36Z"
+  },
+  {
+    "id": 158,
+    "name": "Beta Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "15626679080965",
+    "cpfCnpjFormatted": "15.626.679/0809-65",
+    "created": "2021-09-04T04:45:35Z"
+  },
+  {
+    "id": 159,
+    "name": "Super Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "63036643468948",
+    "cpfCnpjFormatted": "63.036.643/4689-48",
+    "created": "2021-08-13T21:55:55Z"
+  },
+  {
+    "id": 160,
+    "name": "Brasil Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "46914435882641",
+    "cpfCnpjFormatted": "46.914.435/8826-41",
+    "created": "2021-04-20T23:03:37Z"
+  },
+  {
+    "id": 161,
+    "name": "Carlos Monteiro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "39310294922",
+    "cpfCnpjFormatted": "393.102.949-22",
+    "created": "2021-07-09T20:39:22Z"
+  },
+  {
+    "id": 162,
+    "name": "Star Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "50577867043744",
+    "cpfCnpjFormatted": "50.577.867/0437-44",
+    "created": "2020-12-30T19:37:31Z"
+  },
+  {
+    "id": 163,
+    "name": "William Carvalho",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "40986720143",
+    "cpfCnpjFormatted": "409.867.201-43",
+    "created": "2020-07-05T07:09:06Z"
+  },
+  {
+    "id": 164,
+    "name": "Maria Dias",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "04515107399",
+    "cpfCnpjFormatted": "045.151.073-99",
+    "created": "2024-11-09T16:19:27Z"
+  },
+  {
+    "id": 165,
+    "name": "Top Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "36725258994238",
+    "cpfCnpjFormatted": "36.725.258/9942-38",
+    "created": "2023-11-07T07:28:45Z"
+  },
+  {
+    "id": 166,
+    "name": "Alpha Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "31125661825877",
+    "cpfCnpjFormatted": "31.125.661/8258-77",
+    "created": "2021-01-19T10:43:43Z"
+  },
+  {
+    "id": 167,
+    "name": "Express Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "42041304273119",
+    "cpfCnpjFormatted": "42.041.304/2731-19",
+    "created": "2020-05-18T07:00:28Z"
+  },
+  {
+    "id": 168,
+    "name": "Fernanda Campos",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "64711640924",
+    "cpfCnpjFormatted": "647.116.409-24",
+    "created": "2021-07-09T07:17:44Z"
+  },
+  {
+    "id": 169,
+    "name": "Rodrigo Ferreira",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "95475251827",
+    "cpfCnpjFormatted": "954.752.518-27",
+    "created": "2023-03-25T13:56:52Z"
+  },
+  {
+    "id": 170,
+    "name": "Ultra Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "64470591410392",
+    "cpfCnpjFormatted": "64.470.591/4103-92",
+    "created": "2023-01-20T03:14:23Z"
+  },
+  {
+    "id": 171,
+    "name": "Julia Castro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "94104053600",
+    "cpfCnpjFormatted": "941.040.536-00",
+    "created": "2024-12-29T21:15:37Z"
+  },
+  {
+    "id": 172,
+    "name": "Felipe Moreira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "68304776979",
+    "cpfCnpjFormatted": "683.047.769-79",
+    "created": "2022-08-26T14:40:02Z"
+  },
+  {
+    "id": 173,
+    "name": "Ana Ribeiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "47497649574",
+    "cpfCnpjFormatted": "474.976.495-74",
+    "created": "2022-05-03T23:00:50Z"
+  },
+  {
+    "id": 174,
+    "name": "Diana Moreira",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "37546691338",
+    "cpfCnpjFormatted": "375.466.913-38",
+    "created": "2021-07-23T11:00:23Z"
+  },
+  {
+    "id": 175,
+    "name": "Isabela Mendes",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "32115847903",
+    "cpfCnpjFormatted": "321.158.479-03",
+    "created": "2022-06-10T14:41:55Z"
+  },
+  {
+    "id": 176,
+    "name": "Larissa Souza",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "84049992442",
+    "cpfCnpjFormatted": "840.499.924-42",
+    "created": "2024-07-26T21:57:08Z"
+  },
+  {
+    "id": 177,
+    "name": "Beta Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "07183650750400",
+    "cpfCnpjFormatted": "07.183.650/7504-00",
+    "created": "2020-10-08T16:40:07Z"
+  },
+  {
+    "id": 178,
+    "name": "Carlos Ribeiro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "45785874288",
+    "cpfCnpjFormatted": "457.858.742-88",
+    "created": "2023-05-22T12:12:36Z"
+  },
+  {
+    "id": 179,
+    "name": "Felipe Araujo",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "65366716608",
+    "cpfCnpjFormatted": "653.667.166-08",
+    "created": "2022-02-01T11:31:36Z"
+  },
+  {
+    "id": 180,
+    "name": "Mega Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "42095381904917",
+    "cpfCnpjFormatted": "42.095.381/9049-17",
+    "created": "2021-02-22T13:33:09Z"
+  },
+  {
+    "id": 181,
+    "name": "Nova Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "03528121449988",
+    "cpfCnpjFormatted": "03.528.121/4499-88",
+    "created": "2022-05-13T03:26:34Z"
+  },
+  {
+    "id": 182,
+    "name": "Eduardo Castro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "99494365674",
+    "cpfCnpjFormatted": "994.943.656-74",
+    "created": "2022-12-13T21:39:49Z"
+  },
+  {
+    "id": 183,
+    "name": "Olivia Mendes",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "93686217139",
+    "cpfCnpjFormatted": "936.862.171-39",
+    "created": "2021-03-29T19:29:25Z"
+  },
+  {
+    "id": 184,
+    "name": "Rápido Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "50228174566927",
+    "cpfCnpjFormatted": "50.228.174/5669-27",
+    "created": "2024-11-28T00:31:45Z"
+  },
+  {
+    "id": 185,
+    "name": "Felipe Nascimento",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "89988113757",
+    "cpfCnpjFormatted": "899.881.137-57",
+    "created": "2021-08-01T05:23:31Z"
+  },
+  {
+    "id": 186,
+    "name": "Roberto Mendes",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "86652499401",
+    "cpfCnpjFormatted": "866.524.994-01",
+    "created": "2022-07-03T16:43:07Z"
+  },
+  {
+    "id": 187,
+    "name": "Julia Barbosa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "33287611445",
+    "cpfCnpjFormatted": "332.876.114-45",
+    "created": "2024-11-14T06:27:57Z"
+  },
+  {
+    "id": 188,
+    "name": "Lucas Gomes",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "36073343663",
+    "cpfCnpjFormatted": "360.733.436-63",
+    "created": "2023-08-08T20:18:53Z"
+  },
+  {
+    "id": 189,
+    "name": "William Monteiro",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "03417777577",
+    "cpfCnpjFormatted": "034.177.775-77",
+    "created": "2023-09-24T19:56:46Z"
+  },
+  {
+    "id": 190,
+    "name": "Diego Costa",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "38270504564",
+    "cpfCnpjFormatted": "382.705.045-64",
+    "created": "2023-08-30T06:27:17Z"
+  },
+  {
+    "id": 191,
+    "name": "Plus Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "97144012518570",
+    "cpfCnpjFormatted": "97.144.012/5185-70",
+    "created": "2022-03-26T23:02:14Z"
+  },
+  {
+    "id": 192,
+    "name": "Julia Castro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "89935853691",
+    "cpfCnpjFormatted": "899.358.536-91",
+    "created": "2020-03-13T10:44:17Z"
+  },
+  {
+    "id": 193,
+    "name": "Gabriel Castro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "69735308347",
+    "cpfCnpjFormatted": "697.353.083-47",
+    "created": "2024-01-07T07:58:24Z"
+  },
+  {
+    "id": 194,
+    "name": "Max Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "21132041413708",
+    "cpfCnpjFormatted": "21.132.041/4137-08",
+    "created": "2020-10-28T00:47:05Z"
+  },
+  {
+    "id": 195,
+    "name": "Nova Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "97696446269770",
+    "cpfCnpjFormatted": "97.696.446/2697-70",
+    "created": "2020-03-31T17:54:22Z"
+  },
+  {
+    "id": 196,
+    "name": "Omega Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "15648422661559",
+    "cpfCnpjFormatted": "15.648.422/6615-59",
+    "created": "2022-01-27T00:32:44Z"
+  },
+  {
+    "id": 197,
+    "name": "Felipe Gomes",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "01653294086",
+    "cpfCnpjFormatted": "016.532.940-86",
+    "created": "2022-05-05T19:24:16Z"
+  },
+  {
+    "id": 198,
+    "name": "Plus Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "29115644485950",
+    "cpfCnpjFormatted": "29.115.644/4859-50",
+    "created": "2024-06-27T04:02:38Z"
+  },
+  {
+    "id": 199,
+    "name": "Gamma Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "55652158860153",
+    "cpfCnpjFormatted": "55.652.158/8601-53",
+    "created": "2021-04-26T14:13:41Z"
+  },
+  {
+    "id": 200,
+    "name": "Ultra Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "47450295021754",
+    "cpfCnpjFormatted": "47.450.295/0217-54",
+    "created": "2022-07-30T12:09:06Z"
+  },
+  {
+    "id": 201,
+    "name": "Igor Carvalho",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "94463336600",
+    "cpfCnpjFormatted": "944.633.366-00",
+    "created": "2024-11-05T02:57:38Z"
+  },
+  {
+    "id": 202,
+    "name": "Brasil Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "73760981457513",
+    "cpfCnpjFormatted": "73.760.981/4575-13",
+    "created": "2022-09-30T23:38:29Z"
+  },
+  {
+    "id": 203,
+    "name": "Fernanda Rocha",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "40603948901",
+    "cpfCnpjFormatted": "406.039.489-01",
+    "created": "2024-12-25T05:53:01Z"
+  },
+  {
+    "id": 204,
+    "name": "Alpha Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "70625770284545",
+    "cpfCnpjFormatted": "70.625.770/2845-45",
+    "created": "2022-01-15T16:08:51Z"
+  },
+  {
+    "id": 205,
+    "name": "Express Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "29011991179491",
+    "cpfCnpjFormatted": "29.011.991/1794-91",
+    "created": "2024-07-15T04:28:02Z"
+  },
+  {
+    "id": 206,
+    "name": "Delta Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "22857483671635",
+    "cpfCnpjFormatted": "22.857.483/6716-35",
+    "created": "2021-12-27T15:34:39Z"
+  },
+  {
+    "id": 207,
+    "name": "Star Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "28391451336459",
+    "cpfCnpjFormatted": "28.391.451/3364-59",
+    "created": "2024-05-05T10:06:53Z"
+  },
+  {
+    "id": 208,
+    "name": "Felipe Mendes",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "17371465504",
+    "cpfCnpjFormatted": "173.714.655-04",
+    "created": "2024-07-13T09:56:28Z"
+  },
+  {
+    "id": 209,
+    "name": "Lucas Monteiro",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "36319699531",
+    "cpfCnpjFormatted": "363.196.995-31",
+    "created": "2020-05-07T01:47:27Z"
+  },
+  {
+    "id": 210,
+    "name": "Delta Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "76326570309074",
+    "cpfCnpjFormatted": "76.326.570/3090-74",
+    "created": "2020-08-01T04:50:41Z"
+  },
+  {
+    "id": 211,
+    "name": "Prime Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "24787643373463",
+    "cpfCnpjFormatted": "24.787.643/3734-63",
+    "created": "2024-07-26T15:35:28Z"
+  },
+  {
+    "id": 212,
+    "name": "Pedro Santos",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "70850492190",
+    "cpfCnpjFormatted": "708.504.921-90",
+    "created": "2024-06-03T16:04:25Z"
+  },
+  {
+    "id": 213,
+    "name": "Lucas Ferreira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "55189664406",
+    "cpfCnpjFormatted": "551.896.644-06",
+    "created": "2020-06-27T23:12:49Z"
+  },
+  {
+    "id": 214,
+    "name": "Fernanda Costa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "76875780402",
+    "cpfCnpjFormatted": "768.757.804-02",
+    "created": "2023-01-19T05:11:53Z"
+  },
+  {
+    "id": 215,
+    "name": "Felipe Souza",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "24022434228",
+    "cpfCnpjFormatted": "240.224.342-28",
+    "created": "2024-07-06T04:14:39Z"
+  },
+  {
+    "id": 216,
+    "name": "Master Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "42682690279169",
+    "cpfCnpjFormatted": "42.682.690/2791-69",
+    "created": "2020-11-19T07:20:27Z"
+  },
+  {
+    "id": 217,
+    "name": "Master Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "19538427684520",
+    "cpfCnpjFormatted": "19.538.427/6845-20",
+    "created": "2023-03-23T15:31:13Z"
+  },
+  {
+    "id": 218,
+    "name": "Mega Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "30110565411060",
+    "cpfCnpjFormatted": "30.110.565/4110-60",
+    "created": "2021-02-22T02:59:43Z"
+  },
+  {
+    "id": 219,
+    "name": "Pro Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "24669886274504",
+    "cpfCnpjFormatted": "24.669.886/2745-04",
+    "created": "2023-01-31T15:42:39Z"
+  },
+  {
+    "id": 220,
+    "name": "Premium Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "02397054103803",
+    "cpfCnpjFormatted": "02.397.054/1038-03",
+    "created": "2024-10-31T19:32:49Z"
+  },
+  {
+    "id": 221,
+    "name": "Lucas Campos",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "44309645488",
+    "cpfCnpjFormatted": "443.096.454-88",
+    "created": "2024-08-08T22:31:08Z"
+  },
+  {
+    "id": 222,
+    "name": "Nova Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "38772755506277",
+    "cpfCnpjFormatted": "38.772.755/5062-77",
+    "created": "2020-11-27T07:24:21Z"
+  },
+  {
+    "id": 223,
+    "name": "Roberto Moreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "13948604711",
+    "cpfCnpjFormatted": "139.486.047-11",
+    "created": "2023-04-14T08:51:09Z"
+  },
+  {
+    "id": 224,
+    "name": "Delta Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "36328217166909",
+    "cpfCnpjFormatted": "36.328.217/1669-09",
+    "created": "2021-01-08T23:34:59Z"
+  },
+  {
+    "id": 225,
+    "name": "Maria Freitas",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "27183201929",
+    "cpfCnpjFormatted": "271.832.019-29",
+    "created": "2021-08-16T05:51:24Z"
+  },
+  {
+    "id": 226,
+    "name": "Nicolas Rocha",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "01159542872",
+    "cpfCnpjFormatted": "011.595.428-72",
+    "created": "2022-12-22T10:43:29Z"
+  },
+  {
+    "id": 227,
+    "name": "Fernanda Nascimento",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "29420369153",
+    "cpfCnpjFormatted": "294.203.691-53",
+    "created": "2024-12-18T22:05:17Z"
+  },
+  {
+    "id": 228,
+    "name": "Valentina Ferreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "98135874316",
+    "cpfCnpjFormatted": "981.358.743-16",
+    "created": "2021-05-20T09:42:57Z"
+  },
+  {
+    "id": 229,
+    "name": "Ultra Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "93007519931488",
+    "cpfCnpjFormatted": "93.007.519/9314-88",
+    "created": "2024-05-15T22:18:39Z"
+  },
+  {
+    "id": 230,
+    "name": "Express Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "84853472402579",
+    "cpfCnpjFormatted": "84.853.472/4025-79",
+    "created": "2023-12-20T00:38:40Z"
+  },
+  {
+    "id": 231,
+    "name": "Top Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "84936360735203",
+    "cpfCnpjFormatted": "84.936.360/7352-03",
+    "created": "2024-11-06T06:13:44Z"
+  },
+  {
+    "id": 232,
+    "name": "Express Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "51275657827765",
+    "cpfCnpjFormatted": "51.275.657/8277-65",
+    "created": "2021-07-13T06:56:15Z"
+  },
+  {
+    "id": 233,
+    "name": "Alpha Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "70749649660446",
+    "cpfCnpjFormatted": "70.749.649/6604-46",
+    "created": "2023-07-05T17:56:43Z"
+  },
+  {
+    "id": 234,
+    "name": "Helena Oliveira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "26656904467",
+    "cpfCnpjFormatted": "266.569.044-67",
+    "created": "2021-07-21T01:07:05Z"
+  },
+  {
+    "id": 235,
+    "name": "Ultra Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "07157729757984",
+    "cpfCnpjFormatted": "07.157.729/7579-84",
+    "created": "2024-09-28T13:45:12Z"
+  },
+  {
+    "id": 236,
+    "name": "Thiago Campos",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "72962401139",
+    "cpfCnpjFormatted": "729.624.011-39",
+    "created": "2024-03-23T21:18:08Z"
+  },
+  {
+    "id": 237,
+    "name": "Bruno Lima",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "20440175399",
+    "cpfCnpjFormatted": "204.401.753-99",
+    "created": "2020-02-12T23:16:54Z"
+  },
+  {
+    "id": 238,
+    "name": "Isabela Oliveira",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "88711860367",
+    "cpfCnpjFormatted": "887.118.603-67",
+    "created": "2023-10-07T21:30:50Z"
+  },
+  {
+    "id": 239,
+    "name": "Delta Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "84644991753745",
+    "cpfCnpjFormatted": "84.644.991/7537-45",
+    "created": "2020-01-09T06:48:08Z"
+  },
+  {
+    "id": 240,
+    "name": "Beta Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "80338734415322",
+    "cpfCnpjFormatted": "80.338.734/4153-22",
+    "created": "2020-10-17T15:34:16Z"
+  },
+  {
+    "id": 241,
+    "name": "Larissa Oliveira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "70372156274",
+    "cpfCnpjFormatted": "703.721.562-74",
+    "created": "2021-08-25T22:00:12Z"
+  },
+  {
+    "id": 242,
+    "name": "Premium Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "34439132534785",
+    "cpfCnpjFormatted": "34.439.132/5347-85",
+    "created": "2022-09-22T00:36:24Z"
+  },
+  {
+    "id": 243,
+    "name": "Gustavo Alves",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "24358670180",
+    "cpfCnpjFormatted": "243.586.701-80",
+    "created": "2021-11-19T05:49:14Z"
+  },
+  {
+    "id": 244,
+    "name": "Fernanda Martins",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "73042615952",
+    "cpfCnpjFormatted": "730.426.159-52",
+    "created": "2023-12-17T10:18:03Z"
+  },
+  {
+    "id": 245,
+    "name": "Isabela Gomes",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "66868009534",
+    "cpfCnpjFormatted": "668.680.095-34",
+    "created": "2021-08-29T03:36:19Z"
+  },
+  {
+    "id": 246,
+    "name": "Beta Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "29135127138630",
+    "cpfCnpjFormatted": "29.135.127/1386-30",
+    "created": "2022-07-20T05:23:23Z"
+  },
+  {
+    "id": 247,
+    "name": "Pro Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "54483544328585",
+    "cpfCnpjFormatted": "54.483.544/3285-85",
+    "created": "2023-03-14T20:08:39Z"
+  },
+  {
+    "id": 248,
+    "name": "Max Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "51943912880855",
+    "cpfCnpjFormatted": "51.943.912/8808-55",
+    "created": "2024-09-25T04:10:20Z"
+  },
+  {
+    "id": 249,
+    "name": "Omega Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "84657510542875",
+    "cpfCnpjFormatted": "84.657.510/5428-75",
+    "created": "2024-08-16T14:48:29Z"
+  },
+  {
+    "id": 250,
+    "name": "Beatriz Barbosa",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "42902130902",
+    "cpfCnpjFormatted": "429.021.309-02",
+    "created": "2023-06-13T05:53:51Z"
+  },
+  {
+    "id": 251,
+    "name": "Top Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "08761744448000",
+    "cpfCnpjFormatted": "08.761.744/4480-00",
+    "created": "2021-12-30T16:12:32Z"
+  },
+  {
+    "id": 252,
+    "name": "Global Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "64034639010800",
+    "cpfCnpjFormatted": "64.034.639/0108-00",
+    "created": "2020-02-04T16:02:35Z"
+  },
+  {
+    "id": 253,
+    "name": "William Freitas",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "98123532911",
+    "cpfCnpjFormatted": "981.235.329-11",
+    "created": "2024-08-24T05:14:18Z"
+  },
+  {
+    "id": 254,
+    "name": "Diana Costa",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "01394929684",
+    "cpfCnpjFormatted": "013.949.296-84",
+    "created": "2022-01-13T23:54:25Z"
+  },
+  {
+    "id": 255,
+    "name": "Rafaela Araujo",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "43284709304",
+    "cpfCnpjFormatted": "432.847.093-04",
+    "created": "2022-07-18T21:34:05Z"
+  },
+  {
+    "id": 256,
+    "name": "Beatriz Moreira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "99769299600",
+    "cpfCnpjFormatted": "997.692.996-00",
+    "created": "2022-01-04T07:19:38Z"
+  },
+  {
+    "id": 257,
+    "name": "Elite Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "10425282638399",
+    "cpfCnpjFormatted": "10.425.282/6383-99",
+    "created": "2021-10-29T01:11:14Z"
+  },
+  {
+    "id": 258,
+    "name": "Ultra Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "09521776111543",
+    "cpfCnpjFormatted": "09.521.776/1115-43",
+    "created": "2023-02-03T19:31:36Z"
+  },
+  {
+    "id": 259,
+    "name": "Thiago Araujo",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "50562105956",
+    "cpfCnpjFormatted": "505.621.059-56",
+    "created": "2020-01-20T20:45:26Z"
+  },
+  {
+    "id": 260,
+    "name": "Bruno Barros",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "00719470943",
+    "cpfCnpjFormatted": "007.194.709-43",
+    "created": "2022-02-15T02:36:04Z"
+  },
+  {
+    "id": 261,
+    "name": "Top Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "98068374659650",
+    "cpfCnpjFormatted": "98.068.374/6596-50",
+    "created": "2024-04-27T14:49:42Z"
+  },
+  {
+    "id": 262,
+    "name": "Felipe Ribeiro",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "27953323290",
+    "cpfCnpjFormatted": "279.533.232-90",
+    "created": "2024-12-14T19:41:45Z"
+  },
+  {
+    "id": 263,
+    "name": "Diana Almeida",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "93231160251",
+    "cpfCnpjFormatted": "932.311.602-51",
+    "created": "2022-11-24T21:18:18Z"
+  },
+  {
+    "id": 264,
+    "name": "Beta Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "43368694126490",
+    "cpfCnpjFormatted": "43.368.694/1264-90",
+    "created": "2021-06-10T07:58:50Z"
+  },
+  {
+    "id": 265,
+    "name": "Thiago Araujo",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "23752189061",
+    "cpfCnpjFormatted": "237.521.890-61",
+    "created": "2022-12-19T15:48:16Z"
+  },
+  {
+    "id": 266,
+    "name": "Gamma Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "70103617193919",
+    "cpfCnpjFormatted": "70.103.617/1939-19",
+    "created": "2022-04-19T18:36:35Z"
+  },
+  {
+    "id": 267,
+    "name": "Rafaela Freitas",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "77583749484",
+    "cpfCnpjFormatted": "775.837.494-84",
+    "created": "2021-07-20T03:46:01Z"
+  },
+  {
+    "id": 268,
+    "name": "Pedro Alves",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "72999883480",
+    "cpfCnpjFormatted": "729.998.834-80",
+    "created": "2020-03-04T02:35:56Z"
+  },
+  {
+    "id": 269,
+    "name": "Premium Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "65909479843053",
+    "cpfCnpjFormatted": "65.909.479/8430-53",
+    "created": "2024-06-08T14:52:08Z"
+  },
+  {
+    "id": 270,
+    "name": "Roberto Barbosa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "67968384672",
+    "cpfCnpjFormatted": "679.683.846-72",
+    "created": "2024-03-07T19:28:10Z"
+  },
+  {
+    "id": 271,
+    "name": "Plus Textil LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "84135066820810",
+    "cpfCnpjFormatted": "84.135.066/8208-10",
+    "created": "2021-10-23T15:11:49Z"
+  },
+  {
+    "id": 272,
+    "name": "Epsilon Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "02433491454204",
+    "cpfCnpjFormatted": "02.433.491/4542-04",
+    "created": "2024-08-01T12:36:31Z"
+  },
+  {
+    "id": 273,
+    "name": "Max Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "91800130565854",
+    "cpfCnpjFormatted": "91.800.130/5658-54",
+    "created": "2021-01-31T17:52:27Z"
+  },
+  {
+    "id": 274,
+    "name": "Fernanda Gomes",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "12517497125",
+    "cpfCnpjFormatted": "125.174.971-25",
+    "created": "2021-04-29T01:21:12Z"
+  },
+  {
+    "id": 275,
+    "name": "Olivia Araujo",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "45337400304",
+    "cpfCnpjFormatted": "453.374.003-04",
+    "created": "2020-02-18T08:37:30Z"
+  },
+  {
+    "id": 276,
+    "name": "Global Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "87981043490253",
+    "cpfCnpjFormatted": "87.981.043/4902-53",
+    "created": "2020-11-04T01:58:39Z"
+  },
+  {
+    "id": 277,
+    "name": "Larissa Barbosa",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "53419579543",
+    "cpfCnpjFormatted": "534.195.795-43",
+    "created": "2020-06-06T21:20:42Z"
+  },
+  {
+    "id": 278,
+    "name": "Diego Barbosa",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "95207466763",
+    "cpfCnpjFormatted": "952.074.667-63",
+    "created": "2023-07-05T19:42:32Z"
+  },
+  {
+    "id": 279,
+    "name": "Global Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "37493057529130",
+    "cpfCnpjFormatted": "37.493.057/5291-30",
+    "created": "2023-08-27T19:14:49Z"
+  },
+  {
+    "id": 280,
+    "name": "Carlos Pinto",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "61110219741",
+    "cpfCnpjFormatted": "611.102.197-41",
+    "created": "2021-05-25T09:35:31Z"
+  },
+  {
+    "id": 281,
+    "name": "Epsilon Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "51595536626550",
+    "cpfCnpjFormatted": "51.595.536/6265-50",
+    "created": "2020-04-16T02:17:12Z"
+  },
+  {
+    "id": 282,
+    "name": "Plus Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "46137696215485",
+    "cpfCnpjFormatted": "46.137.696/2154-85",
+    "created": "2024-12-30T00:38:43Z"
+  },
+  {
+    "id": 283,
+    "name": "Beta Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "69972998302520",
+    "cpfCnpjFormatted": "69.972.998/3025-20",
+    "created": "2024-07-25T02:06:00Z"
+  },
+  {
+    "id": 284,
+    "name": "Top Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "34648790103530",
+    "cpfCnpjFormatted": "34.648.790/1035-30",
+    "created": "2021-03-24T15:05:55Z"
+  },
+  {
+    "id": 285,
+    "name": "Premium Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "39523826446853",
+    "cpfCnpjFormatted": "39.523.826/4468-53",
+    "created": "2022-12-23T20:16:16Z"
+  },
+  {
+    "id": 286,
+    "name": "Prime Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "26915506323207",
+    "cpfCnpjFormatted": "26.915.506/3232-07",
+    "created": "2024-04-05T19:39:21Z"
+  },
+  {
+    "id": 287,
+    "name": "Gabriel Santos",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "02635248508",
+    "cpfCnpjFormatted": "026.352.485-08",
+    "created": "2021-08-13T03:53:25Z"
+  },
+  {
+    "id": 288,
+    "name": "Diego Rodrigues",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "88582453345",
+    "cpfCnpjFormatted": "885.824.533-45",
+    "created": "2022-11-20T19:21:24Z"
+  },
+  {
+    "id": 289,
+    "name": "Carlos Costa",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "79578774869",
+    "cpfCnpjFormatted": "795.787.748-69",
+    "created": "2022-08-01T03:24:43Z"
+  },
+  {
+    "id": 290,
+    "name": "Maria Monteiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "13127004591",
+    "cpfCnpjFormatted": "131.270.045-91",
+    "created": "2024-03-02T20:46:12Z"
+  },
+  {
+    "id": 291,
+    "name": "Valentina Ferreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "71672768390",
+    "cpfCnpjFormatted": "716.727.683-90",
+    "created": "2024-06-19T22:35:51Z"
+  },
+  {
+    "id": 292,
+    "name": "Larissa Oliveira",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "27188556903",
+    "cpfCnpjFormatted": "271.885.569-03",
+    "created": "2024-04-14T21:54:48Z"
+  },
+  {
+    "id": 293,
+    "name": "Rodrigo Gomes",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "83149466300",
+    "cpfCnpjFormatted": "831.494.663-00",
+    "created": "2020-09-17T13:07:26Z"
+  },
+  {
+    "id": 294,
+    "name": "Fernanda Oliveira",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "44930095433",
+    "cpfCnpjFormatted": "449.300.954-33",
+    "created": "2024-09-22T21:08:55Z"
+  },
+  {
+    "id": 295,
+    "name": "Beta Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "85583268391406",
+    "cpfCnpjFormatted": "85.583.268/3914-06",
+    "created": "2024-04-08T08:16:38Z"
+  },
+  {
+    "id": 296,
+    "name": "Nova Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "95307164734052",
+    "cpfCnpjFormatted": "95.307.164/7340-52",
+    "created": "2024-07-22T05:02:46Z"
+  },
+  {
+    "id": 297,
+    "name": "Rápido Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "28168916603979",
+    "cpfCnpjFormatted": "28.168.916/6039-79",
+    "created": "2022-04-29T22:24:11Z"
+  },
+  {
+    "id": 298,
+    "name": "Thiago Monteiro",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "67300979491",
+    "cpfCnpjFormatted": "673.009.794-91",
+    "created": "2020-09-22T04:07:53Z"
+  },
+  {
+    "id": 299,
+    "name": "Olivia Rodrigues",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "56753012168",
+    "cpfCnpjFormatted": "567.530.121-68",
+    "created": "2024-05-18T20:23:14Z"
+  },
+  {
+    "id": 300,
+    "name": "Global Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "35702027997180",
+    "cpfCnpjFormatted": "35.702.027/9971-80",
+    "created": "2022-03-23T07:29:40Z"
+  },
+  {
+    "id": 301,
+    "name": "Nova Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "18272880596528",
+    "cpfCnpjFormatted": "18.272.880/5965-28",
+    "created": "2022-08-22T10:19:57Z"
+  },
+  {
+    "id": 302,
+    "name": "Rodrigo Campos",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "17128540970",
+    "cpfCnpjFormatted": "171.285.409-70",
+    "created": "2023-10-14T20:49:06Z"
+  },
+  {
+    "id": 303,
+    "name": "Elite Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "93751610794236",
+    "cpfCnpjFormatted": "93.751.610/7942-36",
+    "created": "2020-11-01T21:36:24Z"
+  },
+  {
+    "id": 304,
+    "name": "Epsilon Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "06962016906942",
+    "cpfCnpjFormatted": "06.962.016/9069-42",
+    "created": "2021-10-17T02:13:00Z"
+  },
+  {
+    "id": 305,
+    "name": "Master Advocacia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "92868301852822",
+    "cpfCnpjFormatted": "92.868.301/8528-22",
+    "created": "2023-01-16T22:51:24Z"
+  },
+  {
+    "id": 306,
+    "name": "Gabriel Cavalcanti",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "62203348330",
+    "cpfCnpjFormatted": "622.033.483-30",
+    "created": "2022-12-25T01:42:59Z"
+  },
+  {
+    "id": 307,
+    "name": "Beta Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "50280198987866",
+    "cpfCnpjFormatted": "50.280.198/9878-66",
+    "created": "2021-10-28T10:47:26Z"
+  },
+  {
+    "id": 308,
+    "name": "Top Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "18657122404718",
+    "cpfCnpjFormatted": "18.657.122/4047-18",
+    "created": "2023-03-02T16:27:34Z"
+  },
+  {
+    "id": 309,
+    "name": "Master Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "69809575914018",
+    "cpfCnpjFormatted": "69.809.575/9140-18",
+    "created": "2023-05-04T15:02:54Z"
+  },
+  {
+    "id": 310,
+    "name": "Omega Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "64274232816668",
+    "cpfCnpjFormatted": "64.274.232/8166-68",
+    "created": "2021-06-24T05:41:25Z"
+  },
+  {
+    "id": 311,
+    "name": "Delta Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "51013987546341",
+    "cpfCnpjFormatted": "51.013.987/5463-41",
+    "created": "2024-12-05T14:13:25Z"
+  },
+  {
+    "id": 312,
+    "name": "Star Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "99691894383320",
+    "cpfCnpjFormatted": "99.691.894/3833-20",
+    "created": "2021-10-24T12:40:16Z"
+  },
+  {
+    "id": 313,
+    "name": "Sofia Ribeiro",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "12446312489",
+    "cpfCnpjFormatted": "124.463.124-89",
+    "created": "2023-03-03T15:36:54Z"
+  },
+  {
+    "id": 314,
+    "name": "Gamma Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "93208120003770",
+    "cpfCnpjFormatted": "93.208.120/0037-70",
+    "created": "2023-08-01T09:54:13Z"
+  },
+  {
+    "id": 315,
+    "name": "Gamma Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "71054942392503",
+    "cpfCnpjFormatted": "71.054.942/3925-03",
+    "created": "2023-08-29T05:16:51Z"
+  },
+  {
+    "id": 316,
+    "name": "Felipe Dias",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "66462908734",
+    "cpfCnpjFormatted": "664.629.087-34",
+    "created": "2024-10-22T03:16:29Z"
+  },
+  {
+    "id": 317,
+    "name": "Delta Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "15142225363899",
+    "cpfCnpjFormatted": "15.142.225/3638-99",
+    "created": "2021-09-13T14:56:26Z"
+  },
+  {
+    "id": 318,
+    "name": "Rafaela Souza",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "86639082373",
+    "cpfCnpjFormatted": "866.390.823-73",
+    "created": "2023-08-12T13:37:57Z"
+  },
+  {
+    "id": 319,
+    "name": "Leticia Rodrigues",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "84527865498",
+    "cpfCnpjFormatted": "845.278.654-98",
+    "created": "2024-01-31T20:19:06Z"
+  },
+  {
+    "id": 320,
+    "name": "Helena Dias",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "42870482027",
+    "cpfCnpjFormatted": "428.704.820-27",
+    "created": "2020-06-09T12:21:03Z"
+  },
+  {
+    "id": 321,
+    "name": "Express Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "97964867027641",
+    "cpfCnpjFormatted": "97.964.867/0276-41",
+    "created": "2022-05-14T05:34:19Z"
+  },
+  {
+    "id": 322,
+    "name": "Plus Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "68726926259007",
+    "cpfCnpjFormatted": "68.726.926/2590-07",
+    "created": "2020-11-14T19:06:22Z"
+  },
+  {
+    "id": 323,
+    "name": "Diego Martins",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "00993078478",
+    "cpfCnpjFormatted": "009.930.784-78",
+    "created": "2022-11-10T20:58:22Z"
+  },
+  {
+    "id": 324,
+    "name": "Beatriz Dias",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "02173606450",
+    "cpfCnpjFormatted": "021.736.064-50",
+    "created": "2021-01-21T19:18:42Z"
+  },
+  {
+    "id": 325,
+    "name": "Felipe Monteiro",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "87906035402",
+    "cpfCnpjFormatted": "879.060.354-02",
+    "created": "2023-02-03T09:15:30Z"
+  },
+  {
+    "id": 326,
+    "name": "Master Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "29510301774320",
+    "cpfCnpjFormatted": "29.510.301/7743-20",
+    "created": "2021-11-14T03:55:36Z"
+  },
+  {
+    "id": 327,
+    "name": "Rápido Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "53965989656897",
+    "cpfCnpjFormatted": "53.965.989/6568-97",
+    "created": "2024-12-30T08:31:55Z"
+  },
+  {
+    "id": 328,
+    "name": "Bruno Dias",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "65694537181",
+    "cpfCnpjFormatted": "656.945.371-81",
+    "created": "2023-03-31T09:32:08Z"
+  },
+  {
+    "id": 329,
+    "name": "Camila Freitas",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "09737946235",
+    "cpfCnpjFormatted": "097.379.462-35",
+    "created": "2024-10-30T09:45:06Z"
+  },
+  {
+    "id": 330,
+    "name": "Star Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "89000799171285",
+    "cpfCnpjFormatted": "89.000.799/1712-85",
+    "created": "2023-12-31T10:48:54Z"
+  },
+  {
+    "id": 331,
+    "name": "Lucas Costa",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "86614252127",
+    "cpfCnpjFormatted": "866.142.521-27",
+    "created": "2021-10-18T05:00:34Z"
+  },
+  {
+    "id": 332,
+    "name": "Roberto Freitas",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "93396296559",
+    "cpfCnpjFormatted": "933.962.965-59",
+    "created": "2022-01-06T23:02:49Z"
+  },
+  {
+    "id": 333,
+    "name": "Gustavo Barbosa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "30927358034",
+    "cpfCnpjFormatted": "309.273.580-34",
+    "created": "2023-05-13T03:35:32Z"
+  },
+  {
+    "id": 334,
+    "name": "Epsilon Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "01579707586269",
+    "cpfCnpjFormatted": "01.579.707/5862-69",
+    "created": "2023-11-02T14:00:49Z"
+  },
+  {
+    "id": 335,
+    "name": "Leticia Alves",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "05855783200",
+    "cpfCnpjFormatted": "058.557.832-00",
+    "created": "2023-04-15T20:34:57Z"
+  },
+  {
+    "id": 336,
+    "name": "Carlos Barbosa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "63589463740",
+    "cpfCnpjFormatted": "635.894.637-40",
+    "created": "2024-11-20T12:20:38Z"
+  },
+  {
+    "id": 337,
+    "name": "Pedro Araujo",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "39228829869",
+    "cpfCnpjFormatted": "392.288.298-69",
+    "created": "2023-04-15T05:55:45Z"
+  },
+  {
+    "id": 338,
+    "name": "Prime Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "04892740495350",
+    "cpfCnpjFormatted": "04.892.740/4953-50",
+    "created": "2023-03-16T04:38:11Z"
+  },
+  {
+    "id": 339,
+    "name": "William Nascimento",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "32172847470",
+    "cpfCnpjFormatted": "321.728.474-70",
+    "created": "2020-01-01T04:28:17Z"
+  },
+  {
+    "id": 340,
+    "name": "Nacional Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "76733368174625",
+    "cpfCnpjFormatted": "76.733.368/1746-25",
+    "created": "2021-01-29T02:45:25Z"
+  },
+  {
+    "id": 341,
+    "name": "Thiago Ribeiro",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "44625013062",
+    "cpfCnpjFormatted": "446.250.130-62",
+    "created": "2021-04-28T22:07:19Z"
+  },
+  {
+    "id": 342,
+    "name": "Epsilon Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "47869912839494",
+    "cpfCnpjFormatted": "47.869.912/8394-94",
+    "created": "2020-05-11T00:32:00Z"
+  },
+  {
+    "id": 343,
+    "name": "Alpha Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "27590512272535",
+    "cpfCnpjFormatted": "27.590.512/2725-35",
+    "created": "2023-06-27T19:12:02Z"
+  },
+  {
+    "id": 344,
+    "name": "Ultra Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "89178599087348",
+    "cpfCnpjFormatted": "89.178.599/0873-48",
+    "created": "2020-09-29T13:44:45Z"
+  },
+  {
+    "id": 345,
+    "name": "Sofia Campos",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "30086968483",
+    "cpfCnpjFormatted": "300.869.684-83",
+    "created": "2021-07-02T06:24:55Z"
+  },
+  {
+    "id": 346,
+    "name": "Julia Araujo",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "21408663554",
+    "cpfCnpjFormatted": "214.086.635-54",
+    "created": "2020-05-01T09:20:58Z"
+  },
+  {
+    "id": 347,
+    "name": "Carlos Dias",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "71113907681",
+    "cpfCnpjFormatted": "711.139.076-81",
+    "created": "2022-06-11T00:04:50Z"
+  },
+  {
+    "id": 348,
+    "name": "Mega Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "06396478011446",
+    "cpfCnpjFormatted": "06.396.478/0114-46",
+    "created": "2024-03-07T11:04:17Z"
+  },
+  {
+    "id": 349,
+    "name": "Carlos Monteiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "07847800560",
+    "cpfCnpjFormatted": "078.478.005-60",
+    "created": "2023-08-07T13:21:55Z"
+  },
+  {
+    "id": 350,
+    "name": "Julia Almeida",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "62361583127",
+    "cpfCnpjFormatted": "623.615.831-27",
+    "created": "2022-01-22T00:38:46Z"
+  },
+  {
+    "id": 351,
+    "name": "Omega Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "43259787268787",
+    "cpfCnpjFormatted": "43.259.787/2687-87",
+    "created": "2021-09-24T17:44:14Z"
+  },
+  {
+    "id": 352,
+    "name": "Carlos Ferreira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "04794066775",
+    "cpfCnpjFormatted": "047.940.667-75",
+    "created": "2024-07-12T03:05:23Z"
+  },
+  {
+    "id": 353,
+    "name": "Nova Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "09290784483075",
+    "cpfCnpjFormatted": "09.290.784/4830-75",
+    "created": "2020-04-15T23:46:13Z"
+  },
+  {
+    "id": 354,
+    "name": "Mega Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "79498397416676",
+    "cpfCnpjFormatted": "79.498.397/4166-76",
+    "created": "2023-01-14T15:05:28Z"
+  },
+  {
+    "id": 355,
+    "name": "Top Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "06172769989639",
+    "cpfCnpjFormatted": "06.172.769/9896-39",
+    "created": "2021-09-25T07:28:12Z"
+  },
+  {
+    "id": 356,
+    "name": "Pedro Araujo",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "15633415493",
+    "cpfCnpjFormatted": "156.334.154-93",
+    "created": "2021-11-13T23:09:53Z"
+  },
+  {
+    "id": 357,
+    "name": "Fernanda Rocha",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "67821772690",
+    "cpfCnpjFormatted": "678.217.726-90",
+    "created": "2023-04-29T20:53:39Z"
+  },
+  {
+    "id": 358,
+    "name": "Super Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "72450062404894",
+    "cpfCnpjFormatted": "72.450.062/4048-94",
+    "created": "2024-09-29T09:58:15Z"
+  },
+  {
+    "id": 359,
+    "name": "Valentina Ribeiro",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "12685710400",
+    "cpfCnpjFormatted": "126.857.104-00",
+    "created": "2020-02-09T19:59:35Z"
+  },
+  {
+    "id": 360,
+    "name": "Thiago Ribeiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "04709440727",
+    "cpfCnpjFormatted": "047.094.407-27",
+    "created": "2023-10-30T09:32:31Z"
+  },
+  {
+    "id": 361,
+    "name": "Premium Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "22029897489959",
+    "cpfCnpjFormatted": "22.029.897/4899-59",
+    "created": "2023-08-30T05:37:59Z"
+  },
+  {
+    "id": 362,
+    "name": "Leticia Rocha",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "76349868285",
+    "cpfCnpjFormatted": "763.498.682-85",
+    "created": "2020-03-01T08:24:26Z"
+  },
+  {
+    "id": 363,
+    "name": "Ana Almeida",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "23425700316",
+    "cpfCnpjFormatted": "234.257.003-16",
+    "created": "2024-08-28T14:23:02Z"
+  },
+  {
+    "id": 364,
+    "name": "Gabriel Almeida",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "76888767299",
+    "cpfCnpjFormatted": "768.887.672-99",
+    "created": "2024-09-08T06:00:54Z"
+  },
+  {
+    "id": 365,
+    "name": "Brasil Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "70985756371013",
+    "cpfCnpjFormatted": "70.985.756/3710-13",
+    "created": "2022-04-04T06:59:12Z"
+  },
+  {
+    "id": 366,
+    "name": "Julia Almeida",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "89417045539",
+    "cpfCnpjFormatted": "894.170.455-39",
+    "created": "2023-07-17T08:27:41Z"
+  },
+  {
+    "id": 367,
+    "name": "Master Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "89027115468673",
+    "cpfCnpjFormatted": "89.027.115/4686-73",
+    "created": "2022-11-20T12:52:03Z"
+  },
+  {
+    "id": 368,
+    "name": "Master Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "94490855032476",
+    "cpfCnpjFormatted": "94.490.855/0324-76",
+    "created": "2022-02-05T01:38:05Z"
+  },
+  {
+    "id": 369,
+    "name": "Igor Almeida",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "93240262754",
+    "cpfCnpjFormatted": "932.402.627-54",
+    "created": "2023-06-01T16:43:15Z"
+  },
+  {
+    "id": 370,
+    "name": "Camila Barbosa",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "85439928774",
+    "cpfCnpjFormatted": "854.399.287-74",
+    "created": "2020-08-07T13:48:08Z"
+  },
+  {
+    "id": 371,
+    "name": "Master Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "84133366462920",
+    "cpfCnpjFormatted": "84.133.366/4629-20",
+    "created": "2024-09-10T01:42:07Z"
+  },
+  {
+    "id": 372,
+    "name": "Premium Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "05324919916060",
+    "cpfCnpjFormatted": "05.324.919/9160-60",
+    "created": "2020-09-17T18:35:22Z"
+  },
+  {
+    "id": 373,
+    "name": "Brasil Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "54216425186087",
+    "cpfCnpjFormatted": "54.216.425/1860-87",
+    "created": "2020-12-27T02:20:56Z"
+  },
+  {
+    "id": 374,
+    "name": "Omega Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "60379287602886",
+    "cpfCnpjFormatted": "60.379.287/6028-86",
+    "created": "2020-10-06T08:44:23Z"
+  },
+  {
+    "id": 375,
+    "name": "Nacional Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "25974563565397",
+    "cpfCnpjFormatted": "25.974.563/5653-97",
+    "created": "2020-09-18T14:48:02Z"
+  },
+  {
+    "id": 376,
+    "name": "Igor Campos",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "62313504018",
+    "cpfCnpjFormatted": "623.135.040-18",
+    "created": "2022-10-11T07:04:09Z"
+  },
+  {
+    "id": 377,
+    "name": "William Oliveira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "28456451711",
+    "cpfCnpjFormatted": "284.564.517-11",
+    "created": "2022-06-29T10:01:17Z"
+  },
+  {
+    "id": 378,
+    "name": "Larissa Nascimento",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "78254008957",
+    "cpfCnpjFormatted": "782.540.089-57",
+    "created": "2022-12-17T21:07:08Z"
+  },
+  {
+    "id": 379,
+    "name": "Ultra Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "54806083063727",
+    "cpfCnpjFormatted": "54.806.083/0637-27",
+    "created": "2023-03-03T07:18:31Z"
+  },
+  {
+    "id": 380,
+    "name": "Epsilon Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "57564453204324",
+    "cpfCnpjFormatted": "57.564.453/2043-24",
+    "created": "2022-01-07T03:41:30Z"
+  },
+  {
+    "id": 381,
+    "name": "Sofia Mendes",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "93902059729",
+    "cpfCnpjFormatted": "939.020.597-29",
+    "created": "2021-11-11T00:33:01Z"
+  },
+  {
+    "id": 382,
+    "name": "Nova Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "24106468999651",
+    "cpfCnpjFormatted": "24.106.468/9996-51",
+    "created": "2024-10-15T03:55:16Z"
+  },
+  {
+    "id": 383,
+    "name": "Top Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "85997073010549",
+    "cpfCnpjFormatted": "85.997.073/0105-49",
+    "created": "2023-07-25T20:50:02Z"
+  },
+  {
+    "id": 384,
+    "name": "Sofia Mendes",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "21231367512",
+    "cpfCnpjFormatted": "212.313.675-12",
+    "created": "2024-07-23T14:44:31Z"
+  },
+  {
+    "id": 385,
+    "name": "Prime Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "29168732544193",
+    "cpfCnpjFormatted": "29.168.732/5441-93",
+    "created": "2022-01-01T08:49:31Z"
+  },
+  {
+    "id": 386,
+    "name": "Max Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "40221552601814",
+    "cpfCnpjFormatted": "40.221.552/6018-14",
+    "created": "2021-10-03T18:50:02Z"
+  },
+  {
+    "id": 387,
+    "name": "Maria Oliveira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "97229392705",
+    "cpfCnpjFormatted": "972.293.927-05",
+    "created": "2023-06-19T04:42:43Z"
+  },
+  {
+    "id": 388,
+    "name": "Alpha Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "75946787532600",
+    "cpfCnpjFormatted": "75.946.787/5326-00",
+    "created": "2022-11-08T21:02:05Z"
+  },
+  {
+    "id": 389,
+    "name": "Gamma Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "18801202911125",
+    "cpfCnpjFormatted": "18.801.202/9111-25",
+    "created": "2023-05-27T15:43:52Z"
+  },
+  {
+    "id": 390,
+    "name": "Nacional Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "95491931504373",
+    "cpfCnpjFormatted": "95.491.931/5043-73",
+    "created": "2020-09-13T18:24:31Z"
+  },
+  {
+    "id": 391,
+    "name": "Valentina Lima",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "66416965887",
+    "cpfCnpjFormatted": "664.169.658-87",
+    "created": "2020-06-04T14:06:46Z"
+  },
+  {
+    "id": 392,
+    "name": "Fernanda Carvalho",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "88725203045",
+    "cpfCnpjFormatted": "887.252.030-45",
+    "created": "2024-01-02T10:22:38Z"
+  },
+  {
+    "id": 393,
+    "name": "Eduardo Lima",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "74766980450",
+    "cpfCnpjFormatted": "747.669.804-50",
+    "created": "2023-11-17T07:00:16Z"
+  },
+  {
+    "id": 394,
+    "name": "Thiago Freitas",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "34332211626",
+    "cpfCnpjFormatted": "343.322.116-26",
+    "created": "2022-09-14T12:44:36Z"
+  },
+  {
+    "id": 395,
+    "name": "Thiago Monteiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "96830101646",
+    "cpfCnpjFormatted": "968.301.016-46",
+    "created": "2020-08-09T09:08:35Z"
+  },
+  {
+    "id": 396,
+    "name": "Nicolas Rodrigues",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "05201526462",
+    "cpfCnpjFormatted": "052.015.264-62",
+    "created": "2023-07-22T09:31:40Z"
+  },
+  {
+    "id": 397,
+    "name": "Lucas Cavalcanti",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "02530351392",
+    "cpfCnpjFormatted": "025.303.513-92",
+    "created": "2021-03-20T08:03:15Z"
+  },
+  {
+    "id": 398,
+    "name": "Master Comércio LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "95863915350111",
+    "cpfCnpjFormatted": "95.863.915/3501-11",
+    "created": "2021-11-09T23:48:14Z"
+  },
+  {
+    "id": 399,
+    "name": "Felipe Santos",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "39318180390",
+    "cpfCnpjFormatted": "393.181.803-90",
+    "created": "2023-09-07T13:03:08Z"
+  },
+  {
+    "id": 400,
+    "name": "Premium Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "66705390251459",
+    "cpfCnpjFormatted": "66.705.390/2514-59",
+    "created": "2022-11-27T04:36:52Z"
+  },
+  {
+    "id": 401,
+    "name": "Rafaela Nascimento",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "06221091381",
+    "cpfCnpjFormatted": "062.210.913-81",
+    "created": "2021-10-05T02:13:24Z"
+  },
+  {
+    "id": 402,
+    "name": "Thiago Castro",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "98410857634",
+    "cpfCnpjFormatted": "984.108.576-34",
+    "created": "2020-05-18T17:49:03Z"
+  },
+  {
+    "id": 403,
+    "name": "Gustavo Rodrigues",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "23539190732",
+    "cpfCnpjFormatted": "235.391.907-32",
+    "created": "2020-09-09T06:12:40Z"
+  },
+  {
+    "id": 404,
+    "name": "Eduardo Santos",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "35546972653",
+    "cpfCnpjFormatted": "355.469.726-53",
+    "created": "2023-05-30T14:25:26Z"
+  },
+  {
+    "id": 405,
+    "name": "Thiago Moreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "51519911912",
+    "cpfCnpjFormatted": "515.199.119-12",
+    "created": "2024-04-30T05:07:09Z"
+  },
+  {
+    "id": 406,
+    "name": "Nova Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "91814828948248",
+    "cpfCnpjFormatted": "91.814.828/9482-48",
+    "created": "2022-01-09T12:53:27Z"
+  },
+  {
+    "id": 407,
+    "name": "Premium Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "97074485026328",
+    "cpfCnpjFormatted": "97.074.485/0263-28",
+    "created": "2023-05-17T17:53:11Z"
+  },
+  {
+    "id": 408,
+    "name": "Epsilon Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "14847263151356",
+    "cpfCnpjFormatted": "14.847.263/1513-56",
+    "created": "2023-07-13T10:23:38Z"
+  },
+  {
+    "id": 409,
+    "name": "Gabriel Campos",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "88668244450",
+    "cpfCnpjFormatted": "886.682.444-50",
+    "created": "2021-09-29T03:25:21Z"
+  },
+  {
+    "id": 410,
+    "name": "Epsilon Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "48689485573565",
+    "cpfCnpjFormatted": "48.689.485/5735-65",
+    "created": "2021-11-02T06:05:50Z"
+  },
+  {
+    "id": 411,
+    "name": "Larissa Almeida",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "74626854850",
+    "cpfCnpjFormatted": "746.268.548-50",
+    "created": "2024-04-22T23:23:18Z"
+  },
+  {
+    "id": 412,
+    "name": "Ultra Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "60557614912361",
+    "cpfCnpjFormatted": "60.557.614/9123-61",
+    "created": "2024-11-01T17:06:42Z"
+  },
+  {
+    "id": 413,
+    "name": "Plus Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "30057668310593",
+    "cpfCnpjFormatted": "30.057.668/3105-93",
+    "created": "2023-06-06T01:18:16Z"
+  },
+  {
+    "id": 414,
+    "name": "Rápido Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "91184732691889",
+    "cpfCnpjFormatted": "91.184.732/6918-89",
+    "created": "2021-03-31T07:13:56Z"
+  },
+  {
+    "id": 415,
+    "name": "Lucas Araujo",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "38535840397",
+    "cpfCnpjFormatted": "385.358.403-97",
+    "created": "2022-04-14T02:54:32Z"
+  },
+  {
+    "id": 416,
+    "name": "Roberto Mendes",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "95151737287",
+    "cpfCnpjFormatted": "951.517.372-87",
+    "created": "2023-02-23T18:10:37Z"
+  },
+  {
+    "id": 417,
+    "name": "Gustavo Costa",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "38833386562",
+    "cpfCnpjFormatted": "388.333.865-62",
+    "created": "2022-12-12T06:26:30Z"
+  },
+  {
+    "id": 418,
+    "name": "Star Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "94636053335327",
+    "cpfCnpjFormatted": "94.636.053/3353-27",
+    "created": "2024-07-17T05:11:44Z"
+  },
+  {
+    "id": 419,
+    "name": "Isabela Carvalho",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "20378548700",
+    "cpfCnpjFormatted": "203.785.487-00",
+    "created": "2021-09-13T12:38:50Z"
+  },
+  {
+    "id": 420,
+    "name": "Alpha Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "89534320295429",
+    "cpfCnpjFormatted": "89.534.320/2954-29",
+    "created": "2023-06-10T08:03:26Z"
+  },
+  {
+    "id": 421,
+    "name": "Roberto Santos",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "21837642281",
+    "cpfCnpjFormatted": "218.376.422-81",
+    "created": "2020-11-28T18:32:14Z"
+  },
+  {
+    "id": 422,
+    "name": "Max Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "39152875221078",
+    "cpfCnpjFormatted": "39.152.875/2210-78",
+    "created": "2023-02-03T06:59:22Z"
+  },
+  {
+    "id": 423,
+    "name": "Ultra Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "81703894059239",
+    "cpfCnpjFormatted": "81.703.894/0592-39",
+    "created": "2023-02-17T22:02:01Z"
+  },
+  {
+    "id": 424,
+    "name": "Carlos Rocha",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "30652627897",
+    "cpfCnpjFormatted": "306.526.278-97",
+    "created": "2020-09-09T11:32:02Z"
+  },
+  {
+    "id": 425,
+    "name": "Ana Cavalcanti",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "20662796683",
+    "cpfCnpjFormatted": "206.627.966-83",
+    "created": "2022-03-26T06:19:07Z"
+  },
+  {
+    "id": 426,
+    "name": "Express Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "70439002779067",
+    "cpfCnpjFormatted": "70.439.002/7790-67",
+    "created": "2020-11-11T18:54:01Z"
+  },
+  {
+    "id": 427,
+    "name": "Star Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "04112890101452",
+    "cpfCnpjFormatted": "04.112.890/1014-52",
+    "created": "2022-06-15T01:25:01Z"
+  },
+  {
+    "id": 428,
+    "name": "Camila Almeida",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "26983114361",
+    "cpfCnpjFormatted": "269.831.143-61",
+    "created": "2023-07-10T05:48:20Z"
+  },
+  {
+    "id": 429,
+    "name": "Elite Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "54495788284190",
+    "cpfCnpjFormatted": "54.495.788/2841-90",
+    "created": "2023-12-01T01:19:03Z"
+  },
+  {
+    "id": 430,
+    "name": "Rafaela Barbosa",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "66693396828",
+    "cpfCnpjFormatted": "666.933.968-28",
+    "created": "2023-02-24T11:47:23Z"
+  },
+  {
+    "id": 431,
+    "name": "Star Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "73607273160102",
+    "cpfCnpjFormatted": "73.607.273/1601-02",
+    "created": "2020-12-02T06:52:26Z"
+  },
+  {
+    "id": 432,
+    "name": "Omega Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "38876602141832",
+    "cpfCnpjFormatted": "38.876.602/1418-32",
+    "created": "2023-03-01T17:39:58Z"
+  },
+  {
+    "id": 433,
+    "name": "Gamma Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "94398282964641",
+    "cpfCnpjFormatted": "94.398.282/9646-41",
+    "created": "2021-10-09T17:41:31Z"
+  },
+  {
+    "id": 434,
+    "name": "Beatriz Rodrigues",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "56700414610",
+    "cpfCnpjFormatted": "567.004.146-10",
+    "created": "2022-10-18T12:41:05Z"
+  },
+  {
+    "id": 435,
+    "name": "Omega Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "37215157762826",
+    "cpfCnpjFormatted": "37.215.157/7628-26",
+    "created": "2021-03-29T07:40:43Z"
+  },
+  {
+    "id": 436,
+    "name": "Nacional Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "68284634409128",
+    "cpfCnpjFormatted": "68.284.634/4091-28",
+    "created": "2022-12-07T16:22:54Z"
+  },
+  {
+    "id": 437,
+    "name": "Lucas Moreira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "85581564680",
+    "cpfCnpjFormatted": "855.815.646-80",
+    "created": "2021-04-28T16:35:28Z"
+  },
+  {
+    "id": 438,
+    "name": "Nova Consultoria LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "42724211779440",
+    "cpfCnpjFormatted": "42.724.211/7794-40",
+    "created": "2020-03-29T07:38:20Z"
+  },
+  {
+    "id": 439,
+    "name": "Leticia Costa",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "81748341413",
+    "cpfCnpjFormatted": "817.483.414-13",
+    "created": "2023-06-24T16:11:33Z"
+  },
+  {
+    "id": 440,
+    "name": "Nacional Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "48439243645280",
+    "cpfCnpjFormatted": "48.439.243/6452-80",
+    "created": "2022-10-12T23:25:39Z"
+  },
+  {
+    "id": 441,
+    "name": "Beta Soluções LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "54629817962841",
+    "cpfCnpjFormatted": "54.629.817/9628-41",
+    "created": "2022-03-10T13:24:38Z"
+  },
+  {
+    "id": 442,
+    "name": "Star Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "17608816461682",
+    "cpfCnpjFormatted": "17.608.816/4616-82",
+    "created": "2022-05-09T10:09:15Z"
+  },
+  {
+    "id": 443,
+    "name": "Ana Ferreira",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "28488413971",
+    "cpfCnpjFormatted": "284.884.139-71",
+    "created": "2021-04-06T13:16:44Z"
+  },
+  {
+    "id": 444,
+    "name": "Premium Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "63196031768126",
+    "cpfCnpjFormatted": "63.196.031/7681-26",
+    "created": "2023-08-24T16:38:09Z"
+  },
+  {
+    "id": 445,
+    "name": "Diego Alves",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "74244345000",
+    "cpfCnpjFormatted": "742.443.450-00",
+    "created": "2020-09-04T03:37:55Z"
+  },
+  {
+    "id": 446,
+    "name": "Express Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "70469188547139",
+    "cpfCnpjFormatted": "70.469.188/5471-39",
+    "created": "2021-05-22T18:22:35Z"
+  },
+  {
+    "id": 447,
+    "name": "Helena Monteiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "15979390138",
+    "cpfCnpjFormatted": "159.793.901-38",
+    "created": "2021-05-03T03:21:10Z"
+  },
+  {
+    "id": 448,
+    "name": "Rápido Construção LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "92678657335653",
+    "cpfCnpjFormatted": "92.678.657/3356-53",
+    "created": "2024-08-06T09:24:44Z"
+  },
+  {
+    "id": 449,
+    "name": "Ana Rodrigues",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "36859311720",
+    "cpfCnpjFormatted": "368.593.117-20",
+    "created": "2021-11-28T01:20:54Z"
+  },
+  {
+    "id": 450,
+    "name": "Beta Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "68676861382730",
+    "cpfCnpjFormatted": "68.676.861/3827-30",
+    "created": "2023-11-07T05:19:57Z"
+  },
+  {
+    "id": 451,
+    "name": "Nacional Engenharia LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "65069619643287",
+    "cpfCnpjFormatted": "65.069.619/6432-87",
+    "created": "2024-12-21T11:00:01Z"
+  },
+  {
+    "id": 452,
+    "name": "Ultra Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "93806968604029",
+    "cpfCnpjFormatted": "93.806.968/6040-29",
+    "created": "2023-08-12T10:17:45Z"
+  },
+  {
+    "id": 453,
+    "name": "Beatriz Campos",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "90706598164",
+    "cpfCnpjFormatted": "907.065.981-64",
+    "created": "2023-06-27T16:16:59Z"
+  },
+  {
+    "id": 454,
+    "name": "Ultra Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "24042609546402",
+    "cpfCnpjFormatted": "24.042.609/5464-02",
+    "created": "2022-07-23T09:42:04Z"
+  },
+  {
+    "id": 455,
+    "name": "Helena Gomes",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "92080811924",
+    "cpfCnpjFormatted": "920.808.119-24",
+    "created": "2024-01-15T17:45:18Z"
+  },
+  {
+    "id": 456,
+    "name": "Gustavo Araujo",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "09565103103",
+    "cpfCnpjFormatted": "095.651.031-03",
+    "created": "2021-04-30T02:49:15Z"
+  },
+  {
+    "id": 457,
+    "name": "Omega Informática LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "34579235735568",
+    "cpfCnpjFormatted": "34.579.235/7355-68",
+    "created": "2023-10-27T20:13:25Z"
+  },
+  {
+    "id": 458,
+    "name": "Julia Lima",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "67222744541",
+    "cpfCnpjFormatted": "672.227.445-41",
+    "created": "2024-11-01T09:26:31Z"
+  },
+  {
+    "id": 459,
+    "name": "Diana Gomes",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "17603734606",
+    "cpfCnpjFormatted": "176.037.346-06",
+    "created": "2021-04-14T22:07:46Z"
+  },
+  {
+    "id": 460,
+    "name": "Maria Oliveira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "55434076966",
+    "cpfCnpjFormatted": "554.340.769-66",
+    "created": "2022-12-16T15:35:46Z"
+  },
+  {
+    "id": 461,
+    "name": "Sofia Ferreira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "00760634530",
+    "cpfCnpjFormatted": "007.606.345-30",
+    "created": "2021-04-30T13:29:56Z"
+  },
+  {
+    "id": 462,
+    "name": "Rápido Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "17932771845764",
+    "cpfCnpjFormatted": "17.932.771/8457-64",
+    "created": "2022-01-28T07:47:38Z"
+  },
+  {
+    "id": 463,
+    "name": "Gustavo Moreira",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "84830713801",
+    "cpfCnpjFormatted": "848.307.138-01",
+    "created": "2021-05-02T22:11:43Z"
+  },
+  {
+    "id": 464,
+    "name": "Rápido Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "27080615418274",
+    "cpfCnpjFormatted": "27.080.615/4182-74",
+    "created": "2021-02-04T16:24:27Z"
+  },
+  {
+    "id": 465,
+    "name": "Premium Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "44981754626214",
+    "cpfCnpjFormatted": "44.981.754/6262-14",
+    "created": "2024-07-30T14:51:53Z"
+  },
+  {
+    "id": 466,
+    "name": "Nicolas Martins",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "94345279291",
+    "cpfCnpjFormatted": "943.452.792-91",
+    "created": "2023-09-27T20:28:56Z"
+  },
+  {
+    "id": 467,
+    "name": "Rápido Contabilidade LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "87351201959931",
+    "cpfCnpjFormatted": "87.351.201/9599-31",
+    "created": "2024-06-18T03:46:12Z"
+  },
+  {
+    "id": 468,
+    "name": "Express Logística LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "73003958955185",
+    "cpfCnpjFormatted": "73.003.958/9551-85",
+    "created": "2023-01-17T11:16:17Z"
+  },
+  {
+    "id": 469,
+    "name": "Omega Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "82845505388411",
+    "cpfCnpjFormatted": "82.845.505/3884-11",
+    "created": "2021-03-11T04:59:46Z"
+  },
+  {
+    "id": 470,
+    "name": "Roberto Barbosa",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "78792313230",
+    "cpfCnpjFormatted": "787.923.132-30",
+    "created": "2022-12-27T09:11:37Z"
+  },
+  {
+    "id": 471,
+    "name": "Maria Carvalho",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "43041055236",
+    "cpfCnpjFormatted": "430.410.552-36",
+    "created": "2022-03-13T14:44:35Z"
+  },
+  {
+    "id": 472,
+    "name": "Omega Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "00031625928466",
+    "cpfCnpjFormatted": "00.031.625/9284-66",
+    "created": "2024-10-12T02:20:20Z"
+  },
+  {
+    "id": 473,
+    "name": "Rafaela Castro",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "41944159142",
+    "cpfCnpjFormatted": "419.441.591-42",
+    "created": "2023-12-14T06:12:35Z"
+  },
+  {
+    "id": 474,
+    "name": "Leticia Castro",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "35529705251",
+    "cpfCnpjFormatted": "355.297.052-51",
+    "created": "2024-10-23T09:11:17Z"
+  },
+  {
+    "id": 475,
+    "name": "Nova Indústria LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "24465510154086",
+    "cpfCnpjFormatted": "24.465.510/1540-86",
+    "created": "2023-12-03T12:27:10Z"
+  },
+  {
+    "id": 476,
+    "name": "Gamma Alimentos LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "36197095307368",
+    "cpfCnpjFormatted": "36.197.095/3073-68",
+    "created": "2020-04-02T16:11:31Z"
+  },
+  {
+    "id": 477,
+    "name": "Elite Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "99098508222622",
+    "cpfCnpjFormatted": "99.098.508/2226-22",
+    "created": "2021-01-31T16:57:39Z"
+  },
+  {
+    "id": 478,
+    "name": "Fernanda Moreira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "36615054914",
+    "cpfCnpjFormatted": "366.150.549-14",
+    "created": "2022-07-04T19:27:23Z"
+  },
+  {
+    "id": 479,
+    "name": "Ultra Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "63655258219253",
+    "cpfCnpjFormatted": "63.655.258/2192-53",
+    "created": "2020-08-19T11:44:03Z"
+  },
+  {
+    "id": 480,
+    "name": "Ana Lima",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "47487153240",
+    "cpfCnpjFormatted": "474.871.532-40",
+    "created": "2021-01-24T08:39:21Z"
+  },
+  {
+    "id": 481,
+    "name": "Prime Marketing LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "97653523965026",
+    "cpfCnpjFormatted": "97.653.523/9650-26",
+    "created": "2024-05-11T07:35:53Z"
+  },
+  {
+    "id": 482,
+    "name": "Eduardo Moreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "18993966320",
+    "cpfCnpjFormatted": "189.939.663-20",
+    "created": "2022-03-18T09:12:26Z"
+  },
+  {
+    "id": 483,
+    "name": "Igor Ferreira",
+    "type": "Person",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "16707896598",
+    "cpfCnpjFormatted": "167.078.965-98",
+    "created": "2022-10-01T07:12:45Z"
+  },
+  {
+    "id": 484,
+    "name": "Gustavo Moreira",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "78611333543",
+    "cpfCnpjFormatted": "786.113.335-43",
+    "created": "2022-12-29T04:41:37Z"
+  },
+  {
+    "id": 485,
+    "name": "Rápido Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "72398013952393",
+    "cpfCnpjFormatted": "72.398.013/9523-93",
+    "created": "2020-12-24T06:41:22Z"
+  },
+  {
+    "id": 486,
+    "name": "Top Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "76311240183150",
+    "cpfCnpjFormatted": "76.311.240/1831-50",
+    "created": "2020-10-24T15:12:28Z"
+  },
+  {
+    "id": 487,
+    "name": "Gabriel Gomes",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "26238117257",
+    "cpfCnpjFormatted": "262.381.172-57",
+    "created": "2024-11-21T17:34:11Z"
+  },
+  {
+    "id": 488,
+    "name": "Lucas Moreira",
+    "type": "Person",
+    "riskLevel": "Médio",
+    "cpfCnpj": "14354057069",
+    "cpfCnpjFormatted": "143.540.570-69",
+    "created": "2021-02-27T06:28:22Z"
+  },
+  {
+    "id": 489,
+    "name": "Brasil Tecnologia LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "51194064350862",
+    "cpfCnpjFormatted": "51.194.064/3508-62",
+    "created": "2023-05-22T01:34:20Z"
+  },
+  {
+    "id": 490,
+    "name": "Diana Carvalho",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "17078741749",
+    "cpfCnpjFormatted": "170.787.417-49",
+    "created": "2021-10-24T11:13:55Z"
+  },
+  {
+    "id": 491,
+    "name": "Pedro Freitas",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "99497200870",
+    "cpfCnpjFormatted": "994.972.008-70",
+    "created": "2022-02-26T00:24:49Z"
+  },
+  {
+    "id": 492,
+    "name": "Ultra Transportes LTDA",
+    "type": "Company",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "77951018191527",
+    "cpfCnpjFormatted": "77.951.018/1915-27",
+    "created": "2022-04-24T22:35:58Z"
+  },
+  {
+    "id": 493,
+    "name": "Delta Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "04062277635774",
+    "cpfCnpjFormatted": "04.062.277/6357-74",
+    "created": "2022-10-10T15:34:47Z"
+  },
+  {
+    "id": 494,
+    "name": "Plus Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Médio",
+    "cpfCnpj": "39735382809637",
+    "cpfCnpjFormatted": "39.735.382/8096-37",
+    "created": "2022-05-25T21:52:57Z"
+  },
+  {
+    "id": 495,
+    "name": "Beatriz Nascimento",
+    "type": "Person",
+    "riskLevel": "Alto",
+    "cpfCnpj": "27447998664",
+    "cpfCnpjFormatted": "274.479.986-64",
+    "created": "2023-05-04T05:02:22Z"
+  },
+  {
+    "id": 496,
+    "name": "Mega Serviços LTDA",
+    "type": "Company",
+    "riskLevel": "Baixo",
+    "cpfCnpj": "61735254776701",
+    "cpfCnpjFormatted": "61.735.254/7767-01",
+    "created": "2024-06-06T18:42:42Z"
+  },
+  {
+    "id": 497,
+    "name": "Fernanda Monteiro",
+    "type": "Person",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "98700259276",
+    "cpfCnpjFormatted": "987.002.592-76",
+    "created": "2022-02-21T09:34:07Z"
+  },
+  {
+    "id": 498,
+    "name": "Carlos Nascimento",
+    "type": "Person",
+    "riskLevel": "Muito Alto",
+    "cpfCnpj": "49962098793",
+    "cpfCnpjFormatted": "499.620.987-93",
+    "created": "2024-02-23T17:40:53Z"
+  },
+  {
+    "id": 499,
+    "name": "Express Educação LTDA",
+    "type": "Company",
+    "riskLevel": "Desconhecido",
+    "cpfCnpj": "89050437204733",
+    "cpfCnpjFormatted": "89.050.437/2047-33",
+    "created": "2020-10-11T23:48:39Z"
+  },
+  {
+    "id": 500,
+    "name": "Rápido Medicina LTDA",
+    "type": "Company",
+    "riskLevel": "Alto",
+    "cpfCnpj": "26403143835981",
+    "cpfCnpjFormatted": "26.403.143/8359-81",
+    "created": "2021-07-26T07:01:28Z"
+  }
+]

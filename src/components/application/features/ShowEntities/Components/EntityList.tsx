@@ -76,7 +76,7 @@ export const EntityList = ({
             display="block"
             cursor="pointer"
             key={entity.id}
-            bg="system.teste"
+            bg="system.dark"
             boxShadow="md"
             _hover={{
               boxShadow: "0px 0px 4px 2px var(--chakra-colors-system-primary)",

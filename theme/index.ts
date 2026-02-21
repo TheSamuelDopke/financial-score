@@ -9,6 +9,7 @@ const config = defineConfig({
           primary_light: {value: "#d0efffff"},
           red: { value: "#EF4444" },
           link: { value: "#ffffffff" },
+          green: {value: "#47cb45"},
           status: {
             unknown: {value: "#ffffffff" },
             low: {value: "rgba(46, 125, 50)"},

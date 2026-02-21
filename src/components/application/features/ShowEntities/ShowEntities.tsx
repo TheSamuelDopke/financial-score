@@ -68,7 +68,7 @@ export const ShowEntities = () => {
       >
         <Box m={0} p={0}>
           <Text textAlign="left" fontSize="baseSmRestXl" color="system.light">
-            Quer fechar novos <Strong color="system.red">negócios</Strong> mas
+            Quer fechar novos <Strong color="system.green">negócios</Strong> mas
             não sabe se o parceiro é <Strong>confiável?</Strong> <br />
             Faça uma <Strong>busca!</Strong>
           </Text>
